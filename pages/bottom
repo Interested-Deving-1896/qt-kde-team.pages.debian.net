@@ -27,8 +27,10 @@
 				<li><a href="descriptions.html">Descriptions policy draft</a></li>
 				<li><a href="btslink.html">bts-link</a></li>
 				<li><a href="kde-bugzilla-survival-guide.html">Survival guide to kde bugzilla</a></li>
+				<!--
 				<li><a href="#">How to package kde applications</a></li>
 				<li><a href="#">SVN quick guide</a></li>
+				-->
 				
 			</ul>
 
