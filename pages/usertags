@@ -45,7 +45,7 @@ With these arguments, most views are created. A couple of examples:
 </dl>
 
 
-<h3><a name="used" />The usertags used by the kde packagers</h3>
+<h3><a name="used"></a>The usertags used by the kde packagers</h3>
 <p>Some usertags are in the kde packages only used in specific source packages. Other usertags are used across all source packages.</p>
 <h4>kdepim</h4>
 <dl>
