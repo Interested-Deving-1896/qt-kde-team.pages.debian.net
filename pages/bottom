@@ -29,9 +29,8 @@
 				<li><a href="kde-bugzilla-survival-guide.html">Survival guide to kde bugzilla</a></li>
 				<!--
 				<li><a href="#">How to package kde applications</a></li>
-				<li><a href="#">SVN quick guide</a></li>
 				-->
-				
+				<li><a href="pkgkdesvn.html">pkg-kde SVN quick guide</a></li>
 			</ul>
 
 		</div>
