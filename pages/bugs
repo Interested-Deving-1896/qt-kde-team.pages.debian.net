@@ -70,6 +70,9 @@ The third level is manually tagged so it might be inaccurate.
 <p>
 <a href="usertags.html">For more on bug tagging</a> and <a href="usertags.html#used">for used usertags in kde packages</a> there are special pages available
 </p>
+<p>
+<a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?maint=debian-qt-kde@lists.debian.org;dist=unstable">All bugs</a>
+</p>
 <ul>
 	<li><a href="http://bugs.debian.org/src:kdepim">Bugs in kdepim</a>
 	<ul>
