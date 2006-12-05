@@ -1,4 +1,4 @@
-#!/bin/bash    
+#!/bin/bash -e
 
 OUTPUT=output
 rm -rf pages/*~ output/*
@@ -15,5 +15,7 @@ do
 	cat pages/$i >> $OUTPUT/$i.html
 	cat pages/bottom >> $OUTPUT/$i.html
 done
+
+sh genrss.sh > $OUTPUT/rss.xml
 
 chmod -R g+w $OUTPUT/*
