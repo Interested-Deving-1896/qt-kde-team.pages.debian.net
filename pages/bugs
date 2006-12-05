@@ -121,6 +121,7 @@ Some bugs needs something special to be reproduced (and fixed). These are tagged
 	<li><a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?users=debian-qt-kde@lists.debian.org;tag=kde-needs-exchange;dist=unstable">Interaction with exchange-server</a></li>
 	<li><a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?users=debian-qt-kde@lists.debian.org;tag=kde-needs-home-on-nfs;dist=unstable">Needs home on nfs or other network file systems</a></li>
 	<li><a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?users=debian-qt-kde@lists.debian.org;tag=kde-fancy-x;dist=unstable">Needs fancy X-settings (trancluciency, composite and similar)</a></li>
+	<li><a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?users=debian-qt-kde@lists.debian.org;tag=kde-app-not-in-kde;dist=unstable">Problems with running kde-apps in other window managers/desktop environments</a></li>
 
 
 

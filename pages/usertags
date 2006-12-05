@@ -80,5 +80,7 @@ With these arguments, most views are created. A couple of examples:
 	<dd>Bugs related to having home on a kind of network file system</dd>
 	<dt>kde-fancy-x</dt>
 	<dd>Bugs related to special settings related to X. Including, but not limited to xinerama, transluciency, compiz, beryl and openGL in general</dd>
+	<dt>kde-app-not-in-kde</dt>
+	<dd>Bugs only appearing when kde apps are used outside kde (in gnome/xfce/windowmaker etc)</dd>
 </dl>
 
