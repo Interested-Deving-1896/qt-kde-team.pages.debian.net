@@ -93,8 +93,8 @@ The third level is manually tagged so it might be inaccurate.
 	<ul>
 		<li><a href="http://bugs.debian.org/konqueror">Bugs in konqueror</a>
 		<ul>
-			<li><a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?users=debian-qt-kde@lists.debian.org;tag=konqeror-filemanager;dist=unstable">Konqueror as file manager</a></li>
-			<li><a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?users=debian-qt-kde@lists.debian.org;tag=konqeror-webbrowser;dist=unstable">Konqueror as webbrowser</a></li>
+			<li><a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?users=debian-qt-kde@lists.debian.org;tag=konqueror-filemanager;dist=unstable">Konqueror as file manager</a></li>
+			<li><a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?users=debian-qt-kde@lists.debian.org;tag=konqueror-webbrowser;dist=unstable">Konqueror as webbrowser</a></li>
 			<li><a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=konqueror;users=debian-qt-kde@lists.debian.org;exclude=konqueror-filemanager;exclude=konqueror-webbrowser;dist=unstable">All other bugs in konqueror</a></li>
 		</ul>
 		</li>
