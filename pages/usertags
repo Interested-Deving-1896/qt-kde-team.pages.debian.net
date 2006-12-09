@@ -1,7 +1,7 @@
 <h2>Usertags</h2>
 <p>
 Usertags is a new nice feature in the bug tracking system that can be used to tag bugs how you like to do it.
-The tags are bound to an user, and an user is in this case an email address. Usertags can be used to create different views on bugs and it can also be used to track stuff across packages.
+The tags are bound to a user, and a user is in this case an email address. Usertags can be used to create different views on bugs and it can also be used to track stuff across packages.
 </p>
 <p>
 The KDE packagers mostly use the tags associated with debian-qt-kde@lists.debian.org to create views of related bugs or bugs with special needs. The special views are for larger programs like konqueror that have many different functions to show bugs only for one of the tasks. The special needs could be that the bug is related to interaction with a Microsoft Exchange server.
