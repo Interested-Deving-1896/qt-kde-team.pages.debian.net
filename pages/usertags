@@ -1,10 +1,10 @@
 <h2>Usertags</h2>
 <p>
 Usertags is a new nice feature in the bug tracking system that can be used to tag bugs how you like to do it.
-The tags are bound to a user, and a user is in this case a email address. Usertags can be used to create different views on bugs and it can also be used to track stuff across packages.
+The tags are bound to an user, and an user is in this case an email address. Usertags can be used to create different views on bugs and it can also be used to track stuff across packages.
 </p>
 <p>
-The kde packagers mostly use the tags associated with debian-qt-kde@lists.debian.org to create views of related bugs or bugs with special needs. The special views are for larger programs like konqueror that have many different functions to show bugs only for one of the tasks. The special needs could be that the bug is relatet to interaction with a Microsoft Exchange server.
+The KDE packagers mostly use the tags associated with debian-qt-kde@lists.debian.org to create views of related bugs or bugs with special needs. The special views are for larger programs like konqueror that have many different functions to show bugs only for one of the tasks. The special needs could be that the bug is related to interaction with a Microsoft Exchange server.
 </p>
 <h3>How to set usertags</h3>
 <p>
@@ -13,11 +13,11 @@ Usertags are set by emails to control@bugs.debian.org just like ordinary tags. T
 user debian-qt-kde@lists.debian.org
 usertag #1234 +kde-foo
 </pre>
-<p>Please only set the predefined tags already used by the kde packagers. If you find a need for a new tag, please approach the packagers before using it, or alternatively tag bugs as your own user.
+<p>Please only set the predefined tags already used by the KDE packagers. If you find a need for a new tag, please approach the packagers before using it, or alternatively tag bugs as your own user.
 </p>
 
 <h3>How to view usertags</h3>
-<p>The usertags are viewed by handcrafting urls to the bug system, more specifically adding arguments to pkgreport.cgi. The different arguments are seperated by semicolon (;).<br />The following arguments are recognized</p>
+<p>The usertags are viewed by handcrafting urls to the bug system, more specifically adding arguments to pkgreport.cgi. The different arguments are seperated by semicolon (;).<br />The following arguments are recognized:</p>
 <dl>
 	<dt>pkg</dt>
 	<dd>include all bugs by binary package</dd>
@@ -41,12 +41,12 @@ With these arguments, most views are created. A couple of examples:
 	<dt>http://bugs.debian.org/cgi-bin/pkgreport.cgi?users=debian-qt-kde@lists.debian.org;tag=kmail-imap;dist=unstable</dt>
 	<dd>Bugs in unstable tagged kmail-imap by the user debian-qt-kde@lists.debian.org</dd>
 	<dt>http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=konqueror;users=debian-qt-kde@lists.debian.org;exclude=konqueror-filemanager;exclude=konqueror-webbrowser;dist=unstable</dt>
-	<dd>Bugs in unstable in binary package konqueror not tagged konqueror-filemanegor or konqueror-webbrowser by the user debian-qt-kde@lists.debian.org</dd>
+	<dd>Bugs in unstable in binary package konqueror not tagged konqueror-filemanager or konqueror-webbrowser by the user debian-qt-kde@lists.debian.org</dd>
 </dl>
 
 
-<h3><a name="used"></a>The usertags used by the kde packagers</h3>
-<p>Some usertags are in the kde packages only used in specific source packages. Other usertags are used across all source packages.</p>
+<h3><a name="used"></a>The usertags used by the KDE packagers</h3>
+<p>Some usertags are in the KDE packages only used in specific source packages. Other usertags are used across all source packages.</p>
 <h4>kdepim</h4>
 <dl>
 	<dt>kmail-imap</dt>
@@ -81,6 +81,8 @@ With these arguments, most views are created. A couple of examples:
 	<dt>kde-fancy-x</dt>
 	<dd>Bugs related to special settings related to X. Including, but not limited to xinerama, transluciency, compiz, beryl and openGL in general</dd>
 	<dt>kde-app-not-in-kde</dt>
-	<dd>Bugs only appearing when kde apps are used outside kde (in gnome/xfce/windowmaker etc)</dd>
+	<dd>Bugs only appearing when KDE apps are used outside kde (in gnome/xfce/windowmaker etc)</dd>
+	<dt>fixed-kde4</dt>
+	<dd>Bugs fixed in KDE4</dd>
 </dl>
 
