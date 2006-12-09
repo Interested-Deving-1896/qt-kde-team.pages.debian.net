@@ -18,4 +18,5 @@ done
 
 sh genrss.sh > $OUTPUT/rss.xml
 
+find $OUTPUT/ -name ".svn" -exec rm -rf {} \;
 chmod -R g+w $OUTPUT/*
