@@ -75,3 +75,11 @@
 			anything, so skip the first part, and install pinentry-qt and gnupg-agent.
 			After that, configure GPG as explained in the HOWTO. Restart X to make sure
 			<code>/etc/X11/Xsession.d/90gpg-agent</code> is run.</p>
+
+			<h4 id="q5">5. How do I use sudo as backend instead of su for kdesu</h4>
+			<p>
+			It is quite easy. Just as a user, write the following in a terminal
+			</p>
+			<pre>
+			kwriteconfig --group super-user-command --key super-user-command sudo
+			</pre>
