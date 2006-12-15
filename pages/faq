@@ -1,6 +1,22 @@
 
 			<h2>Frequently Asked Questions (FAQ)</h2>
 
+			<h4 id="q1">1. What is KDE?</h4>
+			<p>
+			The K Desktop Environment (KDE) is the leading Open Source desktop software for Linux and UNIX.<br />
+			The homepage for the project is at <a href="http://www.kde.org">www.kde.org</a><br />
+			 
+			An official introduction is found at <a href="http://www.kde.org/whatiskde/">www.kde.org/whatiskde/</a>
+			</p>
+
+			<h4 id="q2">2. I can't install KDE because of package dependency problems.</h4>
+			<p>
+			Typically Debian doesn't have package dependency problems until something messes it up. Dependency problems and broken packages are extremely rare when using a Stable debian release, such as Sarge. Testing and Unstable releases are slightly more prone to these problems, as they have not been through the rigourous level of testing and there may be packaging problems in the repository, meaning that (especially with Unstable/Sid), KDE may not always be in an installable state. A workaround is to install the kde-core meta package and pick the rest of the needed applications manually.
+			</p>
+			<p>
+			If you have installed backports of some package onto Debian Stable, and your backport package overwrote a stable package which the KDE stable packages depend on, then you may not be able to install KDE on your system, until you remove the backported package. <strong>This is also highly unsupported</strong>
+			</p>
+
 			<h4 id="q1">1. I can't compile Qt/KDE applications! I get this: configure error:
 			Qt not found</h4>
 			
