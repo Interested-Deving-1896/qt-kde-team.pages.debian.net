@@ -1,7 +1,7 @@
 <h2>Report good bugs</h2>
 
 
-<h4>Backtraces<h4/>
+<h4>Backtraces</h4>
 <p>
 KCrash is a application that shows backtraces that can help debugging. For different reasons, mostly storage space reasons, the debugging symbols are not in the standard kde packages. This gives backtraces like the following snippet which are utterly useless:
 </p>
