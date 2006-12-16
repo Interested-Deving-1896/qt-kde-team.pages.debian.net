@@ -1,5 +1,13 @@
 <h2>Report good bugs</h2>
 
+<h4>Describing</h4>
+<p>
+It is very importaint to detailed describe the bug and how to reproduce. For 'crash'-bugs, all the steps neccesary to reproduce the bug is importaint. If there is steps missing so people are in doubt about how to reproduce the bug, the people who can try to fix it is very likely just to skip on to the next bug or close your bug as unreproducible. As many of the kde applications are large, the steps is very importaint to be detailed. Don't write with "setting foo in konqueror makes konqueror crash", as the konqueror settings menu is gigantic and finding that specific setting takes time. Write instead "Setting settings > configure konqueror > bar > foo to true makes konqueror crash"
+</p>
+<p>For other kinds of bugs, like changed behaviour, don't just describe "New behaviour is wrong", but detailed describe new behaviour "When I do steps 1, 2, 3, 4 in version 1.2 I get a white pop-up" and describing old behaviour is also importaint "With the same steps in version 1.1, I get a pink popup". In general, be detailed about what you did, what you experienced and what you have expected.
+</p>
+<p>The same applies to wishlist bugs. Be detailed. Don't expect the reader of your bug to know exactly your needs. Describe the steps you do, the result and the result you would like to see.
+</p>
 
 <h4>Backtraces</h4>
 <p>
