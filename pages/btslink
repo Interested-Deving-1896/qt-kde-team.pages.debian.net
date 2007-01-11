@@ -10,7 +10,7 @@
 			<p>To use bts-link with the kde bugs, you only need to forward the bug to the KDE bugzilla:
 			</p>
 <pre>
-forward XXXXXX http://bugs.kde.org/show_bug.cgi?id=YYYYYYY
+forwarded XXXXXX http://bugs.kde.org/show_bug.cgi?id=YYYYYYY
 </pre>
 			<p>Where XXXXXX is the Debian bug number and YYYYY the kde bug number.
 			</p>
