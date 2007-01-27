@@ -1,12 +1,12 @@
 digraph KDE {
 
-    margin="0.2";
+    margin="0.3";
 
 /** LEGEND **/
-    frob     [shape=rect, color=brown, fontcolor=brown] ;
-    njordan  [shape=rect, color=blue, fontcolor=blue] ;
-    noel     [shape=rect, color=magenta, fontcolor=magenta] ;
+
     "QT-KDE" [shape=rect] ;
+    sharky   [shape=rect, color=blue, fontcolor=blue] ;
+    noel     [shape=rect, color=magenta, fontcolor=magenta] ;
 
 /** DEPS **/
 
@@ -23,11 +23,7 @@ digraph KDE {
     
     libs -> { edu pim games i18n } ;
 
-/* frob's packages */
-    edu      [color=brown, fontcolor=brown] ;
-    pim      [color=brown, fontcolor=brown] ;
-    games    [color=brown, fontcolor=brown] ;
-/* njordan packages */
+/* sharky packages */
     kdevelop [color=blue, fontcolor=blue] ;
 /* noel packages */
     i18n     [color=magenta, fontcolor=magenta] ;
