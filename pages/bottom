@@ -35,6 +35,7 @@
 
 
          <h2>Misc</h2>
+         <ul>
             <li><a href="faq.html">FAQ</a></li>
             <li><a href="https://alioth.debian.org/project/memberlist.php?group_id=30221">Current members</a></li>
             <li><a href="join.html">Get involved!</a></li>
