@@ -9,13 +9,11 @@
          <p>Besides that, we are already working on KDE 4, which according to
          the <a
          href="http://techbase.kde.org/Schedules/KDE4/4.0_Release_Schedule">KDE
-         4.0 release schedule</a>, should be released on October 23, 2007.</p>
+         4.0 release schedule</a>, should be released on December 11, 2007.</p>
 
-         <p>The kdelibs API is "soft-frozen", and the first alphas are getting
-         out. While we are already packaging the software in order to detect and fix
-         problems, the packages will not be uploaded to the experimental
-         repository until KDE 4 reaches beta status (about end of June).
-         We will also have Qt 4.3 then. We might also publish <a
+         <p>We are slowly uploading beta packages to experimental, but they
+		 are not meant yet to be used by the final user and the BTS still does
+		 not support bug reporting for these packages.  We might also publish <a
          href="http://debian-live.alioth.debian.org/">Debian live-CD</a>'s
          with some of the beta releases.</p>
 
