@@ -8,7 +8,7 @@
 	 <h3>Technical details</h3>
 	 <p><b>login</b>: user<br><b>password</b>: live</p>
 	 <p>Changing your keyboard layout is done by passing the following boot option to the 
-	 bootloader: keyb=fr - for some values of fr ("de" for german, "en" for english and so on)</p>
+	 boot: live keyb=fr - for some values of fr ("de" for german, "en" for english and so on)</p>
 
 	 <h3>Locations:</h3>
 	 <p>Please choose a manual roundrobin to try to load balance between the hosts</p>
