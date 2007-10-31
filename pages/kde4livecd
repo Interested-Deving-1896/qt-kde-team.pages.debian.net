@@ -1,24 +1,55 @@
 
-         <h2>KDE4 beta4 live CD </h2>
+ <h2>KDE4 beta4 live CD </h2>
 
-         <p>We now have live CDs available with KDE4 beta4. Thanks to the <a href="http://debian-live.alioth.debian.org/">Debian Live</a>
-	 project, it is quite easy to create customizable live CDs.</p>
-	 <p>The CDs are currently available for i386 and amd64 architectures.</p>
+     <p>We now have live CDs available with KDE4 beta4. Thanks to the efforts of the <a href="http://debian-live.alioth.debian.org/">Debian Live</a> 
+	 project, it is quite easy to create customizable live CDs. We have
+	 creadted live CDs with current KDE4 beta4 for i386 and amd64 architectures</p>
 
 	 <h3>Technical details</h3>
+	 
 	 <p><b>login</b>: user<br><b>password</b>: live</p>
 	 <p>Changing your keyboard layout is done by passing the following boot option to the 
-	 boot: live keyb=fr - for some values of fr ("de" for german, "en" for english and so on)</p>
+     boot: <pre>live keyb=fr</pre></p>
+	 
+	 <p>Change fr for your language code ("de" for german, "en" for english,
+	 "es" for spanish, and so on.)</p>
 
 	 <h3>Locations:</h3>
-	 <p>Please choose a manual roundrobin to try to load balance between the hosts</p>
+	 <p>Please choose a manual roundrobin to try to load balance between the
+	 hosts:</p>
+	 <blockquote>
 	 <table>
 	 <tr><td>amd64</td><td><a href="http://pkg-kde.alioth.debian.org/isos/debian-kde4beta4-live-cd-amd64.iso">alioth</a></td></tr>
 	 <tr><td>i386</td><td><a href="http://pkg-kde.alioth.debian.org/iso/foo.iso">alioth</a></td></tr>
 	 <tr><td>amd64</td><td><a href="http://tyge.sslug.dk/~sune/debian-kde4beta4-live-cd-amd64.iso">sslug</a></td></tr>
 	 <tr><td>i386</td><td><a href="http://tyge.sslug.dk/~sune/iso/foo.iso">sslug</a></td></tr>
 	 </table>
-	 <pre>
-8637dd633dff9861b67bd01475adecee  debian-kde4beta4-live-cd-amd64.iso
-b435da69a050cfdda1785600503a20b6  debian-kde4beta4-live-cd-i386.iso
-</pre>
+     </blockquote>
+
+    <h3>MD5SUM</h3>
+    <p>After download the iso image, you can test it was downloaded ok, for
+	this, run:</p>
+	<pre>md5sum file.iso</pre> 
+	<p>Then check the numbers match with this:</p>
+	<pre>
+    8637dd633dff9861b67bd01475adecee  for debian-kde4beta4-live-cd-amd64.iso
+    b435da69a050cfdda1785600503a20b6  for debian-kde4beta4-live-cd-i386.iso
+    </pre>
+
+
+	<h3>Troubleshooting and Support</h3>
+	<p>If you run into any problem and need help, you can send a mail to the
+	<a href="http://lists.debian.org/debian-kde/">Debian KDE support list.</a>
+	The list is not moderated, so you can post without subscribing.</p>
+
+
+	<h3>How to test the image with qemu</h3>
+	<p>You can test this live CD with qemu very easily, first install qemu.</p>
+	<p>Then run the cd with the following line:</p>
+	<pre>qemu -cdrom path/to/livecd.iso -boot d</pre>
+	
+	<p>You can read a fast qemu tutorial in <a
+	href="http://debaday.debian.net/2007/07/08/qemu-easy-and-fast-processor-emulator/">this entry of
+	debaday</a>.</p>
+
+
