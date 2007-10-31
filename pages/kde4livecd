@@ -3,7 +3,7 @@
 
          <p>We now have live CDs available with KDE4 beta4. Thanks to the <a href="http://debian-live.alioth.debian.org/">Debian Live</a>
 	 project, it is quite easy to create customizable live CDs.</p>
-	 <p>The CDs are currently available for i386 and amd64 architectures</p>
+	 <p>The CDs are currently available for i386 and amd64 architectures.</p>
 
 	 <h3>Technical details</h3>
 	 <p><b>login</b>: user<br><b>password</b>: live</p>
