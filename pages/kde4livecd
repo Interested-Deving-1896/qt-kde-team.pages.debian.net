@@ -19,22 +19,19 @@
 	 hosts:</p>
 	 <blockquote>
 	 <table>
-	 <tr><td>amd64</td><td><a href="http://pkg-kde.alioth.debian.org/isos/debian-kde4beta4-live-cd-amd64.iso">alioth</a></td></tr>
-	 <tr><td>i386</td><td><a href="http://pkg-kde.alioth.debian.org/iso/foo.iso">alioth</a></td></tr>
-	 <tr><td>amd64</td><td><a href="http://tyge.sslug.dk/~sune/debian-kde4beta4-live-cd-amd64.iso">sslug</a></td></tr>
-	 <tr><td>i386</td><td><a href="http://tyge.sslug.dk/~sune/iso/foo.iso">sslug</a></td></tr>
+	 <tr><td>amd64</td><td><a href="">alioth</a></td><td><a href="">sslug</a></td<</tr>
+	 <tr><td>i386</td><td><a href="">alioth</a></td><td><a href="">sslug</a></td<</tr>
 	 </table>
      </blockquote>
 
     <h3>MD5SUM</h3>
-    <p>After downloading the iso image, you can test if it was downloaded ok, for
-	this, run:</p>
-	<pre>md5sum debian-kde4beta4-live-cd-amd64.iso</pre> 
-	<p>Then check the numbers match with this:</p>
-	<pre>
-    8637dd633dff9861b67bd01475adecee  for debian-kde4beta4-live-cd-amd64.iso
-    b435da69a050cfdda1785600503a20b6  for debian-kde4beta4-live-cd-i386.iso
-    </pre>
+    <p>After downloading the iso image, you can test if it was downloaded ok.
+	
+	<p>If you have downloaded the <strong>i386 iso</strong> then, run: </p> <pre>md5sum debian-kde4beta4-live-cd-i386.iso</pre> 
+	<p>And then check the numbers match with this: <pre>b435da69a050cfdda1785600503a20b6 </pre></p>
+	
+	<p>If you have downloaded the <strong>amd64 iso</strong> then, run: </p><pre>md5sum debian-kde4beta4-live-cd-amd64.iso</pre> 
+	<p>And then check the numbers match with this: <pre> 8637dd633dff9861b67bd01475adecee </pre></p>
 
 
 	<h3>Troubleshooting and Support</h3>
