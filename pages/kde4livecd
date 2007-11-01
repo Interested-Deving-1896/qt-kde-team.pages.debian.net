@@ -17,15 +17,23 @@
 	 <h3>Locations:</h3>
 	 <p>Please choose a manual roundrobin to try to load balance between the
 	 hosts:</p>
-	 <blockquote>
-	 <table>
-	 <tr>
-	 <td>amd64</td>
-	 <td><a href="http://tyge.sslug.dk/kdebian/debian-kde4beta4-live-cd-amd64.iso">sslug</a></td>
-	 </tr>
-	 <tr><td>i386</td><td><a href="http://tyge.sslug.dk/kdebian/debian-kde4beta4-live-cd-i386.iso">sslug</a></td></tr>
-	 </table>
-	</blockquote>
+     <blockquote>
+     <table>
+     <tr>
+     <td>amd64</td>
+     <td><a href="http://tyge.sslug.dk/kdebian/debian-kde4beta4-live-cd-amd64.iso">sslug</a></td>
+     <td><a href="http://debian.netcologne.de/kdelive/debian-kde4beta4-live-cd-amd64.iso">netcologne.de</a></td>
+     <td><a href="http://cdimage.debian.org/cdimage/unofficial/misc/debian-kde4beta4-live-cd-amd64.iso">cdimage.debian.org</a></td>
+     <td><a href="http://moe.just-imho.net/kdelive/debian-kde4beta4-live-cd-amd64.iso">just-imho.net</a></td>
+     </tr>
+     <tr><td>i386</td><td><a href="http://tyge.sslug.dk/kdebian/debian-kde4beta4-live-cd-i386.iso">sslug</a></td>
+     <td><a href="http://debian.netcologne.de/kdelive/debian-kde4beta4-live-cd-i386.iso">netcologne.de</a></td>
+     <td><a href="http://cdimage.debian.org/cdimage/unofficial/misc/debian-kde4beta4-live-cd-i386.iso">cdimage.debian.org</a></td>
+     <td><a href="http://moe.just-imho.net/kdelive/debian-kde4beta4-live-cd-i386.iso">just-imho.net</a></td>
+     </tr>
+     </table>
+    </blockquote>
+
 
 	<h3>Checking the isos have the right MD5SUM</h3>
 	<p>After downloading the iso image, you can test if it was downloaded ok.
