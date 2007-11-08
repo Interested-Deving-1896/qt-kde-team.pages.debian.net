@@ -3,7 +3,9 @@
 
 		 <p>There are several options to get Debian with KDE:</p>
 
+
 		 <h3>Download the KDE CD for Etch</h3>
+
 		 <p>It is the easiest way to get Debian with KDE if you are installing
 		 a new system. It installs KDE by default.<br />
 		 <a href="http://cdimage.debian.org/debian-cd/4.0_r1/i386/iso-cd/debian-40r1-i386-kde-CD-1.iso">
@@ -16,17 +18,36 @@
 		 from <a href="http://cdimage.debian.org/cdimage/weekly-builds/">the
 		 weekly builds</a>. If you are not sure what testing mean, you do not
 		 want this CD.
-		 
+
+
 		 <h3>From default Etch installer</h3>
+
 		 <p>If you are installing a new system and you have the default Etch
 		 CD/DVD installer, you can install KDE by default writing this at
 		 boot time:
 		 <pre>install tasks="kde-desktop, standard"</pre>
+         or, if your prefer a graphical user interface:
+         <pre>installgui tasks="kde-desktop, standard"</pre>
 		 </p>
-		 
-		 <h3>Switch to KDE in a installed system</h3>
-		 <p>If you already have an installed system with Gnome and you want to
-		 switch to KDE, you only need install the packages "kde" and "kdm".
-		 The latter, is to get the KDE's login manager (you will be asked to
-		 replace gdm or xdm for kdm).</p>
 
+
+		 <h3>Switch to KDE in a installed system</h3>
+
+         <p>If you already have an installed system with Gnome and you want to
+		 switch to KDE, you only need install the packages "kde" and "kdm":
+         <pre>apt-get install kde kdm</pre>
+         </p>
+
+		 <p>The latter, is to get the KDE's login manager. While installing it,
+         you will be asked which login manager you want to use by default.</p>
+
+
+         <h3>Additional packages</h3>
+
+         <p>You might want to install the KDE traslation to your language
+         (kde-i18n-XX) and other KDE-related applications, such as
+         k3b and k3b-i18n, katapult, digikam, koffice, kaffeine, adept,
+         konversation, etc. Most of these programs are bundled in the
+         kde-extras package.</p>
+
+         <p>Enjoy the KDE desktop experience!</p>
