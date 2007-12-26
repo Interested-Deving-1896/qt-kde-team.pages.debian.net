@@ -22,4 +22,4 @@ sh $DIR/genrss.sh > $OUTPUT/rss.xml
 
 # find $OUTPUT/ -name ".svn" -exec rm -rf {} \; || true
 chmod -R g+w $OUTPUT/*
-cp -a $OUTPUT* /var/lib/gforge/chroot/home/groups/pkg-kde/htdocs
+cp -a $OUTPUT/* /var/lib/gforge/chroot/home/groups/pkg-kde/htdocs
