@@ -3,6 +3,7 @@
 DIR=/var/lib/gforge/chroot/home/groups/pkg-kde/web-autoupdate/www/v2
 OUTPUT=/var/lib/gforge/chroot/home/groups/pkg-kde/web-autoupdate/www/v2/output
 rm -rf $DIR/pages/*~ $OUTPUT
+mkdir -p $OUTPUT
 FILES=`ls $DIR/pages/ | grep -v "style.css\|top\|bottom"`
 
 cp $DIR/pages/style.css $OUTPUT/style.css
