@@ -9,9 +9,7 @@
          <p>Besides that, we are already working on KDE 4, which according to
          the <a
          href="http://techbase.kde.org/index.php?title=Schedules/KDE4/4.0_Release_Schedule">KDE
-         4.0 release schedule</a>, should be released on January 11, 2008.
-		 <p>You can find working packages in
-		 <strong>experimental</strong>.</p>
+         4.0 release schedule</a>, should be released on January 11, 2008.</p>
 
          <p>We are slowly uploading beta packages to experimental, but they
 		 are not meant yet to be used by the final user and the BTS still does
