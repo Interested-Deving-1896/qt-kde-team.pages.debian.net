@@ -24,6 +24,3 @@
 	svn co svn+ssh://ana@svn.debian.org/svn/pkg-kde/trunk/packages/koffice-l10n
 	</pre>
 
-			<h3>Working with your local copy</h3>
-
-			<p>(To be continued...)</p>
