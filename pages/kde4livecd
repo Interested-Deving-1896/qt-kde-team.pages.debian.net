@@ -1,72 +1,51 @@
 
-	<h2>KDE4 beta4 live CD </h2>
+	<h2>KDE4 live CD </h2>
 
 	<p>Thanks to the efforts of the <a href="http://debian-live.alioth.debian.org/">Debian Live</a> 
-	 project, it is quite easy to create customizable live CDs. We have
-	 created live CDs with current KDE4 beta4 for i386 and amd64 architectures</p>
-	 <p>The goal of this live CD is allow users taking a look at upcoming KDE 4.0 without messing 
-	 their systems.</p>
+	 project, we have created live CDs with experimental versions of KDE4.</p>
+	 <p>These live CDs allow users to try the latest KDE4 without any risk their existing installation.</p>
 
 	 <h3>Technical details</h3>
 	 
 	 <p><b>login</b>: user<br><b>password</b>: live</p>
-	 <p>Changing your keyboard layout is done by passing the following boot option to the 
-     boot: <pre>live keyb=fr</pre></p>
+	 <p>If you do not use an English keyboard layout, you can specify another layout by passing the following option to the boot prompt:
+	 <pre>live keyb=fr</pre></p>
 	 
-	 <p>Change fr to your language code ("de" for german, "en" for english,
-	 "es" for spanish, and so on.)</p>
+	 <p>Change "<code>fr</code>" to your ISO language code ("<code>de</code>" for German, "<code>es</code>" for Spanish, and so on.)</p>
+	 
+	 <p>For more information on options for the Live CD, see <a href="http://live.debian.net/other/manpages/live-initramfs.7.html">the live-initramfs manual page</a>.</p>
 
-	 <h3>Download</h3>
+	 <h3>Download the Debian KDE4 live CD</h3>
+	 <p>Please use BitTorrent if possible to minimize the strain on our servers.</p>
 
-	 <p>Please choose a manual roundrobin to try to load balance between the hosts:</p>
+	<ul>
+	<li><a href="http://debian.netcologne.de/kdelive/debian-kde4-live-cd-amd64.iso.torrent">FIXME: Torrent for AMD64</a></li>
+	<li><a href="http://debian.netcologne.de/kdelive/debian-kde4-live-cd-i386.iso.torrent">FIXME: Torrent for i386</a></li>
+	</ul>
+
+
+	 <p>If you cannot use BitTorrent, please use the following mirrors:</p>
      <blockquote>
      <table>
      <tr>
      <td>amd64</td>
-     <td><a href="http://tyge.sslug.dk/kdebian/debian-kde4beta4-live-cd-amd64.iso">sslug</a> | </td> 
-     <td><a href="http://debian.netcologne.de/kdelive/debian-kde4beta4-live-cd-amd64.iso">netcologne.de</a> | </td>
-     <td><a href="http://cdimage.debian.org/cdimage/unofficial/misc/debian-kde4beta4-live-cd-amd64.iso">cdimage.debian.org</a> | </td>
-     <td><a href="http://moe.just-imho.net/kdelive/debian-kde4beta4-live-cd-amd64.iso">just-imho.net</a></td>
+     <td><a href="http://cdimage.debian.org/cdimage/unofficial/misc/debian-kde4-live-cd-amd64.iso">FIXME</a> | </td>
      </tr>
-     <tr><td>i386</td><td><a href="http://tyge.sslug.dk/kdebian/debian-kde4beta4-live-cd-i386.iso">sslug</a> | </td> 
-     <td><a href="http://debian.netcologne.de/kdelive/debian-kde4beta4-live-cd-i386.iso">netcologne.de</a> | </td> 
-     <td><a href="http://cdimage.debian.org/cdimage/unofficial/misc/debian-kde4beta4-live-cd-i386.iso">cdimage.debian.org</a> | </td>
-     <td><a href="http://moe.just-imho.net/kdelive/debian-kde4beta4-live-cd-i386.iso">just-imho.net</a></td>
+     <tr>
+     <td>i386</td>
+     <td><a href="http://cdimage.debian.org/cdimage/unofficial/misc/debian-kde4-live-cd-i386.iso">FIXME</a> | </td>
      </tr>
      </table>
     </blockquote>
 
-    <h3>Download via BitTorrent</h3>
-	<ul>
-	<li><a
-	href="http://debian.netcologne.de/kdelive/debian-kde4beta4-live-cd-amd64.iso.torrent">Torrent for AMD64 iso</a></li>
-	<li><a href="http://debian.netcologne.de/kdelive/debian-kde4beta4-live-cd-i386.iso.torrent">Torrent for i386 iso</a></li>
-	</ul>
+	<h3>How to use the live CD in a QEMU virtual machine</h3>
 
-	<h3>Checking the isos have the right MD5SUM</h3>
-	<p>After downloading the iso image, you can test if it was downloaded ok.
+	<p>To install the QEMU virtual machine software, see the tutorial at <a href="http://wiki.debian.org/QEMU">FIXME</a><p>
 	
-	<p>If you have downloaded the <strong>i386 iso</strong> then, run: </p> <pre>md5sum debian-kde4beta4-live-cd-i386.iso</pre> 
-	<p>And then check the numbers match with this: <pre>b435da69a050cfdda1785600503a20b6 </pre></p>
+	<p>Run the cd with the following line:</p>
+	<pre>qemu -cdrom FIXME.iso</pre>
 	
-	<p>If you have downloaded the <strong>amd64 iso</strong> then, run: </p><pre>md5sum debian-kde4beta4-live-cd-amd64.iso</pre> 
-	<p>And then check the numbers match with this: <pre>8637dd633dff9861b67bd01475adecee </pre></p>
-
-	<h3>How to test the image with qemu</h3>
-	<p>You can test this live CD with qemu very easily, first install qemu.</p>
-	<p>Then run the cd with the following line:</p>
-	<pre>qemu -cdrom path/to/livecd.iso</pre>
-	
-	<p>You can read a fast qemu tutorial in <a
-	href="http://debaday.debian.net/2007/07/08/qemu-easy-and-fast-processor-emulator/">this entry of
-	debaday</a>.</p>
-
 	<h3>Troubleshooting and Support</h3>
 	<p>If you run into any problem and need help, you can send a mail to the
 	<a href="http://lists.debian.org/debian-kde/">Debian KDE support list.</a>
 	The list is not moderated, so you can post without subscribing.</p>
-
-
-
-
-

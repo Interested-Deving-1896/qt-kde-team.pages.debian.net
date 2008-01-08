@@ -1,56 +1,43 @@
 
          <h2>How to install KDE on Debian</h2>
 
-		 <p>There are several options to get Debian with KDE:</p>
+		 <p>There are several ways to get Debian with KDE:</p>
 
 
-		 <h3>Download the KDE CD for Etch</h3>
+		 <h3>Use the KDE version of the Debian Installer CD</h3>
 
-		 <p>This is the easiest way to get Debian with KDE if you are installing
-		 a new system. It installs KDE by default.<br />
-		 <a href="http://cdimage.debian.org/debian-cd/4.0_r1/i386/iso-cd/debian-40r1-i386-kde-CD-1.iso">
-		 Download KDE CD for Debian 4.0r1 "Etch" i386</a><br/>
-		 <a href="http://cdimage.debian.org/debian-cd/4.0_r1/amd64/iso-cd/debian-40r1-amd64-kde-CD-1.iso">
-		 Download KDE CD for Debian 4.0r1 "Etch" AMD64</a>
+		 <p>This is the easiest way to get Debian with KDE if you are installing a new system. It installs KDE by default.<br />
+		 <a href="http://cdimage.debian.org/debian-cd/4.0_r1/i386/iso-cd/debian-40r1-i386-kde-CD-1.iso">Download KDE CD for Debian 4.0r1 "Etch" i386</a><br/>
+		 <a href="http://cdimage.debian.org/debian-cd/4.0_r1/amd64/iso-cd/debian-40r1-amd64-kde-CD-1.iso">Download KDE CD for Debian 4.0r1 "Etch" AMD64</a>
 		 </p>
 
-		 <p>To install the Debian testing branch with KDE, you can get it
-		 from <a href="http://cdimage.debian.org/cdimage/weekly-builds/">the
-		 weekly builds</a>. if you don't know what 'testing' is, you don't
-		 want this CD."
+		 <p>To install the Debian testing branch with KDE, you can get it from <a href="http://cdimage.debian.org/cdimage/weekly-builds/">the weekly builds</a>.
+		If you don't know what 'testing' is, you probably do not want this CD.</p>
 
 
-		 <h3>From default Etch installer</h3>
+		 <h3>Use the default Etch installer</h3>
 
-		 <p>If you are installing a new system and you have the default Etch
-		 CD/DVD installer, you can install KDE by default writing this at
-		 boot time:
+		 <p>If you are installing a new system and you have the default Etch installer, you can install KDE by typing at the boot prompt:
 		 <pre>install tasks="kde-desktop, standard"</pre>
-         or, if your prefer a graphical user interface:
-         <pre>installgui tasks="kde-desktop, standard"</pre>
+		 or, if you prefer to use the graphical installer:
+		 <pre>installgui tasks="kde-desktop, standard"</pre>
 		 </p>
 
 
-		 <h3>Switching to KDE in a installed system</h3>
+		 <h3>Install KDE on your existing Debian system</h3>
 
-         <p>If you already have an installed system with Gnome and you want to
-		 switch to KDE, you only need install the packages "kde" and "kdm":
-         <pre>apt-get install kde kdm</pre>
-         </p>
-
-		 <p>The latter, is to get the KDE's login manager. While installing it,
-         you will be asked which login manager you want to use by default.</p>
+		 <p>If you already have Debian installed and you want a complete KDE desktop, install the "kde-desktop" task:
+		 <pre>aptitude install kde-desktop</pre>
+		 </p>
 		
-		 <p>Of course, the Gnome environment and applications will still be 
-		 available by selecting Gnome in the KDM login options menu.</p>
+		 <p>To install only a basic KDE desktop, install the "kde-core" and "kdm" packages:
+		 <pre>aptitude install kde-core kdm</pre>
+		 </p>
 
+	 <h3>Additional packages</h3>
 
-         <h3>Additional packages</h3>
+	 <p>To have KDE in your language, install the appropriate <code>kde-i18n-??</code> package, where <code>??</code> is the ISO code for your language.</p>
 
-         <p>You might want to install the KDE traslation to your language
-         (kde-i18n-XX) and other KDE-related applications, such as
-         k3b and k3b-i18n, katapult, digikam, koffice, kaffeine, adept,
-         konversation, etc. Most of these programs are bundled in the
-         kde-extras package.</p>
+	 <br />
 
-         <p>Enjoy the KDE desktop experience!</p>
+	 <p><em>Enjoy the KDE desktop experience!</em></p>

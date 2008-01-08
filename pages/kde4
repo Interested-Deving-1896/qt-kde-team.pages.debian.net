@@ -1,24 +1,14 @@
 
-         <h2>KDE4</h2>
+	<h2>KDE4</h2>
 
-         <p>We did our best trying to get KDE 3.5.5 in the best shape possible
-         for Debian 4.0 (Etch).  We will keep packaging new minor releases
-         (such as KDE 3.5.6, 3.5.7, etc), which will be available on 
-         unstable/testing repositories.</p>
+	<p>### FIXME: KDE3 & KDE4 PLANS FOR LENNY ###</p>
 
-         <p>Besides that, we are already working on KDE 4, which according to
-         the <a
-         href="http://techbase.kde.org/index.php?title=Schedules/KDE4/4.0_Release_Schedule">KDE
-         4.0 release schedule</a>, should be released on January 11, 2008.</p>
-		 <p>Dates for 4.1 are still not planned.</p>
+	<p>KDE 4 packages are currently in the experimental branch and are not intended to be installed on a production system.  We are not currently accepting bug reports against the KDE4 packages, since they have many known problems.</p>
 
-         <p>We are slowly uploading beta packages to experimental, but they
-		 are not meant yet to be used by the final user and the BTS still does
-		 not support bug reporting for these packages.  We might also publish <a
-         href="http://debian-live.alioth.debian.org/">Debian live-CD</a>'s
-         with some of the beta releases.</p>
+	<p>If you want to try KDE4, it is recommended that you use <a href="kde4livecd.html">the KDE4 live CD</a>.</p>
 
-         <p>If you want to help in this task, you're welcome!</p>
+	<p>If you are feeling adventurous, you can install the <a href="experimental.html">KDE4 packages from experimental</a>.</p>
 
+	<br />
 
-
+	<p>If you want to help us get KDE4 ready, you're welcome to <a href="join.html">join the team</a>!</p>
