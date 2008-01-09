@@ -83,7 +83,7 @@ With these arguments, most views are created. A couple of examples:
 	<dt>kde-app-not-in-kde</dt>
 	<dd>Bugs only appearing when KDE apps are used outside kde (in gnome/xfce/windowmaker etc)</dd>
 	<dt>fixed-kde4</dt>
-	<dd>Bugs fixed in KDE4</dd>
+	<dd>Bugs fixed in KDE 4</dd>
 	<dt>fixed-kde3.5.6</dt>
 	<dd>Bugs fixed in KDE 3.5.6</dd>
 </dl>

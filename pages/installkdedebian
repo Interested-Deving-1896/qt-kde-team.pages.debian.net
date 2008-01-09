@@ -1,6 +1,10 @@
 
          <h2>How to install KDE on Debian</h2>
 
+	 <p><em>This page describes how to install KDE 3.5.8.</em>
+	 <br />
+	 <em>For the experimental KDE 4 packages, <a href="experimental.html">see this page</a>.</em></p>
+
 		 <p>There are several ways to get Debian with KDE:</p>
 
 
