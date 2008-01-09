@@ -1,13 +1,15 @@
 
-	<h2>KDE4 live CD </h2>
+	<h2>KDE 4 live CD </h2>
 
 	<p>Thanks to the efforts of the <a href="http://debian-live.alioth.debian.org/">Debian Live</a> 
-	 project, we have created live CDs with experimental versions of KDE4.</p>
-	 <p>These live CDs allow users to try the latest KDE4 without any risk their existing installation.</p>
+	 project, we have created live CDs with experimental versions of KDE 4.</p>
+	 <p>These live CDs allow users to try the latest KDE 4 without any risk their existing installation.</p>
 
 	 <h3>Technical details</h3>
 	 
-	 <p><b>login</b>: user<br><b>password</b>: live</p>
+	 <p><b>login</b>: user
+	 <br>
+	 <b>password</b>: live</p>
 	 <p>If you do not use an English keyboard layout, you can specify another layout by passing the following option to the boot prompt:
 	 <pre>live keyb=fr</pre></p>
 	 
@@ -15,7 +17,7 @@
 	 
 	 <p>For more information on options for the Live CD, see <a href="http://live.debian.net/other/manpages/live-initramfs.7.html">the live-initramfs manual page</a>.</p>
 
-	 <h3>Download the Debian KDE4 live CD</h3>
+	 <h3>Download the Debian KDE 4 live CD</h3>
 	 <p>Please use BitTorrent if possible to minimize the strain on our servers.</p>
 
 	<ul>

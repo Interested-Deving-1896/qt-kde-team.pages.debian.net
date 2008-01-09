@@ -6,8 +6,8 @@
 			<ul>
 				<li><a href="installkdedebian.html">Install KDE on your Debian system</a></li>
 				<hr />
-				<li><a href="kde4livecd.html">Run KDE4 from a Live CD</a></li>
-				<li><a href="experimental.html">Install experimental KDE4 packages</a></li>
+				<li><a href="kde4livecd.html">Run KDE 4 from a Live CD</a></li>
+				<li><a href="experimental.html">Install experimental KDE 4 packages</a></li>
 			</ul>
 			
 			<br />
@@ -32,7 +32,7 @@
 			
 			<h2>Working notes</h2>
 			<ul>
-				<li><a href="kde4.html">KDE4</a></li>
+				<li><a href="kde4.html">KDE 4</a></li>
 				<li><a href="descriptions.html">Descriptions policy draft</a></li>
 				<li><a href="btslink.html">bts-link</a></li>
 				<li><a href="kde-bugzilla-survival-guide.html">Survival guide to kde bugzilla</a></li>
