@@ -1,5 +1,6 @@
 #!/bin/bash -e
 
+umask 002
 DIR=/var/lib/gforge/chroot/home/groups/pkg-kde/web-autoupdate/www/v2
 OUTPUT=/var/lib/gforge/chroot/home/groups/pkg-kde/web-autoupdate/www/v2/output
 rm -rf $DIR/pages/*~ $OUTPUT
