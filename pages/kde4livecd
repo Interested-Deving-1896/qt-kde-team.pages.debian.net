@@ -21,8 +21,8 @@
 	 <p>Please use BitTorrent if possible to minimize the strain on our servers.</p>
 
 	<ul>
-	<li><a href="http://debian.netcologne.de/kdelive/debian-kde4-live-cd-amd64.iso.torrent">FIXME: Torrent for AMD64</a></li>
-	<li><a href="http://debian.netcologne.de/kdelive/debian-kde4-live-cd-i386.iso.torrent">FIXME: Torrent for i386</a></li>
+	<li><a>Torrent for AMD64 (Coming soon!)</a></li>
+	<li><a>Torrent for i386 (Coming soon!)</a></li>
 	</ul>
 
 
@@ -31,11 +31,11 @@
      <table>
      <tr>
      <td>amd64</td>
-     <td><a href="http://cdimage.debian.org/cdimage/unofficial/misc/debian-kde4-live-cd-amd64.iso">FIXME</a> | </td>
+     <td><a>Coming soon!</a> | </td>
      </tr>
      <tr>
      <td>i386</td>
-     <td><a href="http://cdimage.debian.org/cdimage/unofficial/misc/debian-kde4-live-cd-i386.iso">FIXME</a> | </td>
+     <td><a>Coming soon!</a> | </td>
      </tr>
      </table>
     </blockquote>
