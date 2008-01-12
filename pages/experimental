@@ -41,16 +41,32 @@ deb-src http://ftp.debian.org/debian/ experimental main non-free contrib</pre>
 	 		<td><i>Additional Plasma applets</i></td>
 	 	</tr>
 	 	<tr>
-	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/kdeutils"><code>kdeutils</code></a></td>
-	 		<td><i>General-purpose utilities</i></td>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/kdegraphics"><code>kdegraphics</code></a></td>
+	 		<td><i>Graphics applications, including the Okular document viewer</i></td>
+	 	</tr>
+	 	<tr>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/kdegames"><code>kdegames</code></a></td>
+	 		<td><i>Assortment of fun games</i></td>
+	 	</tr>
+	 	<tr>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/kdemultimedia"><code>kdemultimedia</code></a></td>
+	 		<td><i>Multimedia players and utilities</i></td>
 	 	</tr>
 	 	<tr>
 	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/kdenetwork"><code>kdenetwork</code></a></td>
 	 		<td><i>networking-related applications, such as the Kopete IM client</i></td>
 	 	</tr>
 	 	<tr>
-	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/kdegraphics"><code>kdegraphics</code></a></td>
-	 		<td><i>Graphics applications, including the Okular document viewer</i></td>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/kdeutils"><code>kdeutils</code></a></td>
+	 		<td><i>General-purpose utilities</i></td>
+	 	</tr>
+	 	<tr>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/kdeedu"><code>kdeedu</code></a></td>
+	 		<td><i>Educational applications</i></td>
+	 	</tr>
+	 	<tr>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/kdeadmin"><code>kdeadmin</code></a></td>
+	 		<td><i>System administration tools</i></td>
 	 	</tr>
 	 	<tr>
 	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/kdetoys"><code></code>kdetoys</a></td>
@@ -64,8 +80,6 @@ deb-src http://ftp.debian.org/debian/ experimental main non-free contrib</pre>
 	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/kdesdk"><code>kdesdk</code></a></td>
 	 		<td><i>Software devlopment tools</i></td>
 	 	</tr>
-	 	<tr>
-	 		<td style="width:15em;"></td>
-	 		<td>More packages will be available shortly</td>
-	 	</tr>
 	 </table>
+	 
+	 <br />
