@@ -21,7 +21,6 @@
 
 	<h3>Stuff TODO</h3>
 	<ul>
-	<li>Kill kde-amusements.</li>
 	
 	<li>kde will get added xserver and maybe a media player</li>
 	
@@ -34,7 +33,6 @@
 	
 	<li>kdeutils: remove kdessh, does not work (look at kde4's one too) and kedit.</li>
 	
-	<li>we keep kde-devel and adding kdevelop, and suggesting the stuff in kde-devel-extras (that we are killing)</li>
 	
 	<li>Think about a kde-desktop task--> we need more resarch to find out what to do with this. Goals to achieve?</li>
 	
