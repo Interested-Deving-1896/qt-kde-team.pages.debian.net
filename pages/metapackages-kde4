@@ -14,5 +14,5 @@
 
 
 	<h3>kde4-development</h3>
-	<p>It will install the "KDE 4 development platform", it contains kde4lins, kdepimlibs, kdebase-runtime and a Suggests on kdebindings when it is finally packaged.
+	<p>It will install the "KDE 4 development platform", it contains kde4libs, kdepimlibs, kdebase-runtime and a Suggests on kdebindings when it is finally in the Debian archive.
 
