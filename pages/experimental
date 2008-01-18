@@ -18,6 +18,7 @@ deb-src http://ftp.debian.org/debian/ experimental main non-free contrib</pre>
 	 <p>APT will not install packages from experimental unless specifically requested.  To install a package from experimental, run the command:</p>
 	 <pre>aptitude -t experimental install <em>package1</em> <em>package2</em> <em>package3...</em></pre>
 
+
 	<h3>KDE 4 packages</h3>
 
 	 <p style="margin-bottom:0.1em;">For a basic KDE 4 desktop, install</p>
@@ -78,8 +79,15 @@ deb-src http://ftp.debian.org/debian/ experimental main non-free contrib</pre>
 	 	</tr>
 	 	<tr>
 	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/kdesdk"><code>kdesdk</code></a></td>
-	 		<td><i>Software devlopment tools</i></td>
+	 		<td><i>Software development tools</i></td>
 	 	</tr>
 	 </table>
 	 
 	 <br />
+
+	<h3>Co-installable packages</h3>
+
+	 <p>You can co-install along your KDE 3 packages the following KDE 4 packages: <em>kdelibs5, kdepimlibs5, kdebase-runtime</em></p>
+	
+	<p>This is useful if you want to keep your KDE 3 enviroment but want to use a KDE 4 application like okular or even konsole. But remember KDE 4 apps will not integrate in your KDE 3 desktop so well as the current KDE 3 do.</p>
+	<br />
