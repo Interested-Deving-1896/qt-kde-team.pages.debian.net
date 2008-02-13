@@ -1,19 +1,35 @@
 
-	 <h2>Install KDE 4.0 packages from the Debian experimental branch<img src="../images/download_64.png" style="float:right; margin:-8px 0 0 0;" /></h2>
+	 <h2>Install KDE 4.0 packages from the Debian experimental branch<img src="../images/download_64.png" style="float:right; margin:-8px 0 0 0;" alt="Install KDE 4 Debian packages in your hard disk" /></h2>
 
-	 <p>KDE 4.0 requires some software that is not available in the Debian 4.0 "etch" release.  Therefore, it can only be installed on systems using the testing & unstable branches.</p>
-	 <p>Users of Debian testing (a.k.a. Lenny) <b>must</b> also add Debian unstable to their sources.list in order to meet the requirements of KDE 4.0.<br />
-	 To enable unstable without upgrading your entire system, <a href="http://wiki.debian.org/AptPinning">see this page</a>.</p>
+
+    <h3>Enabling the sid repository</h3>
+
+	 <p>KDE 4.0 requires some software that is not available in the Debian 4.0 "etch" release.  Therefore, it can only be installed on systems using the testing &amp; unstable branches.</p>
+
+	 <p>Users of Debian testing (a.k.a. Lenny) <b>must</b> also add Debian unstable to their sources.list in order to meet the requirements of KDE 4.0.</p>
+
+     <blockquote>
+     <pre style="margin-bottom:0;">deb http://ftp.de.debian.org/debian/ sid main non-free contrib
+deb-src http://ftp.de.debian.org/debian/ sid main non-free contrib</pre>
+    </blockquote>
+
+     <p>You should replace ftp.de.debian.org by a
+     <a href="http://www.debian.org/mirror/list">mirror</a> near you.</p>
+
+     <p>To enable unstable without upgrading your entire system,
+     <a href="http://wiki.debian.org/AptPinning">see this page</a>.</p>
+
 
 	<h3>Enabling the experimental branch</h3>
 
 	 <p>To install KDE 4.0, the experimental branch must be enabled.  Add the following to <code>/etc/apt/sources.list</code>, then update APT.</p>
 	 <blockquote>
-	 <pre style="margin-bottom:0;">deb http://ftp.debian.org/debian/ experimental main non-free contrib
-deb-src http://ftp.debian.org/debian/ experimental main non-free contrib</pre>
+	 <pre style="margin-bottom:0;">deb http://ftp.de.debian.org/debian/ experimental main non-free contrib
+deb-src http://ftp.de.debian.org/debian/ experimental main non-free contrib</pre>
 	</blockquote>
 
-	<br />
+	<p>You should replace ftp.de.debian.org by a
+     <a href="http://www.debian.org/mirror/list">mirror</a> near you.</p>
 
 	 <p>APT will not install packages from experimental unless specifically requested.  To install a package from experimental, run the command:</p>
 	 <pre>aptitude -t experimental install <em>package1</em> <em>package2</em> <em>package3...</em></pre>
@@ -22,6 +38,7 @@ deb-src http://ftp.debian.org/debian/ experimental main non-free contrib</pre>
 	<h3>KDE 4 packages</h3>
 
 	 <p style="margin-bottom:0.1em;">For a basic KDE 4 desktop, install the <a href="http://packages.debian.org/experimental/kde4-minimal"><code>kde4-minimal</code></a> package, which includes</p>
+
 	 <table style="margin-left:5em">
 	 	<tr>
 	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/kdebase-runtime"><code>kdebase-runtime</code></a></td>
@@ -39,7 +56,8 @@ deb-src http://ftp.debian.org/debian/ experimental main non-free contrib</pre>
 
 	 <br />
 
-	 <p style="margin-bottom:0.1em;">For all of KDE 4, install the <a href="http://packages.debian.org/experimental/kde4"><code>kde4</code></a> package, which also includes</p>
+	 <p style="margin-bottom:0.1em;">For (almost) all of KDE 4, install the <a href="http://packages.debian.org/experimental/kde4"><code>kde4</code></a> package, which also includes</p>
+
 	 <table style="margin-left:5em">
 	 	<tr>
 	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/extragear-plasma"><code>extragear-plasma</code></a></td>
@@ -73,20 +91,30 @@ deb-src http://ftp.debian.org/debian/ experimental main non-free contrib</pre>
 	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/kdeadmin"><code>kdeadmin</code></a></td>
 	 		<td><i>System administration tools</i></td>
 	 	</tr>
-	 	<tr>
-	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/kdetoys"><code></code>kdetoys</a></td>
-	 		<td><i>Desktop amusments</i></td>
-	 	</tr>
+
 	 	<tr>
 	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/kdeartwork"><code>kdeartwork</code></a></td>
 	 		<td><i>Additional artwork and sound themes</i></td>
 	 	</tr>
-	 	<tr>
-	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/kdesdk"><code>kdesdk</code></a></td>
-	 		<td><i>Software development tools</i></td>
-	 	</tr>
 	 </table>
-	 
+
+     <br />
+
+     <p style="margin-bottom:0.1em;">Most users will also want to install 
+     <a href="http://packages.debian.org/experimental/kdm"><strong>kdm</strong></a>.
+     There are still a couple of packages more:</p>
+
+     <table style="margin-left:5em">
+        <tr>
+            <td style="width:15em;"><a href="http://packages.debian.org/experimental/kdetoys"><code>kdetoys</code></a></td>
+            <td><i>Desktop amusements</i></td>
+        </tr>
+        <tr>
+            <td style="width:15em;"><a href="http://packages.debian.org/experimental/kdesdk"><code>kdesdk</code></a></td>
+            <td><i>Software development tools</i></td>
+        </tr>
+     </table>
+
 	 <br />
 
 	<h3>Co-installable packages</h3>
