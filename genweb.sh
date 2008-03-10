@@ -1,7 +1,8 @@
 #!/bin/bash -e
 
 OUTPUT=output
-rm -rf pages/*~ output/*
+mkdir -p $OUTPUT
+rm -rf pages/*~ $OUTPUT/*
 FILES=`ls pages/ | grep -v "style.css\|top\|bottom"`
 
 cp pages/style.css $OUTPUT/style.css
