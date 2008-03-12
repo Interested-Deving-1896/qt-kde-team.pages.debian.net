@@ -1,7 +1,7 @@
 
 			<h2>Welcome!</h2>
 
-			<p><img src="images/konqui.jpg" width="152" height="184" alt="Konqui" class="left photo" />This is the home page of two closely related teams:</p>
+			<p><img src="images/konqui.jpg" width="152" height="184" alt="Konqui" class="right photo" />This is the home page of two closely related teams:</p>
 
          <ul>
             <li><a href="qtkde.html">Debian Qt/KDE Maintainers</a></li>

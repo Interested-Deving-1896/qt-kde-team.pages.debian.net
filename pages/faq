@@ -34,8 +34,9 @@
 			<li>The packages are installed, but configure is unable to find them.</li>
 			</ul>
 			
-			<p>First, make sure you have (at least) libqt3-mt-dev and qt3-dev-tools. If
-			configure is successful, but during compilation, the build fails because a file
+			<p>First, make sure you have (at least) <strong>libqt3-mt-dev</strong>
+            and <strong>qt3-dev-tools</strong>. If configure is successful, but
+            during compilation, the build fails because a file
 			is missing (for example, qlist.h), this means this software is using obsolete
 			headers. Please, report this fact to the developers of this software, and to
 			complete the build, install libqt3-compat-headers.</p>
@@ -49,8 +50,10 @@
 			<p>Since this is a bit annoying if you are compiling lots of times, you can
 			set the environment variable QTDIR, pointing to /usr/share/qt3 (in bash:
 			export QTDIR=/usr/share/qt3).</p>
-			
-			
+
+            <p>If you wist to compile Qt4 applications, please install the
+            <strong>libqt4-dev</strong> and <strong>qt4-dev-tools</strong>
+            packages.</p>
 			
 			<h4 id="q4">4. When I remove one application, my whole KDE is deleted!</h4>
 			

@@ -11,7 +11,9 @@ The following strategy is the one mostly used on bug triaging among the kde pack
 <li>If no response from submitter, close the bug after approx. 4 weeks</li>
 </ul>
 <p>
-Some of the importaint steps was 1) remember to tag +moreinfo unreproducible when asking for moreinfo and remember to mark the bug as forwarded.
+The most important steps were 1) remember to tag <kbd>+moreinfo
+unreproducible</kbd> when asking for moreinfo and 2) remember to mark the bug
+as forwarded.
 </p>
 <h3>Bug tagging and forwarding</h3>
 <p>
@@ -56,7 +58,7 @@ The fix have made debian long time ago. Closing this bug.
 Happy bug closing!
 </p>
 
-<h2>Links to bts</h2>
+<h2>Links to BTS</h2>
 <p>
 This is a attempt to try to group the bugs in sections of relevance - or just in smaller sections.
 A package like konqueror has many different functions and not all people use all of these functions.
