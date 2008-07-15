@@ -80,6 +80,10 @@ deb-src http://ftp.de.debian.org/debian/ experimental main non-free contrib</pre
 	 		<td><i>networking-related applications, such as the Kopete IM client</i></td>
 	 	</tr>
 	 	<tr>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/kdepim"><code>kdepim</code></a></td>
+	 		<td><i>Personal Information Management apps, such as Kontact or KMail</i></td>
+	 	</tr>
+	 	<tr>
 	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/kdeutils"><code>kdeutils</code></a></td>
 	 		<td><i>General-purpose utilities</i></td>
 	 	</tr>
