@@ -1,12 +1,12 @@
 
-	 <h2>Install KDE 4.0 packages from the Debian experimental branch<img src="../images/download_64.png" style="float:right; margin:-8px 0 0 0;" alt="Install KDE 4 Debian packages in your hard disk" /></h2>
+	 <h2>Install KDE 4.1 packages from the Debian experimental branch<img src="../images/download_64.png" style="float:right; margin:-8px 0 0 0;" alt="Install KDE 4 Debian packages in your hard disk" /></h2>
 
 
     <h3>Enabling the sid repository</h3>
 
-	 <p>KDE 4.0 requires some software that is not available in the Debian 4.0 "etch" release.  Therefore, it can only be installed on systems using the testing &amp; unstable branches.</p>
+	 <p>KDE 4.1 requires some software that is not available in the Debian 4.1 "etch" release.  Therefore, it can only be installed on systems using the testing &amp; unstable branches.</p>
 
-	 <p>Users of Debian testing (a.k.a. Lenny) <b>must</b> also add Debian unstable to their sources.list in order to meet the requirements of KDE 4.0.</p>
+	 <p>Users of Debian testing (a.k.a. Lenny) <b>must</b> also add Debian unstable to their sources.list in order to meet the requirements of KDE 4.1.</p>
 
      <blockquote>
      <pre style="margin-bottom:0;">deb http://ftp.de.debian.org/debian/ sid main non-free contrib
@@ -22,7 +22,7 @@ deb-src http://ftp.de.debian.org/debian/ sid main non-free contrib</pre>
 
 	<h3>Enabling the experimental branch</h3>
 
-	 <p>To install KDE 4.0, the experimental branch must be enabled.  Add the following to <code>/etc/apt/sources.list</code>, then update APT.</p>
+	 <p>To install KDE 4.1, the experimental branch must be enabled.  Add the following to <code>/etc/apt/sources.list</code>, then update APT.</p>
 	 <blockquote>
 	 <pre style="margin-bottom:0;">deb http://ftp.de.debian.org/debian/ experimental main non-free contrib
 deb-src http://ftp.de.debian.org/debian/ experimental main non-free contrib</pre>
