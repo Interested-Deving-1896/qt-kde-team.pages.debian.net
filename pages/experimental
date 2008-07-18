@@ -118,6 +118,8 @@ deb-src http://ftp.de.debian.org/debian/ experimental main non-free contrib</pre
             <td><i>Software development tools</i></td>
         </tr>
      </table>
+     <br />
+     <h3>Upgrading installed experimental KDE 4 packages automatically</h3>
      
      <p style="margin-bottom:0.1em;">Once you have installed all KDE 4 packages you want experimental, you would probably like
      to keep them up-to-date to the latest releases in experimental. It is easy to do that with the help of APT pinning. Just
