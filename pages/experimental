@@ -127,8 +127,7 @@ deb-src http://ftp.de.debian.org/debian/ experimental main non-free contrib</pre
      <p style="white-space: pre; font-family: monospace">
 Package: *
 Pin: release a=experimental
-Pin-Priority: 101
-     </p>
+Pin-Priority: 101</p>
      <p style="margin-bottom:0.1em;"> to your /etc/apt/preferences file (create one if it does not exist) and simple
      <span style="font-weight:bold">aptitude (or apt-get) dist-upgrade</span> will always automatically  upgrade
      packages you have installed from experimental to the latest versions in the experimental repository.</p>
