@@ -2,6 +2,7 @@
 
 <p>The Debian KDE 4.1 packages are built with the <tt>KDE4_ENABLE_EXPERIMENTAL_LIB_EXPORT</tt> option, which alters how CMake (the build system used by KDE) links to the KDE libraries.  Linking to a library no longer implies linking to all of its dependencies, so a target must now explicitly link to every library it uses.  While this behaviour is to become standard for KDE 4.2, KDE 4 software that relies on the previous linking behaviour may fail to build.</p>
 
+<p>If you want, you can find more information on <a href="http://lists.kde.org/?l=kde-buildsystem&amp;m=120933928105592&amp;w=2">this thread on kde-buildsystem maillist</a></p>
 <h4>If you need to compile a KDE 4 application :</h4>
 
 <h5>1- Use Debian patched packages</h5>
@@ -41,9 +42,55 @@ xavier@kawet:~/tmp/compile/svn/plasma/b$</code>
 <li>locate the unresolved function (here <b>KPluginFactory::create</b>)</li>
 <li>locate the failing build target (here <b>kcm_krunner_spellcheck</b> in <b>directory runners/spellchecker</b>)</li>
 <li>find the library providing it : the best way to do this is to search <a href="http://api.kde.org">api.kde.org</a>. Googling <a href="http://www.google.com/search?q=KPluginFactory+site:api.kde.org/4.1-api">KPluginFactory site:api.kde.org/4.1-api</a>, you can see it's in kdecore.</li>
-<li>edit the relevant CMakeLists.txt file and locate the target_link_libraries line corresponding to the build target and add the relevant ${KDE4_*_LIBS} tag. Here is a list of the available ones :
+<li>edit the relevant CMakeLists.txt file and locate the target_link_libraries line corresponding to the build target and add the relevant ${KDE4_*_LIBS} tag. Here is a list of the available ones :</li>
 
-For the example in runners/spellchecker/CMakeLists.txt, replace<br/>
+<ul style="float: left; width: 30%">
+<li>KDE4_KDECORE_LIBS</li>
+<li>KDE4_KDEUI_LIBS</li>
+<li>KDE4_KIO_LIBS</li>
+<li>KDE4_KPARTS_LIBS</li>
+<li>KDE4_KUTILS_LIBS</li>
+<li>KDE4_KDE3SUPPORT_LIBS</li>
+<li>KDE4_KFILE_LIBS</li>
+<li>KDE4_KHTML_LIBS</li>
+<li>KDE4_KJS_LIBS</li>
+<li>KDE4_KJSAPI_LIBS</li>
+<li>KDE4_KNEWSTUFF2_LIBS</li>
+<li>KDE4_KDNSSD_LIBS</li>
+<li>KDE4_KDESU_LIBS</li>
+<li>KDE4_KPTY_LIBS</li>
+<li>KDE4_PHONON_LIBS</li>
+<li>KDE4_THREADWEAVER_LIBRARIES</li>
+<li>KDE4_SOLID_LIBS</li>
+<li>KDE4_KNOTIFYCONFIG_LIBS</li>
+<li>KDE4_KROSSCORE_LIBS</li>
+<li>KDE4_KROSSUI_LIBS</li>
+<li>KDE4_KTEXTEDITOR_LIBS</li>
+<li>KDE4_KNEPOMUK_LIBS</li>
+<li>KDE4_KMETADATA_LIBS</li>
+<li>PLASMA_LIBS</li></ul>
+
+<ul style="float: left; width: 30%">
+<li>KDE4_AKONADI_LIBS</li>
+<li>KDE4_AKONADI_KMIME_LIBS</li>
+<li>KDE4_GPGMEPP_LIBS</li>
+<li>KDE4_KABC_LIBS</li>
+<li>KDE4_KBLOG_LIBS</li>
+<li>KDE4_KCAL_LIBS</li>
+<li>KDE4_KIMAP_LIBS</li>
+<li>KDE4_KLDAP_LIBS</li>
+<li>KDE4_KMIME_LIBS</li>
+<li>KDE4_KPIMIDENTITIES_LIBS</li>
+<li>KDE4_KPIMUTILS_LIBS</li>
+<li>KDE4_KRESOURCES_LIBS</li>
+<li>KDE4_KTNEF_LIBS</li>
+<li>KDE4_KXMLRPCCLIENT_LIBS</li>
+<li>KDE4_MAILTRANSPORT_LIBS</li>
+<li>KDE4_QGPGME_LIBS</li>
+<li>KDE4_SYNDICATION_LIBS</li>
+</ul>
+<br clear="both"/>
+<li>For the example in runners/spellchecker/CMakeLists.txt, replace<br/>
 <code>target_link_libraries(krunner_spellcheckrunner ${KDE4_KDEUI_LIBS} ${PLASMA_LIBS})</code><br/>
 with<br/>
 <code>target_link_libraries(krunner_spellcheckrunner ${KDE4_KDEUI_LIBS} ${PLASMA_LIBS} ${KDE4_KDECORE_LIBS})</code></li>
