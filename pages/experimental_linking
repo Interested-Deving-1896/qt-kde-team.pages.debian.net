@@ -1,0 +1,46 @@
+<h2>Dealing with linking issues under KDE 4.1</h2>
+
+<p>The Debian KDE 4.1 packages are built with the <tt>KDE4_ENABLE_EXPERIMENTAL_LIB_EXPORT</tt> option, which alters how CMake (the build system used by KDE) links to the KDE libraries.  Linking to a library no longer implies linking to all of its dependencies, so a target must now explicitly link to every library it uses.  While this behaviour is to become standard for KDE 4.2, KDE 4 software that relies on the previous linking behaviour may fail to build.</p>
+
+<h4>If you need to compile a KDE 4 application :</h4>
+
+<h5>1- Use Debian patched packages</h5>
+<p>Use the Debian source package if possible, since they are known to work. You can find the available package in these pages : <a href="http://qa.debian.org/developer.php?login=debian-qt-kde@lists.debian.org">official KDE modules</a> and <a href="http://qa.debian.org/developer.php?login=pkg-kde-extras@lists.alioth.debian.org">extra applications</a>.</p>
+<p>You can get the source with <tt>apt-get source</tt> and compile it if needed.</p>
+<p><b>Note:</b> CMake options can be set with the variable <tt>DEB_CMAKE_EXTRA_FLAGS</tt> in debian/rules
+</p>
+
+<h5>2- Automatic fix</h5>
+<p>Use the autofixtll script to automatically find most linking problems and generate a patch to fix them.</p>
+<ul>
+<li>Download the script from <a href="http://svn.debian.org/viewsvn/*checkout*/pkg-kde/scripts/autofixtll"> our SVN</a></li>
+<!--<li>Quilt is used to generate patches, it can be found in the "quilt" package.</li>-->
+<li>From the root of your unpacked source, run : <tt>autofixtll -i -b build -c "cmake .. && make"</tt>. autofixtll will modify the CMakeLists.txt files in order to add the needed libraries.</li>
+<li>If autofixtll doesn't do the trick, you can finish with the manual way below.</li>
+</ul>
+
+<h5>3-Manually find and repair linking problems :</h5>
+<ul>
+<li>You'll find generic build instructions in <a href="">KDE TechBase</a>. We assume <tt>cmake</tt> runs well, and that <tt>make</tt> fails with this kind of message :</li>
+<br/>
+<code>CMakeFiles/kcm_krunner_spellcheck.dir/spellcheck_config.o:(.data.rel.ro._ZTV13ConfigFactory[vtable for ConfigFactory]+0x44):
+undefined reference to `<b>KPluginFactory::create</b>(char const*, QWidget*, QObject*, QList&lt;QVariant&gt; const&amp;, QString const&amp;)'<br/>
+[...]<br/>
+collect2: ld returned 1 exit status<br/>
+make[2]: *** [lib/kcm_krunner_spellcheck.so] Error 1<br/>
+make[1]: *** [<b>runners/spellchecker</b>/CMakeFiles/<b>kcm_krunner_spellcheck</b>.dir/all] Error 2<br/>
+make: *** [all] Error 2<br/>
+xavier@kawet:~/tmp/compile/svn/plasma/b$</code>
+<br/><br/>
+<li>locate the unresolved function (here <b>KPluginFactory::create</b>)</li>
+<li>locate the failing build target (here <b>kcm_krunner_spellcheck</b> in <b>directory runners/spellchecker</b>)</li>
+<li>find the library providing it : the best way to do this is to search <a href="http://api.kde.org">api.kde.org</a>. Googling <a href="http://www.google.com/search?q=KPluginFactory+site:api.kde.org/4.1-api">KPluginFactory site:api.kde.org/4.1-api</a>, you can see it's in kdecore.</li>
+<li>edit the relevant CMakeLists.txt file and locate the target_link_libraries line corresponding to the build target and add the relevant ${KDE4_*_LIBS} tag. Here is a list of the available ones :<br/>
+[ long, long, long list ^^]<br/>
+For the example in runners/spellchecker/CMakeLists.txt, replace<br/>
+<code>target_link_libraries(krunner_spellcheckrunner ${KDE4_KDEUI_LIBS} ${PLASMA_LIBS})</code><br/>
+with<br/>
+<code>target_link_libraries(krunner_spellcheckrunner ${KDE4_KDEUI_LIBS} ${PLASMA_LIBS} ${KDE4_KDECORE_LIBS})</code></li>
+<li>run cmake and make once more until you have fixed it all :)</li>
+</ul>
+<p><b>Note :</b> sometimes, the symbol is provided by a library from the software you are trying to compile. Try searching in build/lib/*</p>
