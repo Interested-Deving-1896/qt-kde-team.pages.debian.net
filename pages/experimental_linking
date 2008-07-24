@@ -41,10 +41,10 @@ make: *** [all] Error 2<br/>
 xavier@kawet:~/tmp/compile/svn/plasma/b$</code>
 <li>locate the unresolved function (here <b>KPluginFactory::create</b>)</li>
 <li>locate the failing build target (here <b>kcm_krunner_spellcheck</b> in <b>directory runners/spellchecker</b>)</li>
-<li>find the library providing it : the best way to do this is to search <a href="http://api.kde.org">api.kde.org</a>. Googling <a href="http://www.google.com/search?q=KPluginFactory+site:api.kde.org/4.1-api">KPluginFactory site:api.kde.org/4.1-api</a>, you can see it's in kdecore.</li>
-<li>edit the relevant CMakeLists.txt file and locate the target_link_libraries line corresponding to the build target and add the relevant ${KDE4_*_LIBS} tag. Here is a list of the available ones :</li>
+<li>find the library providing it : the best way to do this is to search <a href="http://api.kde.org">api.kde.org</a>. Googling <a href="http://www.google.com/search?q=KPluginFactory+site:api.kde.org/4.1-api">KPluginFactory site:api.kde.org/4.1-api</a>, you can see it's in kdecore. For Qt modules, you can search in <a href="http://doc.trolltech.com/4.4">doc.trolltech.com/4.4</a>.</li>
+<li>edit the relevant CMakeLists.txt file and locate the target_link_libraries line corresponding to the build target and add the relevant ${KDE4_*_LIBS} or ${QT_*_library} tag. Here is a list of the available ones :</li>
 
-<ul style="float: left; width: 30%">
+<ul style="float: left; width: 35%">
 <li>KDE4_KDECORE_LIBS</li>
 <li>KDE4_KDEUI_LIBS</li>
 <li>KDE4_KIO_LIBS</li>
@@ -68,9 +68,9 @@ xavier@kawet:~/tmp/compile/svn/plasma/b$</code>
 <li>KDE4_KTEXTEDITOR_LIBS</li>
 <li>KDE4_KNEPOMUK_LIBS</li>
 <li>KDE4_KMETADATA_LIBS</li>
-<li>PLASMA_LIBS</li></ul>
-
-<ul style="float: left; width: 30%">
+<br/>
+<li>PLASMA_LIBS</li>
+<br/>
 <li>KDE4_AKONADI_LIBS</li>
 <li>KDE4_AKONADI_KMIME_LIBS</li>
 <li>KDE4_GPGMEPP_LIBS</li>
@@ -79,6 +79,9 @@ xavier@kawet:~/tmp/compile/svn/plasma/b$</code>
 <li>KDE4_KCAL_LIBS</li>
 <li>KDE4_KIMAP_LIBS</li>
 <li>KDE4_KLDAP_LIBS</li>
+</ul>
+
+<ul style="float: left; width: 35%">
 <li>KDE4_KMIME_LIBS</li>
 <li>KDE4_KPIMIDENTITIES_LIBS</li>
 <li>KDE4_KPIMUTILS_LIBS</li>
@@ -88,7 +91,32 @@ xavier@kawet:~/tmp/compile/svn/plasma/b$</code>
 <li>KDE4_MAILTRANSPORT_LIBS</li>
 <li>KDE4_QGPGME_LIBS</li>
 <li>KDE4_SYNDICATION_LIBS</li>
+<br/>
+<li>QT_QT3SUPPORT_LIBRARY</li>
+<li>QT_QTASSISTANT_LIBRARY</li>
+<li>QT_QTCORE_LIBRARY</li>
+<li>QT_QTDBUS_LIBRARY</li>
+<li>QT_QTDESIGNER_LIBRARY</li>
+<li>QT_QTDESIGNERCOMPONENTS_LIBRARY</li>
+<li>QT_QTGUI_LIBRARY</li>
+<li>QT_QTMOTIF_LIBRARY</li>
+<li>QT_QTNETWORK_LIBRARY</li>
+<li>QT_QTNSPLUGIN_LIBRARY</li>
+<li>QT_QTOPENGL_LIBRARY</li>
+<li>QT_QTSQL_LIBRARY</li>
+<li>QT_QTXML_LIBRARY</li>
+<li>QT_QTSVG_LIBRARY</li>
+<li>QT_QTSCRIPT_LIBRARY</li>
+<li>QT_QTTEST_LIBRARY</li>
+<li>QT_QTMAIN_LIBRARY</li>
+<li>QT_QTUITOOLS_LIBRARY</li>
+<li>QT_QTASSISTANTCLIENT_LIBRARY</li>
+<li>QT_QTHELP_LIBRARY</li>
+<li>QT_QTWEBKIT_LIBRARY</li>
+<li>QT_QTXMLPATTERNS_LIBRARY</li>
+<li>QT_PHONON_LIBRARY</li>
 </ul>
+
 <br clear="both"/>
 <li>For the example in runners/spellchecker/CMakeLists.txt, replace<br/>
 <code>target_link_libraries(krunner_spellcheckrunner ${KDE4_KDEUI_LIBS} ${PLASMA_LIBS})</code><br/>
