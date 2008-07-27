@@ -9,8 +9,8 @@
 	 <p>Users of Debian testing (a.k.a. Lenny) <b>must</b> also add Debian unstable to their sources.list in order to meet the requirements of KDE 4.1.</p>
 
      <blockquote>
-     <pre style="margin-bottom:0;">deb http://ftp.de.debian.org/debian/ sid main non-free contrib
-deb-src http://ftp.de.debian.org/debian/ sid main non-free contrib</pre>
+     <pre style="margin-bottom:0;">deb http://ftp.de.debian.org/debian/ sid main 
+deb-src http://ftp.de.debian.org/debian/ sid main</pre>
     </blockquote>
 
      <p>You should replace ftp.de.debian.org by a
@@ -24,8 +24,8 @@ deb-src http://ftp.de.debian.org/debian/ sid main non-free contrib</pre>
 
 	 <p>To install KDE 4.1, the experimental branch must be enabled.  Add the following to <code>/etc/apt/sources.list</code>, then update APT.</p>
 	 <blockquote>
-	 <pre style="margin-bottom:0;">deb http://ftp.de.debian.org/debian/ experimental main non-free contrib
-deb-src http://ftp.de.debian.org/debian/ experimental main non-free contrib</pre>
+	 <pre style="margin-bottom:0;">deb http://ftp.de.debian.org/debian/ experimental main
+deb-src http://ftp.de.debian.org/debian/ experimental main</pre>
 	</blockquote>
 
 	<p>You should replace ftp.de.debian.org by a
