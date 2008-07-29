@@ -12,7 +12,7 @@
 			
 			<h2>Latest news:</h2>
 	<p><strong>July 29, 2008</strong><br />
-        <a href="http://www.kde.org/announcements/4.1/">KDE 4.1</a> has been released and is available in unstable (kde4libs, kdepimlibs, kdebase-runtime) and experimental (the rest). These packages can be <a href="experimental.html">installed on the sid (unstable)</a> and (probably) on Lenny systems (likely with a few packages from unstable). Real Lenny backports will be available later next month.</p><br />
+        <a href="http://www.kde.org/announcements/4.1/">KDE 4.1</a> has been released and is available in unstable (kde4libs, kdepimlibs, kdebase-runtime) and experimental (the rest). These packages can be <a href="experimental.html">installed on the sid (unstable)</a> and (probably) on Lenny systems (likely with a few packages from unstable). Real Lenny backports will be available later next month.</p>
 
 	<p><strong>July 15, 2008</strong><br />
         <a href="http://kde.org/announcements/announce-4.1-rc1.php">KDE 4.1 RC1</a> released and available in unstable (kde4libs, kdepimlibs, kdebase-runtime) and experimental (the rest).
