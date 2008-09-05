@@ -11,6 +11,12 @@
          <p>We are a group of people with a common goal in mind: bringing the best KDE possible to Debian.</p>
 			
 			<h2>Latest news:</h2>
+
+	<p><strong>September 3, 2008</strong><br />
+        <a href="http://www.kde.org/announcements/announce-4.1.1.php">KDE 4.1.1</a> has been released and is fully available in experimental.  Lenny backports will be available soon.</p>
+
+	<p><strong>July 15, 2008</strong><br />
+        <a href="http://kde.org/announcements/announce-4.1-rc1.php">KDE 4.1 RC1</a> released and available in unstable (kde4libs, kdepimlibs, kdebase-runtime) and experimental (the rest).
      <p><strong>August 21, 2008</strong><br />
         There are KDE 4.1 backports available for Lenny at <a
 		href="http://kde4.debian.net/">http://kde4.debian.net/</a>. Read
