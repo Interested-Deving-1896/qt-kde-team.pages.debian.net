@@ -31,6 +31,15 @@
 </dl>
 
 
+<h4>Where to start?</h4>
+
+<p>You can start helping with bugs. This is a task that does not need a high commitment, basically when you have some time and want to contribute a bit, you can help us in this way. A couple of suggestions:</p>
+
+<ul>
+<li>Look at the bugs list of a package you use and try to help submitter or find out what is going wrong. For example, if you want to take a look to the kopete bugs, the url is: <a href="http://bugs.debian.org/kopete">http://bugs.debian.org/kopete</a>. Replace kopete for the package you are interested in.</li>
+<li>Help with "Gift" bugs. These are bugs that would be nice to fix but we do not consider high priority, most of them are quite easy to do, but time consuming :(</li>
+</ul>
+
 <h4>Join the project</h4>
 
 <p>If you like what we do, and intend to work on KDE for Debian for a somewhat longer time, you should become a member of the <a href="https://alioth.debian.org/projects/pkg-kde/">Debian Qt/KDE Maintainers</a> project on Alioth.</p>
