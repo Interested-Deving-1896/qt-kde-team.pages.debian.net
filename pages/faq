@@ -111,3 +111,12 @@
 
 			<p>Please read experimental_linking.html for more information.</p>
 
+			
+			<h4 id="q5">5. When will be KDE 4 available in testing/unstable?</h4>
+			
+			<p>KDE 4 will be uploaded to unstable when Lenny is released.
+			Then, after some time, it will migrate to testing. If you want to
+			use KDE 4 in unstable you can install the packages from
+			experimental. Follow <a
+			href="http://pkg-kde.alioth.debian.org/experimental.html">these instructions</a>
+			and you won't have any problem.</p>
