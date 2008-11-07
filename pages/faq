@@ -104,7 +104,7 @@
 			super-user-command=sudo
 			</pre>
 
-			<h4 id="q7">7. I can't build KDE4 software from source</h4>
+			<h4 id="q8">8. I can't build KDE4 software from source</h4>
 			<p>The Debian KDE packages are built with the KDE4_ENABLE_EXPERIMENTAL_LIB_EXPORT
 			option, which alters how CMake (the build system used by KDE) links to the KDE
 			libraries. This may cause KDE4 software to fail to build from source.</p>
@@ -112,7 +112,7 @@
 			<p>Please read experimental_linking.html for more information.</p>
 
 			
-			<h4 id="q5">5. When will be KDE 4 available in testing/unstable?</h4>
+			<h4 id="q9">9. When will be KDE 4 available in testing/unstable?</h4>
 			
 			<p>KDE 4 will be uploaded to unstable when Lenny is released.
 			Then, after some time, it will migrate to testing. If you want to
