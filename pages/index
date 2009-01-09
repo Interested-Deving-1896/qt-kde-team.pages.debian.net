@@ -1,4 +1,4 @@
-
+  
 			<h2>Welcome!</h2>
 
 			<p><img src="images/konqui.jpg" width="152" height="184" alt="Konqui" class="right photo" />This is the home page of two closely related teams:</p>
@@ -10,6 +10,17 @@
 
          <p>We are a group of people with a common goal in mind: bringing the best KDE possible to Debian.</p>
 			
+			<h2>Get KDE in Debian</h2>
+
+			<p>Pick your KDE version:</p>
+
+         <ul>
+            <li><a href="kde3.html">KDE 3.5</a></li>
+            <li><a href="kde4.html">KDE 4.1</a></li>
+            <li><a href="http://kde42.debian.net">Unsupported KDE 4.2 snapshots</a></li>
+         </ul>
+
+	
 			<h2>Latest news:</h2>
 
 	<p><strong>December 23, 2008</strong><br />
