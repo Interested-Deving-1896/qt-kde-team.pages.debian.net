@@ -38,6 +38,8 @@
 
 		 <p>If you are installing a new system and you have the Debian Lenny installer, you can install KDE by typing at the boot prompt:
 		 <pre>desktop=kde</pre>
+         For i386 and amd64 images it is now possible to select which desktop environment to install from the boot menu.
+         The default desktop environment is still GNOME, but an alternative desktop environment can be selected from the "Advanced options" menu.
 		 </p>
 
 		 <h3>Install KDE on your existing Debian system</h3>
