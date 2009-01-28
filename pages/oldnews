@@ -1,0 +1,119 @@
+	
+			<h2>Old news:</h2>
+                      
+	<p><strong>December 23, 2008</strong><br />
+        An updated <a href="kde4livecd.html">Live CD</a> has been released with KDE 4.2.
+    </p>
+	<p><strong>November 5, 2008</strong><br />
+        <a href="http://www.kde.org/announcements/announce-4.1.3.php">KDE 4.1.3</a> has been released and is available in experimental.
+    </p>
+	<p><strong>September 3, 2008</strong><br />
+        <a href="http://www.kde.org/announcements/announce-4.1.1.php">KDE 4.1.1</a> has been released and is fully available in experimental.  Lenny backports will be available soon.</p>
+
+	<p><strong>July 15, 2008</strong><br />
+        <a href="http://kde.org/announcements/announce-4.1-rc1.php">KDE 4.1 RC1</a> released and available in unstable (kde4libs, kdepimlibs, kdebase-runtime) and experimental (the rest).
+     <p><strong>August 21, 2008</strong><br />
+        There are KDE 4.1 backports available for Lenny at <a
+		href="http://kde4.debian.net/">http://kde4.debian.net/</a>. Read
+		carefully the instructions in that website before installing them.  </p>
+	
+	<p><strong>July 29, 2008</strong><br />
+        <a href="http://www.kde.org/announcements/4.1/">KDE 4.1</a> has been released and is available in unstable (kde4libs, kdepimlibs, kdebase-runtime) and experimental (the rest). These packages can be <a href="experimental.html">installed on the sid (unstable)</a> and (probably) on Lenny systems (likely with a few packages from unstable). Real Lenny backports will be available later next month.</p>
+
+	<p><strong>July 15, 2008</strong><br />
+        <a href="http://kde.org/announcements/announce-4.1-rc1.php">KDE 4.1 RC1</a> released and available in unstable (kde4libs, kdepimlibs, kdebase-runtime) and experimental (the rest).
+        kdeplasma-addons is stuck in NEW, but should also be available withing the next days.<br />
+    
+        <p><strong>May 27, 2008</strong><br />
+        <a href="http://kde.org/announcements/announce-4.1-beta1.php">KDE 4.1 beta1</a> released and available in experimental. kdebase-workspace is stuck in NEW, but should also be available withing the next days.<br />
+
+        <p><strong>Mar 10, 2008</strong><br />
+        KDE 4.0.2 released and available in experimental.<br />
+        KDE 3.5.9 is also now available in unstable.</p>
+
+	    <p><strong>Feb 5, 2008</strong><br />
+	    KDE 4.0.1 released and available in experimental.</p>
+
+	    <p><strong>Jan 19, 2008</strong><br />
+	    Metapackages for KDE 4 uploaded to experimental (have to go through NEW).<br />
+	    Kde4libs and kdepimlibs uploaded to unstable.</p>
+
+	    <p><strong>Jan 18, 2008</strong><br />
+            KOffice snapshot of svn revision 757194 (upcoming 1.9.96.0 release) uploaded to experimental.</p>
+
+            <p><strong>Jan 17, 2008</strong><br />
+	    Kaider and rsibreak 4.0.0 uploaded to experimental.</p>
+
+            <p><strong>Jan 11, 2008</strong><br />
+	    KDE 4.0.0 released and availlable in experimental.</p>
+
+            <p><strong>Dec 18, 2007</strong><br />
+            Kaider 3.97.0 uploaded to experimental (has to go through NEW).<br />
+            kdebase-workspace 4:3.97.0-2 uploaded to experimental.</p>
+
+            <p><strong>Dec 16, 2007</strong><br />
+            Soprano 1.99~rc2 uploaded to unstable.</p>
+
+            <p><strong>Dec 13 - Dec 16, 2007</strong><br />
+            Debian KDE Team meeting in Extremadura, Spain.</p>
+
+            <p><strong>Nov 1, 2007</strong><br />
+            Published live CD with KDE4 beta4.</p>
+
+            <p><strong>Oct 15, 2007</strong><br />
+            KDE 3.5.8 uploaded to unstable.</p>
+
+            <p><strong>May 21, 2007</strong><br />
+            KDE 3.5.7 uploaded to unstable.</p>
+
+            <p><strong>April 20, 2007</strong><br />
+            KDE 3.5.6 uploaded to unstable.</p>
+
+			<p><strong>January 25, 2007</strong><br />
+			KDE 3.5.6 uploaded to experimental.</p>
+		  
+			<p><strong>December 5, 2006</strong><br />
+			Bug count now passed 1330. And this page has rss feed.</p>
+		
+			<p><strong>December 3, 2006</strong><br />
+			New website launched.</p>
+
+			<p><strong>December 1, 2006</strong><br />
+			KOffice 1.6.1 uploaded to unstable.</p>
+			
+            <p><strong>May 21, 2007</strong><br />
+            KDE 3.5.7 uploaded to unstable.<br />
+
+            <p><strong>April 20, 2007</strong><br />
+            KDE 3.5.6 uploaded to unstable.<br />
+
+			<p><strong>January 25, 2007</strong><br />
+			KDE 3.5.6 uploaded to experimental.</p>
+		  
+			<p><strong>December 5, 2006</strong><br />
+			Bug count now passed 1330. And this page has rss feed.</p>
+		
+			<p><strong>December 3, 2006</strong><br />
+			New website launched.</p>
+
+			<p><strong>December 1, 2006</strong><br />
+			KOffice 1.6.1 uploaded to unstable.</p>
+			
+            <p><strong>May 21, 2007</strong><br />
+            KDE 3.5.7 uploaded to unstable.<br />
+
+            <p><strong>April 20, 2007</strong><br />
+            KDE 3.5.6 uploaded to unstable.<br />
+
+			<p><strong>January 25, 2007</strong><br />
+			KDE 3.5.6 uploaded to experimental.</p>
+		  
+			<p><strong>December 5, 2006</strong><br />
+			Bug count now passed 1330. And this page has rss feed.</p>
+		
+			<p><strong>December 3, 2006</strong><br />
+			New website launched.</p>
+
+			<p><strong>December 1, 2006</strong><br />
+			KOffice 1.6.1 uploaded to unstable.</p>
+			
