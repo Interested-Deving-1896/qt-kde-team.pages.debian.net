@@ -2,7 +2,7 @@
 			<h2>Kaboom, the Debian KDE settings migration wizard</h2>
 
 			<h3>So, what does kaboom does?</h3>
-			<p>kaboom is tool for migrating from KDE 3 to KDE 4. Depending on the options you choose, you may:</p>
+			<p>kaboom is tool for migrating your KDE user settings and data files from KDE 3 to KDE 4. Depending on the options you choose, you may:</p>
 
 			<ol>
 				<li>Use you current KDE 3 settings as initial for KDE 4.</li>
@@ -11,15 +11,15 @@
 				<li>Start KDE with defaults settings and data.</li>
 			</ol>
 
-			And, optionally but <strong>higly recommended</strong>, backup your existing KDE 3 settings.
+			And, optionally but <strong>highly recommended</strong>, backup your existing KDE 3 settings.
 
 			<h3>Why is this needed?</h3>
 
-			<p>Debian uses the ~./kde directory (where ~ refers to the path of your Home directory) to store user settings and data. So, there are two possible different situations in which this wizard helps:</p>
+			<p>Debian uses the <tt>~./kde</tt> directory (where <tt>~</tt> refers to the path of your <tt>HOME</tt> directory) to store user settings and data. So, there are two possible different situations in which this wizard helps:</p>
 
 			<ul>
-				<li>You have been using KDE 3 and you need to migrate to KDE 4. You now may want to start with a fresh KDE 4 installation, or perhaps you may want to keep your KDE 3 settings as much as possible. Optionally, you may want to do a backup og KDE 3's config files.</li>
-				<li>You have been using KDE 4 from the experimental repositories. While in experimental, KDE 4 used ~./kde4 as the directory for data and settings. Now you may want to keep that config or start from a fresh install.</li>
+				<li>You have been using KDE 3 and you need to migrate to KDE 4. You now may want to start with a fresh KDE 4 installation, or perhaps you may want to keep your KDE 3 settings as much as possible. Optionally, you may want to do a backup of KDE 3's config files.</li>
+				<li>You have been using KDE 4 from the experimental repositories. While in experimental, KDE 4 used <tt>~./kde4</tt> as the directory for data and settings. Now you may want to keep that config or start from a fresh install.</li>
 			</ul>
 
 			<h2>Description of the choices</h2>
