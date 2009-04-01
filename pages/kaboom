@@ -1,6 +1,8 @@
 
 			<h2>Kaboom, the Debian KDE settings migration wizard</h2>
 
+			<div align="center"><a href="images/kaboom_pres.png" title="kaboom presentation"><img src="images/kaboom_pres_small" alt="kaboom presentation"></a></div>
+
 			<h3>So, what does kaboom does?</h3>
 			<p>kaboom is tool for migrating your KDE user settings and data files from KDE 3 to KDE 4. Depending on the options you choose, you may:</p>
 
@@ -12,6 +14,8 @@
 			</ol>
 
 			And, optionally but <strong>highly recommended</strong>, backup your existing KDE 3 settings.
+
+			<div align="center"><a href="images/kaboom_options.png" title="kaboom options menu"><img src="images/kaboom_options_small" alt="kaboom options menu"></a></div>
 
 			<h3>Why is this needed?</h3>
 
@@ -43,4 +47,4 @@
 				The wizard will <strong>remove</strong> (or move to backup) existing KDE&nbsp;3 settings directory including such data as contacts, locally stored mails, accounts in KMail and Kopete, bookmarks, etc.
 			</p>
 
-
+			<div align="center"><a href="images/kaboom_start.png" title="kaboom waiting the user to start"><img src="images/kaboom_start_small" alt="kaboom waiting the user to start"></a></div>
