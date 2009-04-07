@@ -1,15 +1,161 @@
 
-	<h2>Try KDE 4.1 (on Lenny) or KDE 4.2<img src="../images/kde4_64.png" style="float:right; margin:-8px 0 0 0;" /></h2>
+	<h2>Try KDE 4.1 on Lenny<img src="../images/kde4_64.png" style="float:right; margin:-8px 0 0 0;" /></h2>
 
 <!--	<div style="float:left; width:48%; text-align:center;"><a href="kde4livecd.html"><img src="../images/cd_128.png" /><br /><span style="font-size:20pt; font-weight:bolder;line-height:125%;">Try out KDE 4.0<br />on a Debian Live CD</span></a></div> -->
-	<div style="width:100%; text-align:center;"><a href="experimental.html"><img src="../images/download_128.png" /><br /><span style="font-size:20pt; font-weight:bolder;line-height:125%;">Install KDE 4.2<br />on your Debian <em>unstable</em> system</span></a></div>
-	
+
+<!--	<div style="width:100%; text-align:center;"><a href="experimental.html"><img src="../images/download_128.png" /><br /><span style="font-size:20pt; font-weight:bolder;line-height:125%;">Install KDE 4.2<br />on your Debian <em>unstable</em> system</span></a></div>-->
+
 	<br/>
-	<div style="width:100%; text-align:center;"><a href="http://kde4.debian.net/"><img src="../images/download_128.png" /><br /><span style="font-size:20pt; font-weight:bolder;line-height:125%;">Install KDE 4.1<br />on your <em>Lenny</em> Debian system</span></a></div> 
+	<div style="width:100%; text-align:center;"><a href="http://kde4.debian.net/"><img src="../images/download_128.png" /><br /><span style="font-size:20pt; font-weight:bolder;line-height:125%;">Install KDE 4.1<br />on your <em>Lenny</em> Debian system</span></a></div>
+
+	<br/>
+
+	 <h2>Install KDE 4.2 packages from the Debian unstable branch<img src="../images/download_64.png" style="float:right; margin:-8px 0 0 0;" alt="Install KDE 4 Debian packages in your hard disk" /></h2>
+
+
+    <h3>Enabling the sid repository</h3>
+
+	 <p>KDE 4.2 requires some software that is not available in the Debian 5.0 "lenny" release.  Therefore, it can only be installed on systems using the unstable branches.</p>
+
+     <blockquote>
+     <pre style="margin-bottom:0;">deb http://ftp.de.debian.org/debian/ sid main
+deb-src http://ftp.de.debian.org/debian/ sid main</pre>
+    </blockquote>
+
+     <p>You should replace ftp.de.debian.org by a
+     <a href="http://www.debian.org/mirror/list">mirror</a> near you.</p>
+
+     <p>To enable unstable without upgrading your entire system,
+     <a href="http://wiki.debian.org/AptPinning">see this page</a>.</p>
+
+	<!--<h3>Enabling the experimental branch</h3>
+
+	 <p>To install KDE 4.2, the experimental branch must be enabled.  Add the following to <code>/etc/apt/sources.list</code>, then update APT.</p>
+	 <blockquote>
+	 <pre style="margin-bottom:0;">deb http://ftp.de.debian.org/debian/ experimental main
+deb-src http://ftp.de.debian.org/debian/ experimental main</pre>
+	</blockquote>
+
+	<p>You should replace ftp.de.debian.org by a
+     <a href="http://www.debian.org/mirror/list">mirror</a> near you.</p>
+
+	 <p>APT will not install packages from experimental unless specifically requested.  To install a package from experimental, run the command:</p>
+	 <pre>aptitude -t experimental install <em>package1</em> <em>package2</em> <em>package3...</em></pre>-->
+
+
+	<h3>KDE 4 packages</h3>
+
+	 <p style="margin-bottom:0.1em;">For a basic KDE 4 desktop, install the <a href="http://packages.debian.org/unstable/kde4-minimal"><code>kde4-minimal</code></a> package, which includes</p>
+
+	 <table style="margin-left:5em">
+	 	<tr>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/unstable/kdebase-runtime"><code>kdebase-runtime</code></a></td>
+	 		<td><i>Essential runtime components</i></td>
+	 	</tr>
+	 	<tr>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/unstable/kdebase-workspace"><code>kdebase-workspace</code></a></td>
+	 		<td><i>Desktop environment</i></td>
+	 	</tr>
+	 	<tr>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/unstable/kdebase"><code>kdebase</code></a></td>
+	 		<td><i>Core applications</i></td>
+	 	</tr>
+	 </table>
+
+	 <br />
+
+	 <p style="margin-bottom:0.1em;">For (almost) all of KDE 4, install the <a href="http://packages.debian.org/unstable/kde4"><code>kde4</code></a> package, which also includes</p>
+
+	 <table style="margin-left:5em">
+	 	<tr>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/unstable/kdeplasma-addons"><code>kdeplasma-addons</code></a></td>
+	 		<td><i>Additional Plasma applets</i></td>
+	 	</tr>
+	 	<tr>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/unstable/kdegraphics"><code>kdegraphics</code></a></td>
+	 		<td><i>Graphics applications, including the Okular document viewer</i></td>
+	 	</tr>
+	 	<tr>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/unstable/kdegames"><code>kdegames</code></a></td>
+	 		<td><i>Assortment of fun games</i></td>
+	 	</tr>
+	 	<tr>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/unstable/kdemultimedia"><code>kdemultimedia</code></a></td>
+	 		<td><i>Multimedia players and utilities</i></td>
+	 	</tr>
+	 	<tr>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/unstable/kdenetwork"><code>kdenetwork</code></a></td>
+	 		<td><i>networking-related applications, such as the Kopete IM client</i></td>
+	 	</tr>
+	 	<tr>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/unstable/kdepim"><code>kdepim</code></a></td>
+	 		<td><i>Personal Information Management apps, such as Kontact or KMail</i></td>
+	 	</tr>
+	 	<tr>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/unstable/kdeutils"><code>kdeutils</code></a></td>
+	 		<td><i>General-purpose utilities</i></td>
+	 	</tr>
+	 	<tr>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/unstable/kdeedu"><code>kdeedu</code></a></td>
+	 		<td><i>Educational applications</i></td>
+	 	</tr>
+	 	<tr>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/unstable/kdeadmin"><code>kdeadmin</code></a></td>
+	 		<td><i>System administration tools</i></td>
+	 	</tr>
+
+	 	<tr>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/unstable/kdeartwork"><code>kdeartwork</code></a></td>
+	 		<td><i>Additional artwork and sound themes</i></td>
+	 	</tr>
+	 </table>
+
+     <br />
+
+     <p style="margin-bottom:0.1em;">Most users will also want to install
+     <a href="http://packages.debian.org/unstable/kdm"><strong>kdm</strong></a>.
+     There are still a couple of packages more:</p>
+
+     <table style="margin-left:5em">
+        <tr>
+            <td style="width:15em;"><a href="http://packages.debian.org/unstable/kdetoys"><code>kdetoys</code></a></td>
+            <td><i>Desktop amusements</i></td>
+        </tr>
+        <tr>
+            <td style="width:15em;"><a href="http://packages.debian.org/unstable/kdesdk"><code>kdesdk</code></a></td>
+            <td><i>Software development tools</i></td>
+        </tr>
+     </table>
+     <br />
+
+
+     <!--<h3>Upgrading installed experimental KDE 4 packages automatically</h3>
+
+     <p style="margin-bottom:0.1em;">Once you have installed all KDE 4 packages you want from experimental, you would probably like
+     to keep them up-to-date to the latest releases in experimental. It is easy to do that with the help of APT pinning. Just
+     add</p>
+     <p style="white-space: pre; font-family: monospace">
+Package: *
+Pin: release a=experimental
+Pin-Priority: 101</p>
+     <p style="margin-bottom:0.1em;"> to your /etc/apt/preferences file (create one if it does not exist) and simple
+     <span style="font-weight:bold">aptitude (or apt-get) dist-upgrade</span> will always automatically  upgrade
+     <span style="text-decoration: underline">only</span> the packages <span style="text-decoration: underline">you
+      have installed from experimental</span> to the latest versions in the experimental repository. Other packages,
+      which are available in experimental but their experimental versions have not been manually installed by you,
+      won't be automatically pulled in by <span style="font-weight:bold">dist-upgrade</span>. Consult
+      <span style="font-weight:bold">apt_preferences(5)</span> manual page for more information about pinning.</p>
+
+	 <br />-->
+
+	<h3>Co-installable packages</h3>
+
+	 <p>You can co-install along your KDE 3 packages the following KDE 4 packages: <em>kdelibs5, kdepimlibs5, kdebase-runtime</em></p>
+
+	<p>This is useful if you want to keep your KDE 3 enviroment but want to use a KDE 4 application like okular or even konsole. But remember KDE 4 apps will not integrate in your KDE 3 desktop so well as the current KDE 3 do.</p>
+	<br />
 
 	<h3 style="clear:both; padding-top:3em;"><img src="../images/info_48.png" style="float:right; margin:-15px 0 0 0;" />Notes for KDE 4.2 packages</h3>
-	
-	<p style="clear:both;">KDE 4 packages are currently in the experimental branch and are not intended to be installed on a production system.  We are not accepting bug reports against the KDE 4 packages at the moment, since they have many known problems.</p>
 
 	<p>If you run into a problem and need help, you can send a mail to the
 	<a href="http://lists.debian.org/debian-kde/">Debian KDE support list.</a>
@@ -17,4 +163,4 @@
 
 	<br />
 
-	<p>If you want to help us get KDE 4 ready, you're welcome to <a href="join.html">join the team</a>!</p>
+	<p>If you want to help us get KDE 4 to <a href="http://www.debian.org/" title="Debian, th euniversal operating system">Debian</a> users, you're welcome to <a href="join.html">join the team</a>!</p>
