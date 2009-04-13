@@ -128,6 +128,8 @@ deb-src http://ftp.de.debian.org/debian/ experimental main</pre>
      </table>
      <br />
 
+     <p style="margin-bottom:0.1em;">Translations packages are kde-l10n-XX where XX is your language code</p>
+
 
      <!--<h3>Upgrading installed experimental KDE 4 packages automatically</h3>
 
