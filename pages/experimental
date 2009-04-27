@@ -35,7 +35,7 @@ deb-src http://ftp.de.debian.org/debian/ experimental main</pre>
 
 	<h3>KDE 4 packages</h3>
 
-	 <p style="margin-bottom:0.1em;">For a basic KDE 4 desktop, install the <a href="http://packages.debian.org/experimental/kde4-minimal"><code>kde4-minimal</code></a> package, which includes</p>
+	 <p style="margin-bottom:0.1em;">For a basic KDE 4 desktop, install the <a href="http://packages.debian.org/experimental/kde-minimal"><code>kde-minimal</code></a> package, which includes</p>
 
 	 <table style="margin-left:5em">
 	 	<tr>
