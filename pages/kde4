@@ -71,7 +71,7 @@ deb-src http://ftp.de.debian.org/debian/ experimental main</pre>
 
 	 <br />
 
-	 <p style="margin-bottom:0.1em;">For (almost) all of KDE 4, install the <a href="http://packages.debian.org/unstable/kde-full"><code>kde-full</code></a> package, which also includes</p>
+	 <p style="margin-bottom:0.1em;">For all of KDE 4, install the <a href="http://packages.debian.org/unstable/kde-full"><code>kde-full</code></a> package, which also includes</p>
 
 	 <table style="margin-left:5em">
 	 	<tr>
