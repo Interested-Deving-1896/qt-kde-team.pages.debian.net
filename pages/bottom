@@ -16,8 +16,10 @@
 			<h2>KDE 3.5 in Lenny 5.0 (stable)</h2>
 			<ul>
 				<li><a href="kde3.html"><img src="../images/kde3_64.png" style="float:left; margin:0 0 16px;" alt="KDE 3" /><div style="margin-top:auto; margin-bottom:auto; text-align:center;padding-top:0.5em;"><span style="font-size:x-large; font-weight:bolder;">KDE 3.5</span></div></a></li>
+			<br />
+			<br />
+				<li><a href="http://kde4.debian.net"><div style="margin-top:auto; margin-bottom:auto; text-align:center;padding-top:0.5em;"><span style="font-size:x-large; font-weight:bolder;">Old KDE 4.1 backports for Lenny</span></div></a></li>
 			</ul>
-
 			<br />
  			<br />
 
