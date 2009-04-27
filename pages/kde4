@@ -16,11 +16,17 @@ style="float:right; margin:-8px 0 0 0;" /></h2> -->
 
     <h3>Enabling the sid repository</h3>
 
-	 <p>KDE 4.2 requires some software that is not available in the Debian 5.0 "lenny" release.  Therefore, it can only be installed on systems using the unstable branches.</p>
+	 <p>KDE 4.2 requires some software that is not available in the Debian 5.0
+	 "lenny" release.  Therefore, it can only be installed on systems using
+	 the unstable branches. Also, we recommend you to keep testing branch, it
+	 will ease you the pain with broken installations when there is
+	 transitions going on in unstable.</p>
 
      <blockquote>
      <pre style="margin-bottom:0;">deb http://ftp.de.debian.org/debian/ sid main
-deb-src http://ftp.de.debian.org/debian/ sid main</pre>
+deb-src http://ftp.de.debian.org/debian/ sid main
+deb http://ftp.de.debian.org/debian/ testing main
+deb-src http://ftp.de.debian.org/debian/ testing main</pre>
     </blockquote>
 
      <p>You should replace ftp.de.debian.org by a
