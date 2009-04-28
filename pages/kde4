@@ -99,7 +99,7 @@ deb-src http://ftp.de.debian.org/debian/ testing main</pre>
 
 	 <table style="margin-left:5em">
 		<tr>
-			<td style="width:15em;"><a href="http://packages.debian.org/unstable/kde-minimal"><code>kdep-minimal</code></a></td>
+			<td style="width:15em;"><a href="http://packages.debian.org/unstable/kde-minimal"><code>kde-minimal</code></a></td>
 	 		<td><i>The basic KDE 4 desktop</i></td>
 		</tr>
 	 </table>
