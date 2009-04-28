@@ -1,16 +1,3 @@
-
-<!--	<h2>Try KDE 4.1 on Lenny<img src="../images/kde4_64.png"
-style="float:right; margin:-8px 0 0 0;" /></h2> -->
-
-<!--	<div style="float:left; width:48%; text-align:center;"><a href="kde4livecd.html"><img src="../images/cd_128.png" /><br /><span style="font-size:20pt; font-weight:bolder;line-height:125%;">Try out KDE 4.0<br />on a Debian Live CD</span></a></div> -->
-
-<!--	<div style="width:100%; text-align:center;"><a href="experimental.html"><img src="../images/download_128.png" /><br /><span style="font-size:20pt; font-weight:bolder;line-height:125%;">Install KDE 4.2<br />on your Debian <em>unstable</em> system</span></a></div>-->
-<!--
-	<br/>
-	<div style="width:100%; text-align:center;"><a href="http://kde4.debian.net/"><img src="../images/download_128.png" /><br /><span style="font-size:20pt; font-weight:bolder;line-height:125%;">Install KDE 4.1<br />on your <em>Lenny</em> Debian system</span></a></div>
-
-	<br/>
--->
 	 <h2>Install KDE 4.2 packages from the Debian unstable branch<img src="../images/download_64.png" style="float:right; margin:-8px 0 0 0;" alt="Install KDE 4 Debian packages in your hard disk" /></h2>
 
 
@@ -34,21 +21,6 @@ deb-src http://ftp.de.debian.org/debian/ testing main</pre>
 
      <p>To enable unstable without upgrading your entire system,
      <a href="http://wiki.debian.org/AptPinning">see this page</a>.</p>
-
-	<!--<h3>Enabling the experimental branch</h3>
-
-	 <p>To install KDE 4.2, the experimental branch must be enabled.  Add the following to <code>/etc/apt/sources.list</code>, then update APT.</p>
-	 <blockquote>
-	 <pre style="margin-bottom:0;">deb http://ftp.de.debian.org/debian/ experimental main
-deb-src http://ftp.de.debian.org/debian/ experimental main</pre>
-	</blockquote>
-
-	<p>You should replace ftp.de.debian.org by a
-     <a href="http://www.debian.org/mirror/list">mirror</a> near you.</p>
-
-	 <p>APT will not install packages from experimental unless specifically requested.  To install a package from experimental, run the command:</p>
-	 <pre>aptitude -t experimental install <em>package1</em> <em>package2</em> <em>package3...</em></pre>-->
-
 
 	<h3>KDE 4 packages</h3>
 
@@ -74,6 +46,10 @@ deb-src http://ftp.de.debian.org/debian/ experimental main</pre>
 	 <p style="margin-bottom:0.1em;">For all of KDE 4, install the <a href="http://packages.debian.org/unstable/kde-full"><code>kde-full</code></a> package, which also includes</p>
 
 	 <table style="margin-left:5em">
+		<tr>
+			<td style="width:15em;"><a href="http://packages.debian.org/unstable/kde-minimal"><code>kdep-minimal</code></a></td>
+	 		<td><i>The basic KDE 4 desktop</i></td>
+		</tr>
 	 	<tr>
 	 		<td style="width:15em;"><a href="http://packages.debian.org/unstable/kdeplasma-addons"><code>kdeplasma-addons</code></a></td>
 	 		<td><i>Additional Plasma applets</i></td>
@@ -117,6 +93,19 @@ deb-src http://ftp.de.debian.org/debian/ experimental main</pre>
 	 	</tr>
 	 </table>
 
+		<br />
+
+	 <p style="margin-bottom:0.1em;">For what a random user would expect in a desktop environment, install the <a href="http://packages.debian.org/unstable/kde-standard"><code>kde-standard</code></a> package. <br/><strong>Note:</strong> this package will be the same as installing kde-minimal until we decide excatly what to ship here :-)</p>
+
+	 <table style="margin-left:5em">
+		<tr>
+			<td style="width:15em;"><a href="http://packages.debian.org/unstable/kde-minimal"><code>kdep-minimal</code></a></td>
+	 		<td><i>The basic KDE 4 desktop</i></td>
+		</tr>
+	 </table>
+
+
+
      <br />
 
      <p style="margin-bottom:0.1em;">Most users will also want to install
@@ -137,25 +126,6 @@ deb-src http://ftp.de.debian.org/debian/ experimental main</pre>
 
      <p style="margin-bottom:0.1em;">Translations packages are <a href="http://packages.debian.org/search?keywords=kde-l10n">kde-l10n-XX</a> where XX is your language code</p>
 
-
-     <!--<h3>Upgrading installed experimental KDE 4 packages automatically</h3>
-
-     <p style="margin-bottom:0.1em;">Once you have installed all KDE 4 packages you want from experimental, you would probably like
-     to keep them up-to-date to the latest releases in experimental. It is easy to do that with the help of APT pinning. Just
-     add</p>
-     <p style="white-space: pre; font-family: monospace">
-Package: *
-Pin: release a=experimental
-Pin-Priority: 101</p>
-     <p style="margin-bottom:0.1em;"> to your /etc/apt/preferences file (create one if it does not exist) and simple
-     <span style="font-weight:bold">aptitude (or apt-get) dist-upgrade</span> will always automatically  upgrade
-     <span style="text-decoration: underline">only</span> the packages <span style="text-decoration: underline">you
-      have installed from experimental</span> to the latest versions in the experimental repository. Other packages,
-      which are available in experimental but their experimental versions have not been manually installed by you,
-      won't be automatically pulled in by <span style="font-weight:bold">dist-upgrade</span>. Consult
-      <span style="font-weight:bold">apt_preferences(5)</span> manual page for more information about pinning.</p>
-
-	 <br />-->
 
 	<h3>Co-installable packages</h3>
 
