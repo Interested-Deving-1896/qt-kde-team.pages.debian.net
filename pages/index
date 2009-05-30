@@ -13,12 +13,32 @@
 
 <h2>Get KDE in Debian</h2>
 
-<p>Pick your KDE version:</p>
+<table border="0" bordercolor="#fff" width="90%" bgcolor="#fff">
+<tr>
+<td>Pick your KDE version:</td>
+<td>Current status in Debian suites:</td>
+</tr>
+<tr>
+<td> 
+
 
          <ul>
             <li><a href="kde3.html">KDE 3.5 (Debian stable)</a></li>
             <li><a href="kde4.html">KDE 4.2 (Debian testing)</a></li>
          </ul>
+
+</td>
+<td> 
+         <ul>
+            <li><a href="http://www.debian.org/releases/oldstable/">oldstable (aka etch)</a> KDE 3.5.5 </li>
+            <li><a href="http://www.debian.org/releases/stable/">stable (aka lenny)</a> KDE 3.5.10</li>
+            <li><a href="http://www.debian.org/releases/testing/">testing (aka squeeze)</a> KDE 4.2.2</li>
+            <li><a href="http://www.debian.org/releases/unstable/">unstable</a> KDE 4.2.2</li>
+         </ul>
+
+</td>
+</tr>
+</table>
 
 
 <h2>Latest news:</h2>
