@@ -57,10 +57,8 @@
 
 			<h4 id="q4">4. When I remove one application, my whole KDE is deleted!</h4>
 
-			<p>The example below is done with KDE 3, actually only available in the current stable
-			release (Lenny), but the same concepts apply for KDE 4 in testing (Squeeze) and unstable
-			(Sid), thought the packages differ. Please reffer to <a href="kde4.html">this page</a> for
-			the available KDE 4 metapackages.</p>
+			<p>Please refer to the <a href="kde4.html">KDE 4 page</a> for the available testing/unstable
+			metapackages.</p>
 
 			<p>If you installed all KDE, for example, running <kbd>apt-get install kde</kbd>,
 			you have installed a metapackage, and all its dependencies (kdebase, kdenetwork, kdegraphics, etc.),
@@ -111,6 +109,3 @@
 			super-user-command=sudo
 			</pre>
 
-			<h4 id="q8">8. When will be KDE 4 available in testing/unstable?</h4>
-
-			<p>It's already there! Please reffer to <a href="kde4.html">this page</a> for more info.</p>
