@@ -19,8 +19,22 @@ http://b.k.o = bug url in the KDE bugzilla
 </ul>
 </p>
 
-<h3>Possibles cases</h3>
+<h3>Bug triaging workflow</h3>
+<p>
+...
+</p>
 
+
+<h3>Useful links</h3>
+<p>
+<ul>
+<li><a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?maint=debian-qt-kde%40lists.debian.org">All the bugs</a></li>
+<li><a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?maint=debian-qt-kde%40lists.debian.org;severity=serious;severity=grave">Release Critical bugs</a></li>
+<li>Bugs only affecting a module, for example: <a href="http://bugs.debian.org/src:kdegames">kdegames</a>. For other modules replace kdegames for the name of the module.</li>
+<li>Bugs only affecting an app, for example: <a href="http://bugs.debian.org/kopete">kopete</a>. For other modules replace kopete for the name of the app.</li>
+</ul>
+</p>
+<h3>Possible cases</h3>
 <h4> Close bug using version</h4>
 You close the bug with a quick note to the reporter.
 <p>
@@ -74,4 +88,5 @@ thanks
 <p>
 Check if it is really fixed for you, and if it is, close the bug using version.
 </p>
+
 
