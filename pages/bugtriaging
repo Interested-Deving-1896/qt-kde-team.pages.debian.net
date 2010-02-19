@@ -46,7 +46,7 @@ Version: Y.Y-Y
 
 Hi!
 
-The bug you reported has been fixed in the version Y.Y-Y
+The bug you reported has been fixed in KDE Y.Y-Y
 
 Cheers.
 </pre>
@@ -61,17 +61,27 @@ You send a control email to mark the bug as forwarded so bts-link learns about i
 To: control@bugs.debian.org
 Subject: bug forwarding
 
-forward XXXXX https://bugs.kde.org/show_bug.cgi?id=nnnnnn
+forward XXXXXX https://bugs.kde.org/show_bug.cgi?id=nnnnnn
 thanks
 </pre>
 </p>
 
 
-
 <h4> Bug forwarded thas has been *fixed* in the KDE bugzilla</h4>
 
 <p>
-Check if it is really fixed for you, and if it is, close the bug using version.
+Check if it is really fixed for you, and if it is. Then you are in the case "Close the bug using version".
 </p>
 
 
+<h4> Bug is present in newer version</h4>
+
+<p>
+<pre>
+To: control@bugs.debian.org
+Subject: bug found in new version
+
+found XXXXXX Y.Y-Y
+thanks
+</pre>
+</p>
