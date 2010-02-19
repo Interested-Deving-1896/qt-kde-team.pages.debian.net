@@ -29,7 +29,7 @@ http://b.k.o = bug url in the KDE bugzilla
 <p>
 <ul>
 <li><a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?maint=debian-qt-kde%40lists.debian.org">All the bugs</a></li>
-<li><a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?maint=debian-qt-kde%40lists.debian.org;severity=serious;severity=grave">Release Critical bugs</a></li>
+<li><a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?maint=debian-qt-kde%40lists.debian.org;severity=serious;severity=grave;severity=critical">Release Critical bugs</a></li> 
 <li>Bugs only affecting a module, for example: <a href="http://bugs.debian.org/src:kdegames">kdegames</a>. For other modules replace kdegames for the name of the module.</li>
 <li>Bugs only affecting an app, for example: <a href="http://bugs.debian.org/kopete">kopete</a>. For other modules replace kopete for the name of the app.</li>
 </ul>
@@ -49,21 +49,6 @@ Hi!
 The bug you reported has been fixed in the version Y.Y-Y
 
 Cheers.
-</pre>
-</p>
-
-
-
-<h4> Bug forwarded in the KDE bugzilla</h4>
-You send a control email to mark the bug as forwarded so bts-link learns about it.
-
-<p>
-<pre>
-To: control@bugs.debian.org
-Subject: bug forwarding
-
-forward XXXXX http://b.k.o
-thanks
 </pre>
 </p>
 
