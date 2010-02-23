@@ -15,7 +15,7 @@ https://bugs.kde.org/show_bug.cgi?id=nnnnnn = bug url in the KDE bugzilla, nnnnn
 <ul>
 <li>Look at bugs of apps you know and you regularly use.</li>
 <li>When you have a doubt, ask in IRC.</li>
-<li>...</li>
+<li>Submitters are not subscribed to the bug report by default, when asking something to the bug submitter make sure to CC: XXXXXXsubmitter@bugs.debian.org</li>
 </ul>
 </p>
 
