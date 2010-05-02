@@ -33,7 +33,7 @@
             <li><a href="http://www.debian.org/releases/oldstable/">oldstable (codename etch)</a> KDE 3.5.5</li>
             <li><a href="http://www.debian.org/releases/stable/">stable (codename lenny)</a> KDE 3.5.10</li>
             <li><a href="http://www.debian.org/releases/testing/">testing (codename squeeze)</a> KDE 4.3</li>
-            <li><a href="http://www.debian.org/releases/unstable/">unstable (codename sid)</a> KDE 4.3</li>
+            <li><a href="http://www.debian.org/releases/unstable/">unstable (codename sid)</a> KDE 4.4</li>
          </ul>
 
 </td>
@@ -42,6 +42,12 @@
 
 
 <h2>Latest news:</h2>
+
+<p><strong>May 3, 2010</strong><br />
+   After long months of waiting, Debian unstable users can finally enjoy
+   a release from the KDE Software Compilation 4.4.x series! KDE SC 4.4.3 has
+   found its way to Debian unstable.
+</p>
 
 <p><strong>April 22, 2010</strong><br />
    KDE 4.4.2 is available from experimental.
