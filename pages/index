@@ -24,8 +24,8 @@
 
          <ul>
             <li><a href="kde3.html">KDE 3.5 (Debian stable)</a></li>
-            <li><a href="kde4.html">KDE 4.4 (Debian testing)</a></li>
-            <li><a href="kde4.html">KDE 4.4 (Debian unstable)</a></li>
+            <li><a href="kde4.html">KDE 4.4.5 (Debian testing)</a></li>
+            <li><a href="kde4.html">KDE 4.4.5 (Debian unstable)</a></li>
          </ul>
 
 </td>
@@ -33,8 +33,8 @@
          <ul>
             <li><a href="http://www.debian.org/releases/oldstable/">oldstable (codename etch)</a> KDE 3.5.5</li>
             <li><a href="http://www.debian.org/releases/stable/">stable (codename lenny)</a> KDE 3.5.10</li>
-            <li><a href="http://www.debian.org/releases/testing/">testing (codename squeeze)</a> KDE 4.4</li>
-            <li><a href="http://www.debian.org/releases/unstable/">unstable (codename sid)</a> KDE 4.4</li>
+            <li><a href="http://www.debian.org/releases/testing/">testing (codename squeeze)</a> KDE 4.4.5</li>
+            <li><a href="http://www.debian.org/releases/unstable/">unstable (codename sid)</a> KDE 4.4.5</li>
          </ul>
 
 </td>
@@ -43,6 +43,13 @@
 
 
 <h2>Latest news:</h2>
+
+<p><strong>August 24, 2010</strong><br />
+  As <a href="http://www.debian.org/News/2010/20100806">Squeeze has been
+  frozen</a>, Debian will ship Squeeze with KDE 4.4.5. Unstable repos will have
+  4.4.5 too until Squeeze release. KDE 4.5.x will be available via other repo 
+  some time later.
+</p>
 
 <p><strong>May 16, 2010</strong><br />
    Debian testing users can finally enjoy a release from the KDE Software 
