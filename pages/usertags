@@ -84,6 +84,8 @@ With these arguments, most views are created. A couple of examples:
 	<dd>Bugs only appearing when KDE apps are used outside kde (in gnome/xfce/windowmaker etc)</dd>
 	<dt>fixed-kde4</dt>
 	<dd>Bugs fixed in KDE 4</dd>
+	<dt>qt3libs-removal and kde3libs-removal</dt>
+	<dd>The Debian Qt/KDE team is planning to remove the KDE3 and Qt3 libraries from Debian shortly after the Squeeze release. The transition phase to KDE4 and Qt4 will finish since both KDE and Nokia upstream don't maintain the old versions of those libraries anymore.</dd>
 	<dt>fixed-kde3.5.6</dt>
 	<dd>Bugs fixed in KDE 3.5.6</dd>
 </dl>
