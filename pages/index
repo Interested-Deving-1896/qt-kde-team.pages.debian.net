@@ -19,21 +19,22 @@
 <td>Current status in Debian suites:</td>
 </tr>
 <tr>
-<td> 
+<td>
 
 
          <ul>
-            <li><a href="kde3.html">KDE 3.5 (Debian stable)</a></li>
+            <li><a href="kde3.html">KDE 3.5 (Debian old stable)</a></li>
+            <li><a href="kde4.html">KDE 4.4.5 (Debian stable)</a></li>
             <li><a href="kde4.html">KDE 4.4.5 (Debian testing)</a></li>
             <li><a href="kde4.html">KDE 4.4.5 (Debian unstable)</a></li>
          </ul>
 
 </td>
-<td> 
+<td>
          <ul>
-            <li><a href="http://www.debian.org/releases/oldstable/">oldstable (codename etch)</a> KDE 3.5.5</li>
-            <li><a href="http://www.debian.org/releases/stable/">stable (codename lenny)</a> KDE 3.5.10</li>
-            <li><a href="http://www.debian.org/releases/testing/">testing (codename squeeze)</a> KDE 4.4.5</li>
+            <li><a href="http://www.debian.org/releases/oldstable/">oldstable (codename lenny)</a> KDE 3.5.10</li>
+            <li><a href="http://www.debian.org/releases/stable/">stable (codename squeeze)</a> KDE 4.4.5</li>
+            <li><a href="http://www.debian.org/releases/testing/">testing (codename wheezy)</a> KDE 4.4.5</li>
             <li><a href="http://www.debian.org/releases/unstable/">unstable (codename sid)</a> KDE 4.4.5</li>
          </ul>
 
@@ -44,15 +45,20 @@
 
 <h2>Latest news:</h2>
 
+<p><strong>June 6, 2011</strong><br />
+  <a href="http://www.debian.org/News/2011/20110205a">Squeeze was released</a>
+  with KDE 4.4.5. Testing repos will keep KDE 4.4.5 until begginings of March.
+</p>
+
 <p><strong>August 24, 2010</strong><br />
   As <a href="http://www.debian.org/News/2010/20100806">Squeeze has been
   frozen</a>, Debian will ship Squeeze with KDE 4.4.5. Unstable repos will have
-  4.4.5 too until Squeeze release. KDE 4.5.x will be available via other repo 
+  4.4.5 too until Squeeze release. KDE 4.5.x will be available via other repo
   some time later.
 </p>
 
 <p><strong>May 16, 2010</strong><br />
-   Debian testing users can finally enjoy a release from the KDE Software 
+   Debian testing users can finally enjoy a release from the KDE Software
    Compilation 4.4.x series! KDE SC 4.4.3 has found its way to Debian testing.
 </p>
 
@@ -80,7 +86,7 @@
 </p>
 
 <p><strong>September 23, 2009</strong><br />
-     KOffice 2.0.82 (2.1 2nd beta) is now in experimental. 
+     KOffice 2.0.82 (2.1 2nd beta) is now in experimental.
 </p>
 
 <p><strong>August 09, 2009</strong><br />
@@ -101,14 +107,6 @@
 
 <p><strong>April 6, 2009</strong><br />
      KDE 4 has reached unstable. Enjoy!
-</p>
-
-<p><strong>April 2, 2009</strong><br />
-        Read about <a href="http://lists.debian.org/debian-kde/2009/03/msg00157.html">status of KDE 4 to unstable</a>.
-</p>
-
-<p><strong>January 27, 2009</strong><br />
-        <a href="http://www.kde.org/announcements/4.2/">KDE 4.2</a> has been released and is available in <a href="experimental.html">experimental</a>. Enjoy!
 </p>
 
 <p>See <a href="oldnews.html">old news.</a></p>
