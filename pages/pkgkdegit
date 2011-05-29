@@ -35,6 +35,8 @@ git clone git+ssh://YOUR-ALIOTH-USERNAME@git.debian.org/git/BRANCH_PATH
 or user-guest) and <tt>BRANCH_PATH</tt> with the appropriate path, as described
 above.</p>
 
+Don't forget to read the <a href="gitguidelines.html">git guidelines</a>.
+
 <h3>Creating a packaging branch</h3>
 
 <p>ssh to git.debian.org and run:</p>
