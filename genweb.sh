@@ -17,7 +17,7 @@ do
 	cat pages/bottom >> $OUTPUT/$i.html
 done
 
-sh genrss.sh > $OUTPUT/rss.xml
+bash genrss.sh > $OUTPUT/rss.xml
 
 # find $OUTPUT/ -name ".svn" -exec rm -rf {} \; || true
 chmod -R g+w $OUTPUT/*

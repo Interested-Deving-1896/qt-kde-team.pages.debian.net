@@ -1,10 +1,10 @@
-#! /bin/sh -e
+#!/bin/bash
 
 FILE=pages/index
 
 NEWS_START=`grep -n "<h2>Latest" ${FILE}  | sed 's/:.*//'`
 
-NEWS_START=`echo ${NEWS_START}+1|bc`
+let "NEWS_START += 1"
 
 NEWS_END=`tail -n +${NEWS_START} ${FILE} | grep -n "<h2>" | sed 's/:.*//'`
 
@@ -12,7 +12,7 @@ if [ -z "${NEWS_END}" ]
 then
 	NEWS_END=`tail -n +${NEWS_START} ${FILE} | wc --lines`
 else
-	NEWS_END=`echo ${NEWS_END}-1|bc`
+	let "NEWS_END -= 1"
 fi
 
 cat <<__EOHEAD__ 
