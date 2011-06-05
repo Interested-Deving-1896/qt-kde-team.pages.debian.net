@@ -24,7 +24,7 @@
     <dd>This list is a coordination channel for the upcoming KDE Packaging Team. (<a href="http://lists.alioth.debian.org/pipermail/pkg-kde-talk/">Archives</a>)</dd>
 
     <dt><a href="http://lists.alioth.debian.org/mailman/listinfo/pkg-kde-commits">pkg-kde-commits</a></dt>
-    <dd>This list receives commit logs from svn.debian.org/pkg-kde. (<a href="http://lists.alioth.debian.org/pipermail/pkg-kde-commits/">Archives</a>)</dd>
+    <dd>This list receives commit logs from anonscm.debian.org/git/pkg-kde and svn.debian.org/pkg-kde. (<a href="http://lists.alioth.debian.org/pipermail/pkg-kde-commits/">Archives</a>)</dd>
 
     <dt><a href="http://lists.alioth.debian.org/mailman/listinfo/pkg-kde-bugs-fwd">pkg-kde-bugs-fwd</a></dt>
     <dd>This list receives traffic from bugs.kde.org affecting forwarded bugs. (<a href="http://lists.alioth.debian.org/pipermail/pkg-kde-bugs-fwd/">Archives</a>)</dd>

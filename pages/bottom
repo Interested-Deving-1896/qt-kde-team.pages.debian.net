@@ -1,34 +1,20 @@
 		</div>
 
 		<div id="sidebar">
+			<h2><a href="index.html">Home/News</h2>
 
-			<h2><big>KDE SC in testing or unstable</big></h2>
+			<br />
+
+			<h2><a href="kde4.html"><img src="../images/kde4_32.png" style="float:right; margin:-8px 0 0 0;" alt="KDE4 Logo" />KDE SC 4.6</a> in </br>testing/unstable</h2>
 			<ul>
-				<li style="clear:both;"><a href="kde4.html"><img src="../images/kde4_64.png" style="float:left;" alt="KDE SC 4" /><div style="margin-top:auto; margin-bottom:auto; text-align:center;padding-top:0.5em;"><span style="font-size:x-large; font-weight:bolder;line-height: 1.1em">KDE SC 4.4</span> <!--<span style="font-size:x-small;"><em>experimental</em></span>--></div></a></li>
-			</ul>
-
-			<br />
-
-      <h2>KDE SC in Squeeze 6.0 (stable)</h2>
-      <ul>
-        <li style="clear:both;"><a href="kde4.html"><img src="../images/kde4_64.png" style="float:left;" alt="KDE SC 4" /><div style="margin-top:auto; margin-bottom:auto; text-align:center;padding-top:0.5em;"><span style="font-size:x-large; font-weight:bolder;line-height: 1.1em">KDE SC 4.4</span> <!--<span style="font-size:x-small;"><em>experimental</em></span>--></div></a></li>
-        <li><a href="kaboom.html" title="Kaboom, the Debian KDE settings migration wizard">Kaboom, the settings migration wizard</a></li>
-              <li><a href="faq4.html">FAQ about the migration to KDE 4</a></li>
-      </ul>
-
-			<br />
-
-			<h2>KDE 3.5 in Lenny 5.0 (old stable)</h2>
-			<ul>
-				<li><a href="kde3.html"><img src="../images/kde3_64.png" style="float:left; margin:0 0 16px;" alt="KDE 3" /><div style="margin-top:auto; margin-bottom:auto; text-align:center;padding-top:0.5em;"><span style="font-size:x-large; font-weight:bolder;">KDE 3.5</span></div></a></li>
-			<br />
-			<!--
-			<br />
-			<br />
-			<li><a href="http://kde4.debian.net">Old KDE 4.1 backports for Lenny</span></a></li>
-			-->
 			</ul>
 			<br />
+
+			<h2><a href="kde4.html"><img src="../images/kde4_32.png" style="float:right; margin:-8px 0 0 0;" alt="KDE4 Logo" />KDE SC 4.4</a> in </br>Squeeze 6.0 (stable)</h2>
+			<ul>
+			  <li><a href="kaboom.html" title="Kaboom, the Debian KDE settings migration wizard">Kaboom, the settings migration wizard</a></li>
+				<li><a href="faq4.html">FAQ about the migration to KDE 4</a></li>
+			</ul>
  			<br />
 
 			<h2 style="text-align:center;"><img src="../images/qtkdeteam_48.png" style="float:right; margin:-8px 0 0 0;" alt="Qt KDE Debian Team" />Debian Qt/KDE Maintainers</h2>
@@ -42,7 +28,7 @@
 					</ul></li>
 			</ul>
 
-			<h2 style="text-align:center;"><img src="../images/extrasteam_48.png" style="float:right; margin:-8px 0 0 0;" alt="KDE Extras Debian Team" />Debian KDE Extras Teams</h2>
+			<h2 style="text-align:center;"><img src="../images/extrasteam_48.png" style="float:right; margin:-8px 0 0 0;" alt="KDE Extras Debian Team" />Debian KDE Extras Team</h2>
 			<ul>
 				<li><a href="kdeextras.html">General info</a></li>
 				<li><a href="http://qa.debian.org/developer.php?login=pkg-kde-extras@lists.alioth.debian.org">Package list</a></li>
@@ -77,7 +63,7 @@
 		</div>
 
 		<div id="footer">
-			<p><a href="mailto:debian-kde@lists.debian.org">Contact us</a> | <a href="#header">Back to top</a><br />Design by <a href="http://andreasviklund.com/">Andreas Viklund</a>
+			<p><a href="mailto:debian-kde@lists.debian.org">Contact us</a> | <a href="#header">Back to top</a><br />Based on <a href="http://andreasviklund.com/">Andreas Viklund</a>'s Design
 			</p>
 		</div>
 

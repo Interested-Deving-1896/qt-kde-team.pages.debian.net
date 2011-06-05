@@ -1,7 +1,5 @@
 	 <h2>Install KDE 4 packages<img src="../images/download_64.png" style="float:right; margin:-8px 0 0 0;" alt="Install KDE 4 Debian packages in your hard disk" /></h2>
 
-	<h3>KDE 4 packages</h3>
-
 	 <p style="margin-bottom:0.1em;">
 		For a basic KDE 4 desktop, install <a href="http://packages.debian.org/unstable/kde-plasma-desktop"><code>kde-plasma-desktop</code></a>,
 		<a href="http://packages.debian.org/unstable/kde-plasma-netbook"><code>kde-plasma-netbook</code></a> or both packages
