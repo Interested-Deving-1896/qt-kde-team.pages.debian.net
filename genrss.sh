@@ -2,18 +2,13 @@
 
 FILE=pages/index
 
-NEWS_START=`grep -n "<h2>Latest" ${FILE}  | sed 's/:.*//'`
+NEWS_START=`grep -n "RSS_START" ${FILE}  | sed 's/:.*//'`
 
 let "NEWS_START += 1"
 
-NEWS_END=`tail -n +${NEWS_START} ${FILE} | grep -n "<h2>" | sed 's/:.*//'`
+NEWS_END=`tail -n +${NEWS_START} ${FILE} | grep -n "RSS_END" | sed 's/:.*//'`
 
-if [ -z "${NEWS_END}" ]
-then
-	NEWS_END=`tail -n +${NEWS_START} ${FILE} | wc --lines`
-else
-	let "NEWS_END -= 1"
-fi
+let "NEWS_END -= 1"
 
 cat <<__EOHEAD__ 
 <?xml version="1.0" encoding="iso-8859-1"?>
