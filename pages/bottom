@@ -1,16 +1,14 @@
 		</div>
 
 		<div id="sidebar">
-			<h2><a href="index.html">Home/News</h2>
+			<h2><a href="index.html">Home/News</a></h2>
 
 			<br />
 
-			<h2><a href="kde4.html"><img src="../images/kde4_32.png" style="float:right; margin:-8px 0 0 0;" alt="KDE4 Logo" />KDE SC 4.6</a> in </br>testing/unstable</h2>
-			<ul>
-			</ul>
+			<h2><a href="kde4.html"><img src="../images/kde4_32.png" style="float:right; margin:-8px 0 0 0;" alt="KDE4 Logo" />KDE SC 4.6</a> in <br />testing/unstable</h2>
 			<br />
 
-			<h2><a href="kde4.html"><img src="../images/kde4_32.png" style="float:right; margin:-8px 0 0 0;" alt="KDE4 Logo" />KDE SC 4.4</a> in </br>Squeeze 6.0 (stable)</h2>
+			<h2><a href="kde4.html"><img src="../images/kde4_32.png" style="float:right; margin:-8px 0 0 0;" alt="KDE4 Logo" />KDE SC 4.4</a> in <br />Squeeze 6.0 (stable)</h2>
 			<ul>
 			  <li><a href="kaboom.html" title="Kaboom, the Debian KDE settings migration wizard">Kaboom, the settings migration wizard</a></li>
 				<li><a href="faq4.html">FAQ about the migration to KDE 4</a></li>
@@ -63,6 +61,12 @@
 		</div>
 
 		<div id="footer">
+			<p style="float:left;">
+				<a href="http://validator.w3.org/check?uri=referer">
+				<img src="http://www.w3.org/Icons/valid-xhtml11" alt="Valid XHTML 1.1" height="31" width="88" />
+				</a>
+			</p>
+
 			<p><a href="mailto:debian-kde@lists.debian.org">Contact us</a> | <a href="#header">Back to top</a><br />Based on <a href="http://andreasviklund.com/">Andreas Viklund</a>'s Design
 			</p>
 		</div>

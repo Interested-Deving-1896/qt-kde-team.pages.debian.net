@@ -39,9 +39,9 @@ section above.
 
 <ul>
   <li> Work-in-progress debian/changelog entry must have its distribution field set to
-  UNRELEASED. That's DEBCHANGE_RELEASE_HEURISTIC=changelog setting for dch.
+  UNRELEASED. That's DEBCHANGE_RELEASE_HEURISTIC=changelog setting for dch.</li>
   <li> New packaging changes must be committed together with the change description
-  in the debian/changelog entry (if applicable). Sentences should end with dots.
+  in the debian/changelog entry (if applicable). Sentences should end with dots.</li>
   <li> The guidelines below are *highly* recommended to follow in order to reduce
   conflicts in debian/changelog when cherry-picking and merging between
   branches:
@@ -61,7 +61,7 @@ section above.
     As a result, dch --release should be used to update the date in the trailer
     when releasing the package to Debian.
     </li>
-  </ul>
+  </ul></li>
   <li>
   Commit message must be meaningful (typically, debcommit is OK). The first
   commit message line must be short (up to 72-80 characters) and end with a
@@ -129,15 +129,15 @@ requirements:
   The tag must be annotated and preferably signed with the key of uploader.
   </li>
   <li>
-  The tag must be named like "debian/<version>" where <version> is a full
+  The tag must be named like "debian/&lt;version&gt;" where &lt;version&gt; is a full
   debian package version without epoch. All occurrences of the ~ character in
-  <version> should be replaced with the - character because Git does not
+  &lt;version&gt; should be replaced with the - character because Git does not
   support ~ character in tag names.
   </li>
   <li>
   The tag must be assigned the message with content like
-  "<version>/<distribution>" where <version> is a full debian version of the
-  package (without any modifications including epoch) and <distribution>
+  "&lt;version&gt;/&lt;distribution&gt;" where &lt;version&gt; is a full debian version of the
+  package (without any modifications including epoch) and &lt;distribution&gt;
   is the distribution this package is uploaded to (as per the latest debian
   changelog entry).
   </li>
@@ -147,7 +147,7 @@ For example, in order to tag the tip of current packaging branch as upload of
 the package version 4:4.6.0~beta1-1 to experimental, the following command may
 be used:
 
-<br><br>
+<br /><br />
 <pre>
   $ git tag debian/4.6.0-beta1-1 -sm "4:4.6.0~beta1-1/experimental"
 </pre>
@@ -159,7 +159,7 @@ number (number of commits since the latest tag) that `git describe` returns at
 the tip of the upstream snapshot being packaged.
 
 For example, if:
-<br><br>
+<br /><br />
 <pre>
   $ git describe
   v1.2-beta1-45-67890abc
@@ -173,7 +173,7 @@ then Debian package upstream version part of this snapshot could be
     <pre> $ git clone git.debian.org:/git/path/to/the/remote/repository.git</pre>
 
     <h4>For anonymous users:</h4>
-    <pre>$ git clone <Vcs-Git URL from debian/control></pre>
+    <pre>$ git clone &lt;Vcs-Git URL from debian/control&gt;</pre>
 
   Wait a bit. You will end up with full clone of the public repository and a
   local branch master will be setup to track remote master branch
@@ -181,13 +181,13 @@ then Debian package upstream version part of this snapshot could be
 
   In order to track another packaging branch (e.g. lenny) locally, run:
 
-    <br><br>
+    <br /><br />
     <pre>$ git checkout -b lenny origin/lenny</pre>
 
   Now let's setup `git push` to push all packaging branches and debian tags by
   default:
 
-    <br><br>
+    <br /><br />
     <pre>
     $ git config --add remote.origin.push "refs/heads/master"
     $ git config --add remote.origin.push "refs/heads/lenny"
@@ -200,7 +200,7 @@ In order to avoid pointless merge commits, it is recommended to use --rebase
 option to `git pull` when pulling changes from the remote repository if your
 local master contains not-yet-pushed and rather trivial commits:
 
-  <br><br>
+  <br /><br />
   <pre>
   $ git checkout master
   $ git pull --rebase
@@ -217,7 +217,7 @@ local master contains not-yet-pushed and rather trivial commits:
   <li> Original source is extracted to the packaging branch working tree from
      the tarball:
 
-     <br><br>
+     <br /><br />
      <pre>
        # (only once) Ignore everything (upstream source) but files under debian/.
        $ git config core.excludesfile debian/upstreamignore
@@ -244,7 +244,7 @@ local master contains not-yet-pushed and rather trivial commits:
         maintained in the local 'upstream' branch. When creating such a new
         disjoint upstream branch, execute:
 
-        <br><br>
+        <br /><br />
         <pre>
           # Switch HEAD to not-yet-created upstream branch
           $ git symbolic-ref HEAD refs/heads/upstream
@@ -252,7 +252,7 @@ local master contains not-yet-pushed and rather trivial commits:
 
         When updating an existing upstream branch to a new release, just do:
 
-        <br><br>
+        <br /><br />
         <pre>
           # Clean current branch before checkout
           $ git clean -xdff
@@ -261,7 +261,7 @@ local master contains not-yet-pushed and rather trivial commits:
 
         Then do something like this:
 
-        <br><br>
+        <br /><br />
         <pre>
           # Remove all tracked files (e.g. old sources)
           $ git rm -r '*'
@@ -278,7 +278,7 @@ local master contains not-yet-pushed and rather trivial commits:
         Original source can be fetched from the remote upstream repository.
         For example, let's define a new remote 'qt' for original Qt sources.
 
-        <br><br>
+        <br /><br />
         <pre>
           $ git remote add qt git://gitorious.org/qt/qt.git
           $ git remote update
@@ -289,7 +289,7 @@ local master contains not-yet-pushed and rather trivial commits:
     </ol>
      Finally, read upstream tree to the packaging branch working tree, do:
 
-     <br><br>
+     <br /><br />
      <pre>
        # (only once) Ignore everything (upstream source) but files under
        # debian/.
@@ -320,7 +320,7 @@ local master contains not-yet-pushed and rather trivial commits:
 
   <ol>
      <li> Committing to master directly:
-     <br><br>
+     <br /><br />
      <pre>
        $ git checkout build # (or git checkout -b build upstream)
        $ git merge upstream # (or git reset --hard upstream)
@@ -341,7 +341,7 @@ local master contains not-yet-pushed and rather trivial commits:
 
     <li> Cherry-picking (or rebasing) from build branch:
 
-     <br><br>
+     <br /><br />
      <pre>
        $ git checkout build # (or git checkout -b build upstream)
        $ git merge upstream # (or git reset --hard upstream)
@@ -381,9 +381,9 @@ local master contains not-yet-pushed and rather trivial commits:
   subdirectory hence it won't track changes made by `quilt push`. This way you
   can always be sure that `git commit -a` won't pick up any raw patches to
   upstream source regardless if anything is quilt pushed or not.
-<br><br>
-<a name="footnote1">[1]</a> Available in the quilt package on Debian based
+<br /><br />
+[1] Available in the quilt package on Debian based
 systems. quilt must be invoked with QUILT_PATCHES environment variables set to
-debian/patches.<br>
-<a name="footnote2">[2]</a> Available in the git-core package on Debian based
+debian/patches.<br />
+[2] Available in the git-core package on Debian based
 systems.

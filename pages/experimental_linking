@@ -15,19 +15,20 @@
 <p>Use the autofixtll script to automatically find most linking problems and generate a patch to fix them.</p>
 <ul>
 <li>Download the script from <a href="http://svn.debian.org/viewsvn/*checkout*/pkg-kde/scripts/autofixtll"> our SVN</a></li>
-<li>From the root of your unpacked source, run :</li>
+<li>From the root of your unpacked source, run:<br />
 <code>$ mkdir build<br/>
 $ cd build<br/>
 $ cmake .. -DCMAKE_VERBOSE_MAKEFILE=ON<br/>
 $ cd ..<br/>
 $ autofixtll -i -c make -d build -q none</code>
+</li>
 <li>If autofixtll doesn't do the trick, you can finish with the manual way below.</li>
 <li>For more help on using autofixtll, just read <tt>autofixtll --help</tt>.</li>
 </ul>
 
 <h5>3-Manually find and repair linking problems :</h5>
 <ul>
-<li>We assume <tt>cmake</tt> runs well, and that <tt>make</tt> fails with this kind of message :</li>
+<li>We assume <tt>cmake</tt> runs well, and that <tt>make</tt> fails with this kind of message :<br />
 <code>CMakeFiles/kcm_krunner_spellcheck.dir/spellcheck_config.o:(.data.rel.ro._ZTV13ConfigFactory[vtable for ConfigFactory]+0x44):
 undefined reference to `<b>KPluginFactory::create</b>(char const*, QWidget*, QObject*, QList&lt;QVariant&gt; const&amp;, QString const&amp;)'<br/>
 [...]<br/>
@@ -35,12 +36,11 @@ collect2: ld returned 1 exit status<br/>
 make[2]: *** [lib/kcm_krunner_spellcheck.so] Error 1<br/>
 make[1]: *** [<b>runners/spellchecker</b>/CMakeFiles/<b>kcm_krunner_spellcheck</b>.dir/all] Error 2<br/>
 make: *** [all] Error 2<br/>
-xavier@kawet:~/tmp/compile/svn/plasma/build$</code>
+xavier@kawet:~/tmp/compile/svn/plasma/build$</code></li>
 <li>locate the unresolved function (here <b>KPluginFactory::create</b>)</li>
 <li>locate the failing build target (here <b>kcm_krunner_spellcheck</b> in <b>directory runners/spellchecker</b>)</li>
 <li>find the library providing it : the best way to do this is to search <a href="http://api.kde.org">api.kde.org</a>. Googling <a href="http://www.google.com/search?q=KPluginFactory+site:api.kde.org/4.1-api">KPluginFactory site:api.kde.org/4.1-api</a>, you can see it's in kdecore. For Qt modules, you can search in <a href="http://doc.trolltech.com/4.4">doc.trolltech.com/4.4</a>.</li>
-<li>edit the relevant CMakeLists.txt file and locate the target_link_libraries line corresponding to the build target and add the relevant ${KDE4_*_LIBS} or ${QT_*_library} tag. Here is a list of the available ones :</li>
-
+<li>edit the relevant CMakeLists.txt file and locate the target_link_libraries line corresponding to the build target and add the relevant ${KDE4_*_LIBS} or ${QT_*_library} tag. Here is a list of the available ones :<br />
 <ul style="float: left; width: 35%">
 <li>KDE4_KDECORE_LIBS</li>
 <li>KDE4_KDEUI_LIBS</li>
@@ -114,7 +114,7 @@ xavier@kawet:~/tmp/compile/svn/plasma/build$</code>
 <li>QT_PHONON_LIBRARY</li>
 </ul>
 
-<br clear="both"/>
+<br clear="both" /></li>
 <li>For the example in runners/spellchecker/CMakeLists.txt, replace<br/>
 <code>target_link_libraries(krunner_spellcheckrunner ${KDE4_KDEUI_LIBS} ${PLASMA_LIBS})</code><br/>
 with<br/>

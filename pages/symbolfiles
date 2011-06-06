@@ -106,8 +106,6 @@ not exist in any public header.</li>
 </ul>
 
 <p>
-
-<p>
 If your library is C++, you will probably need a way to translate symbols to human-readable C++
 identifiers. To do this, you can use the c++filt command, passing it as a first argument the symbol,
 striping anything after the first @ character (usually symbols end with @Base). For example, if the
