@@ -89,31 +89,16 @@
 			the package name is highlighted).</p>
 
 
-
 			<h4 id="q5">5. How do I install KDE?</h4>
 
-			<p>For KDE 3 in stable, if you want the desktop, and the basic applications, install <strong>kde-core</strong>, and
-			<strong>x-window-system-core</strong>. If you want the complete desktop, and all applications,
-			install <strong>kde</strong> instead.</p>
-
-			<p>For KDE 4, please refer to <a href="kde4.html">this page</a>.</p>
+			<p>See <a href="kde4.html">this page</a>.</p>
 
 
 			<h4 id="q6">6. I can't decrypt some messages with KMail</h4>
 
 			<p>You probably are missing the gnupg-agent package. Read the document about <a
-			href="http://kmail.kde.org/kmail-pgpmime-howto.html">using OpenPGP and
-			PGP/MIME</a> in the KMail website. Using Debian you don't need to build
-			anything, so skip the first part, and install pinentry-qt and gnupg-agent.
-			After that, configure GPG as explained in the HOWTO. Restart X to make sure
+			href="http://userbase.kde.org/KMail/PGP_MIME">using OpenPGP and
+			PGP/MIME</a> in the KMail website. Install pinentry-qt and gnupg-agent and
+			after that, configure GPG as explained in the HOWTO. Restart X to make sure
 			<code>/etc/X11/Xsession.d/90gpg-agent</code> is run.</p>
-
-			<h4 id="q7">7. How do I use sudo as backend instead of su for kdesu</h4>
-			<p>
-			It is quite easy. Just as a user, add the following to ~/.kde/share/config/kdesurc
-			</p>
-			<pre>
-			[super-user-command]
-			super-user-command=sudo
-			</pre>
 
