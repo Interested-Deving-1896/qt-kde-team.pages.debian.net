@@ -98,7 +98,7 @@
 
 			<p>You probably are missing the gnupg-agent package. Read the document about <a
 			href="http://userbase.kde.org/KMail/PGP_MIME">using OpenPGP and
-			PGP/MIME</a> in the KMail website. Install pinentry-qt and gnupg-agent and
+			PGP/MIME</a> in the KMail website. Install pinentry-qt4 and gnupg-agent and
 			after that, configure GPG as explained in the HOWTO. Restart X to make sure
 			<code>/etc/X11/Xsession.d/90gpg-agent</code> is run.</p>
 
