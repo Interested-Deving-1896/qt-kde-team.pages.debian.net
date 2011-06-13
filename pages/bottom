@@ -36,6 +36,7 @@
 			<h2><img src="../images/worknotes_48.png" style="float:right; margin:-8px 0 0 0;" alt="Working notes" />Working notes</h2>
 			<ul>
 				<li><a href="descriptions.html">Descriptions policy draft</a></li>
+				<li><a href="build-deps.html">Build dependencies graph</a></li>
 				<li><a href="btslink.html">bts-link</a></li>
 				<li><a href="kde-bugzilla-survival-guide.html">Survival guide to KDE bugzilla</a></li>
 				<!--
