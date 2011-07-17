@@ -6,16 +6,14 @@
                    Header, sidebar and footer are in files 'top' and 'bottom' and will be appended <br />
 		   by running genweb.sh Skript in next step.</li>
 
-               <li>Run script './genweb.sh'.
-                   It will create full-fledged pages in folder './output/'.</li>
+               <li>Run script './genweb.sh'. It will create full-fledged pages in folder './output/'.</li>
 
                <li>Use a browser to check your changes, and repeat previous steps if necessary.</li>
 
-               <li>Commit the modifications you did inside 'pkg-kde/www/v2/pages/'.</li>
+               <li>Commit the modifications you did inside 'pages/'.</li>
 
 	       <li>After every commit to git.debian.org the website is updated
 	           automatically by running a cronjob on wagner. This pulls the changes and invokes 
 		   the git post-merge hook (located in .git/hooks/) to run genweb.sh and copy 
 		   content from output to ../htdocs/</li>
-
             </ol>
