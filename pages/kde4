@@ -116,6 +116,13 @@
 
      <p style="margin-bottom:0.1em;">Translations packages are <a href="http://packages.debian.org/search?keywords=kde-l10n">kde-l10n-XX</a> where XX is your language code</p>
 
+
+	<h3 style="clear:both; padding-top:3em;"><img src="../images/info_48.png" alt="info_icon" style="float:right; margin:-15px 0 0 0;" />Notes for KDE 4 packages</h3>
+
+	<p>If you run into a problem and need help, you can send a mail to the
+	<a href="http://lists.debian.org/debian-kde/">Debian KDE support list.</a>
+	The list is not moderated, so you can post without subscribing.</p>
+
 	<br />
 
 	<p>If you want to help us get KDE 4 to <a href="http://www.debian.org/" title="Debian, the universal operating system">Debian</a> users, you're welcome to <a href="join.html">join the team</a>!</p>
