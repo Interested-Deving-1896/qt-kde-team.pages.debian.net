@@ -11,19 +11,23 @@
 	  </tr>
 	  <tr>
 	  <td style="vertical-align: top;">
-	    kdegraphics-strigi-plugins<br> 
 	    gwenview<br>
  	    kamera<br>
 	    kcolorchooser<br>
+	    kdegraphics-strigi-analyzer<br> 
+	    kdegraphics-thumbnailers<br> 
+	    kdegraphics-mobipocket<br> 
 	    kgamma<br>
 	    kolourpaint<br>
 	    kruler<br>
-	    libksane<br>
+	    ksaneplugin<br> 
 	    ksnapshot<br>
-	    okular<br>
 	    libkdcraw<br>
 	    libkexiv2<br>
-	    libkipi
+	    libkipi<br>
+	    libksane<br>
+	    okular<br>
+	    svgpart
 	  </td>
 	  <td style="vertical-align: top;">
 	    blinken<br>
@@ -50,13 +54,13 @@
 	    step
 	  </td>
 	  <td style="vertical-align: top;">
-	    pykde4<br> 
+	    korundum<br>
 	    kross-interpreters<br> 
-	    smokegen<br> 
-	    smokeqt<br> 
-	    smokekde<br> 
+	    pykde4<br> 
 	    qtruby<br>
-	    korundum
+	    smokegen<br> 
+	    smokekde<br> 
+	    smokeqt
 	  </td>
 	  </tr>
 	</table>
