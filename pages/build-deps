@@ -64,3 +64,8 @@
 	  </td>
 	  </tr>
 	</table>
+	<h2>Debian-specific renames (debian:upsteam)<h2>
+	<p>
+	  kde4libs:kdelibs<br>
+	  kdegraphics-mobipocket:mobipocket
+	</p>
