@@ -1,3 +1,4 @@
+	<h2>Build dependency graph</h2>
 	<div align="center">
 	     <img alt="Build Dependency of source packages" src="../images/build_deps.png"/>
 	</div>
@@ -64,8 +65,9 @@
 	  </td>
 	  </tr>
 	</table>
-	<h3>Renamed source packages in debian (debian:upsteam)</h3>
+	<h3>Renamed source packages</h3>
 	<p>
-	  kde4libs:kdelibs<br>
-	  kdegraphics-mobipocket:mobipocket
+	  The following source package names differ in Debian from upstream:<br>
+	  <b>kde4libs</b> is <b>kdelibs</b> in upstream<br>
+	  <b>kdegraphics-mobipocket</b> is <b>mobipocket</b> in upstream
 	</p>
