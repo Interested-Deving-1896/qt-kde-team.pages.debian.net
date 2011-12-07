@@ -2,9 +2,10 @@
 
 	 <p style="margin-bottom:0.1em;">
 		There are 4.7.2 packages available in <a href="http://qt-kde.debian.net/"><code>qt-kde.debian.net</code></a>,
-		click on the link to see the installation instructions. Note that these packages are experimental and not official, 
-		so please do <b>NOT</b> report bugs in the Debian Bug Tracking System (BTS) against them. To report problems with
-		these packages use the IRC support channel (#debian-kde@irc.debian.org) or the 
+		click on the link to see the installation instructions. These packages are also available in experimental (see 
+		<a href="http://lists.debian.org/debian-kde/2011/12/msg00010.html"><code>this message</code></a> for more information),
+		so you can report bugs in the Debian Bug Tracking System (BTS) against them. You can also give us feedback about
+		these packages using the IRC support channel (#debian-kde@irc.debian.org) or the 
 		<a href="http://lists.debian.org/debian-kde/"><code>debian-kde</code></a> mailing list instead.</p>
 
 	 <br />
