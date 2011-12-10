@@ -67,6 +67,6 @@
 	<h3>Renamed source packages</h3>
 	<p>
 	  The following source package names differ in Debian from upstream:<br>
-	  <b>kde4libs</b> is <b>kdelibs</b> in upstream<br>
-	  <b>kdegraphics-mobipocket</b> is <b>mobipocket</b> in upstream
+	  <b>kde4libs</b> is <b>kdelibs</b> upstream<br>
+	  <b>kdegraphics-mobipocket</b> is <b>mobipocket</b> upstream
 	</p>
