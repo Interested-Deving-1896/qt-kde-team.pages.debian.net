@@ -85,6 +85,23 @@ where 1.8 is the new version of the source package and buildlog is the log file 
 the appropriate diffs, as in the above section.
 </p>
 
+<p>
+You can get the symbols for different archs all at once by running inside the
+top-level source directory:
+</p>
+
+<pre>
+pkgkde-getbuildlogs
+</pre>
+
+<p>
+After that you will find the directory foo_unstable_logs containing the
+buildlogs for each arch. To patch the symbols files at once, run:
+</p>
+
+<pre>
+pkgkde-symbolshelper batchpatch -v 1.8 foo_unstable_logs/foo_1.8-1*.build
+</pre>
 
 <h3>Handling missing symbols</h3>
 
