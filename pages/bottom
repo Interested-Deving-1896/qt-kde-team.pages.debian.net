@@ -65,12 +65,6 @@
 		</div>
 
 		<div id="footer">
-			<p style="float:left;">
-				<a href="http://validator.w3.org/check?uri=referer">
-				<img src="http://www.w3.org/Icons/valid-xhtml11" alt="Valid XHTML 1.1" height="31" width="88" />
-				</a>
-			</p>
-
 			<p><a href="mailto:debian-kde@lists.debian.org">Contact us</a> | <a href="#header">Back to top</a><br />Based on <a href="http://andreasviklund.com/">Andreas Viklund</a>'s Design
 			</p>
 		</div>
