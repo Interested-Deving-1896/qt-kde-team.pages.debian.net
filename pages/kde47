@@ -20,7 +20,7 @@
 
 	 <p style="margin-bottom:0.1em;">
 		2. Download <a href="files/kde-experimental"><code>this file</code></a> and save it as /etc/apt/preferences.d/kde-experimental, beware if you
-		already an /etc/apt/preferences or you have other files in /etc/apt/preferences.d/, if that's your case you should read you apt
+		already have an /etc/apt/preferences or you have other files in /etc/apt/preferences.d/, if that's your case you should read you apt
 		preferences files and understand well what you are doing. In any case, you can do "man apt_preferences" to find more information 
 		about apt pinning.
 	 <br /><br />
