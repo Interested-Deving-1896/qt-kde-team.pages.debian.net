@@ -1,4 +1,4 @@
-	 <h2>Upgrade to KDE SC 4.7.4 packages<img src="../images/download_64.png" style="float:right; margin:-8px 0 0 0;" alt="Install KDE 4 Debian packages in your hard disk" /></h2>
+<!--	 <h2>Upgrade to KDE SC 4.7.4 packages<img src="../images/download_64.png" style="float:right; margin:-8px 0 0 0;" alt="Install KDE 4 Debian packages in your hard disk" /></h2>
 
 	 <p style="margin-bottom:0.1em;">
 		There are 4.7.4 packages available in experimental, you can upgrade your KDE SC to 4.7.4 both from the 4.6.5 packages in Debian sid and 
@@ -27,10 +27,10 @@
 
 	 <p style="margin-bottom:0.1em;">
 		3. Just upgrade your system with "apt-get update && apt-get dist-upgrade" or "aptitude update && aptitude dist-upgrade".
-	 <br /><br />
+	 <br /><br /> -->
 
 
-	 <h2>Packages information<img src="../images/info_48.png" style="float:right; margin:-8px 0 0 0;" alt="Install KDE 4 Debian packages in your hard disk" /></h2>
+	 <h2>Install KDE 4.7 packages<img src="../images/download_64.png" style="float:right; margin:-8px 0 0 0;" alt="Install KDE 4 Debian packages in your hard disk" /></h2>
 	 <p style="margin-bottom:0.1em;">
 		For a basic KDE 4 desktop, install <a href="http://packages.debian.org/unstable/kde-plasma-desktop"><code>kde-plasma-desktop</code></a>,
 		<a href="http://packages.debian.org/unstable/kde-plasma-netbook"><code>kde-plasma-netbook</code></a> or both packages
