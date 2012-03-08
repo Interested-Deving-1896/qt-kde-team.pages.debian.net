@@ -1,4 +1,4 @@
-	<h2>Build dependency graph</h2>
+	<h2>Build dependency graph for 4.7</h2>
 	<div align="center">
 	     <img alt="Build Dependency of source packages" src="../images/build_deps.png"/>
 	</div>
@@ -70,3 +70,8 @@
 	  <b>kde4libs</b> is <b>kdelibs</b> upstream<br>
 	  <b>kdegraphics-mobipocket</b> is <b>mobipocket</b> upstream
 	</p>
+
+        <h2>Build dependency graph for 4.8</h2>
+        <div align="center">
+             <img alt="Build Dependency of source packages" src="../images/build_deps_48.png"/>
+        </div>
