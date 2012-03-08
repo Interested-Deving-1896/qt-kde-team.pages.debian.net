@@ -9,7 +9,8 @@
 <!--RSS_START-->
 
 <p><strong>March 8, 2012</strong><br />
-  KDE SC 4.7.4 has successfully been migrated to unstable. 
+  KDE SC 4.7.4 has successfully been migrated to unstable.<br />
+  Delete <tt>/etc/apt/preferences.d/kde-experimental</tt>, if you have used that to install 4.7.4 from experimental. 
 </p>
 
 <p><strong>December 18, 2011</strong><br />
