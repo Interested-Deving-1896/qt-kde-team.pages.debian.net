@@ -8,8 +8,12 @@
 <h2><a href="rss.xml"><img alt="RSS Icon" src="../images/rssicon.png" style="float:right"/></a>Latest news:</h2>
 <!--RSS_START-->
 
+<p><strong>March 8, 2012</strong><br />
+  KDE SC 4.7.4 has successfully been migrated to unstable. 
+</p>
+
 <p><strong>December 18, 2011</strong><br />
-  KDE SC 4.7.4 has been uploaded to experimental. You can find instructions on how to upgrade KDE packages only <a href="kde47.html">here</a>. 
+  KDE SC 4.7.4 has been uploaded to experimental.
 </p>
 
 <p><strong>December 07, 2011</strong><br />
