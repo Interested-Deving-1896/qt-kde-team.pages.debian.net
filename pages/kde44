@@ -1,7 +1,7 @@
 
 	 <h2>Install KDE 4.7 packages<img src="../images/download_64.png" style="float:right; margin:-8px 0 0 0;" alt="Install KDE 4 Debian packages in your hard disk" /></h2>
 	 <p style="margin-bottom:0.1em;">
-	   There a several meta-packages to get you a different subset of preselected KDE packages:<br/>
+	   There are meta-packages to get you a different subset of preselected KDE packages:<br/>
 	   <br/>
 	   <table style="margin-left:5em">
 	     <tr>
@@ -23,7 +23,7 @@
 	   </table>
 	   <br/>
 
-	   There are several other packages, for those who want a more individual installation:
+	   For those who want a more individual installation, here is a list of important packages:
 
 	   <table style="margin-left:5em">
 	     <tr>
