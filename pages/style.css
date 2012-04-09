@@ -104,7 +104,7 @@ line-height:1.2em;
 /******** sidebar ********/
 #sidebar{
 float:left;
-width:212px;
+width:242px;
 margin:16px 0 5px 16px;
 }
 
@@ -145,7 +145,7 @@ color: #909090;
 /******** Content variations ********/
 #content{
 line-height:1.5em;
-width:750px;
+width:720px;
 float:right;
 text-align:left;
 margin:16px 16px;
