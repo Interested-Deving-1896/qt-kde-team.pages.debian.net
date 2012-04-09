@@ -3,7 +3,8 @@
 	     <img alt="Build Dependency of source packages" src="../images/build_deps_48.png"/>
 	</div>
 	<br>
-	<p>Some source packages have been split in KDE SC 4.7 into multiple source packages.</p>
+	<p>Some source packages have been split into multiple source packages. <br \>
+	This affected (1),(2),(3) in KDE SC 4.7 and (4),(5) in KDE SC 4.8 .</p>
 	<table border="1px">
 	  <tr>
 	    <td><b>(1) kdegraphics</b></td>
