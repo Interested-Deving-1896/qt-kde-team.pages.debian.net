@@ -4,16 +4,16 @@
 			<h2><a href="index.html">Home/News</a></h2>
 			<br />
 
-			<!-- <h2><a href="kde47.html">KDE SC 4.7.4</a> in experimental</h2> -->
-			<!-- <br /> -->
+			<h2>Install instructions</h2>
+			<ul>
+			<li><a href="kde47.html">KDE SC 4.7</a> in <b>unstable</b> / <b>testing</b></h2></li>
+			<li><a href="kde44.html">KDE SC 4.4</a> in <b>squeeze</b></h2></li>
+			</ul>
 
-			<h2><a href="kde47.html">KDE SC 4.7</a> in unstable/testing</h2>
-			<br />
-
-			<h2><a href="kde4.html">KDE SC 4.4</a> in Squeeze 6.0 (stable)</h2>
+			<h2>Migrating KDE 3 to KDE 4</h2>
 			<ul>
 			  <li><a href="kaboom.html" title="Kaboom, the Debian KDE settings migration wizard">Kaboom, the settings migration wizard</a></li>
-				<li><a href="faq4.html">FAQ about the migration to KDE 4</a></li>
+			  <li><a href="faq4.html">FAQ about the migration to KDE 4</a></li>
 			</ul>
  			<br />
 
