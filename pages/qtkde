@@ -1,7 +1,19 @@
-			<h2>Debian Qt/KDE Maintainers<img alt="QT KDE icon" src="../images/qtkdeteam_64.png" style="float:right; margin:-8px 0 0 0;" /></h2>
-			<p>This team maintains all the official <a href="http://www.kde.org">KDE</a> modules.</p>
-			<p>Mailing list: <a href="mailto:debian-qt-kde@lists.debian.org">debian-qt-kde@lists.debian.org</a></p>
-			<p>If you are a user and want to get in contact with us, come around in <a href="irc://irc.oftc.net/debian-kde">#debian-kde</a> on OFTC, or mail <a href="mailto:debian-kde@lists.debian.org">debian-kde@lists.debian.org</a>.</p>
-			<p>If you want to discuss development/packaging questions with us, come around in <a href="irc://irc.oftc.net/debian-qt-kde">#debian-qt-kde</a> on <a href="http://www.oftc.net">OFTC</a>, or mail <a href="mailto:pkg-kde-talk@lists.alioth.debian.org">pkg-kde-talk@lists.alioth.debian.org</a>.</p>
 
-			<p>Mailing list archives: <a href="http://lists.debian.org/debian-qt-kde/">debian-qt-kde</a>, <a href="http://lists.debian.org/debian-kde/">debian-kde</a>, <a href="http://lists.alioth.debian.org/pipermail/pkg-kde-talk/">pkg-kde-talk</a></p>
+			<h2>Debian Qt/KDE Maintainers<img alt="QT KDE icon" src="../images/qtkdeteam_64.png" style="float:right; margin:-8px 0 0 0;" /></h2>
+			<p>The Qt/KDE team maintains all the official KDE modules. Development related discussion happens mainly in IRC or on the mailing list. Note that this places are not for user support ( for this see help section to the left).<br />
+			<br />
+			<b>Mailing lists:</b>
+			<table style="margin-left:2em">
+			  <tr>
+               		    <td><a href="mailto:pkg-kde-talk@lists.debian.org"><code>pkg-kde-talk@lists.alioth.debian.org</code></a></td>
+			    <td style="padding-right:16px;">[<a href="http://lists.alioth.debian.org/pipermail/pkg-kde-talk/">Archives</a>]</td>
+               		    <td><i>Discuss package related topics</i></td>
+             		  </tr>
+			  <tr>
+               		    <td><a href="mailto:debian-qt-kde@lists.debian.org"><code>debian-qt-kde@lists.debian.org</code></a></td>
+			    <td style="padding-right:32px;">[<a href="http://lists.debian.org/debian-qt-kde/">Archives</a>]</td>
+               		    <td><i>This is were all reported bugs go</i></td>
+             		  </tr>
+			</table>
+			</p>
+			<p><b>IRC:</b> <a href="irc://irc.oftc.net/debian-qt-kde"><code>#debian-qt-kde</code></a> on <a href="http://www.oftc.net">OFTC</a> (Again: Not for user support!)</p>
