@@ -34,8 +34,17 @@
 
 			<h2><img src="../images/worknotes_48.png" style="float:right; margin:-8px 0 0 0;" alt="Working notes" />Working notes</h2>
 			<ul>
-				<li><a href="descriptions.html">Descriptions policy draft</a></li>
-				<li><a href="build-deps.html">Build dependencies graph</a></li>
+				<li><b>Packaging</b></li>
+				<ul>
+				  <!--<li><a href="#">How to package kde applications</a></li>-->
+				  <li><a href="build-deps.html">Build dependencies graph</a></li>
+				  <li><a href="descriptions.html">Descriptions policy draft</a></li>
+				  <li><a href="pkgkdegit.html">pkg-kde git quick guide</a></li>
+				  <li><a href="gitguidelines.html">pkg-kde git guidelines</a></li>
+				  <li><a href="pkgkdesvn.html">pkg-kde SVN quick guide</a></li>
+				  <li><a href="experimental_linking.html">Fixing link errors</a></li>
+				  <li><a href="symbolfiles.html">Working with symbol files</a></li>
+				</ul></li>
 				<li><b>Bugs</b></li>
 				<ul>
 				  <li><a href="bugs.html">Handle and search bugs</a>
@@ -44,17 +53,9 @@
 				  <li><a href="btslink.html">bts-link</a></li>
 				  <li><a href="kde-bugzilla-survival-guide.html">KDE bugzilla survival guide</a></li>
 				</ul></li>
-				<!--
-				<li><a href="#">How to package kde applications</a></li>
-				-->
-				<li><a href="pkgkdesvn.html">pkg-kde SVN quick guide</a></li>
-				<li><a href="pkgkdegit.html">pkg-kde git quick guide</a></li>
-				<li><a href="gitguidelines.html">pkg-kde git guidelines</a></li>
-				<li><a href="experimental_linking.html">Fixing link errors</a></li>
-                                <li><a href="symbolfiles.html">Working with symbol files</a></li>
 			        <li><a href="web-maintenance.html">Web maintenance</a></li>
 				<li><a href="todo.html">ToDo-List</a></li>
-         </ul>
+			</ul>
 
 	<h2><img src="../images/help_48.png" style="float:right; margin:-8px 0 0 0;" alt="Question mark"/>Get help</h2>
         <ul>
