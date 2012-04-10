@@ -36,13 +36,14 @@
 			<ul>
 				<li><a href="descriptions.html">Descriptions policy draft</a></li>
 				<li><a href="build-deps.html">Build dependencies graph</a></li>
-				<li><a href="bugs.html">Handle and search bugs</a>
-					<ul>
-					<li><a href="usertags.html">Use of usertags</a></li>
-					<li><a href="kdebuggraph.html">Bugs graphs</a></li>
-					</ul></li>
-				<li><a href="btslink.html">bts-link</a></li>
-				<li><a href="kde-bugzilla-survival-guide.html">Survival guide to KDE bugzilla</a></li>
+				<li><b>Bugs</b></li>
+				<ul>
+				  <li><a href="bugs.html">Handle and search bugs</a>
+				  <li><a href="usertags.html">Use of usertags</a></li>
+				  <li><a href="kdebuggraph.html">graphs</a></li>
+				  <li><a href="btslink.html">bts-link</a></li>
+				  <li><a href="kde-bugzilla-survival-guide.html">KDE bugzilla survival guide</a></li>
+				</ul></li>
 				<!--
 				<li><a href="#">How to package kde applications</a></li>
 				-->
