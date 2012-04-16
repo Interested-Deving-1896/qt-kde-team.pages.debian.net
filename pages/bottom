@@ -6,14 +6,18 @@
 
 			<h2><img src="../images/download_48.png" style="float:right; margin:-8px 0 0 0;" alt="Download icon" />Install instructions</h2>
 			<ul>
-			<li><b>unstable / testing</b></li>
-			  <ul>
-			    <li><a href="kde47.html">KDE SC 4.7</a></li>
-			  </ul>
-			<li><b>squeeze (stable)</b></li>
-			  <ul>
-			    <li><a href="kde44.html">KDE SC 4.4</a></li>
-			  </ul>
+			  <li><b>unstable / testing</b></li>
+			  <li>
+			    <ul>
+			      <li><a href="kde47.html">KDE SC 4.7</a></li>
+			    </ul>
+			  </li>
+			  <li><b>squeeze (stable)</b></li>
+			  <li>
+			    <ul>
+			      <li><a href="kde44.html">KDE SC 4.4</a></li>
+			    </ul>
+			  </li>
 			</ul>
 
 			<h2>Migrating KDE 3 to KDE 4</h2>
@@ -22,67 +26,71 @@
 			  <li><a href="faq4.html">FAQ about the migration to KDE 4</a></li>
 			</ul>
 
-
 			<h2><img src="../images/people_48.png" style="float:right; margin:-8px 0 0 0;" alt="Team icon" />Developer Teams</h2>
 			<ul>
-				<li><b>Qt/KDE Maintainers</b></li>
-				<ul>
-				  <li><a href="qtkde.html">General information</a></li>
-				  <li><a href="http://qa.debian.org/developer.php?login=debian-qt-kde@lists.debian.org">Package list</a></li>
-				</ul>
-
-				<li><b>KDE Extras Team</b></h2>
-				<ul>
-				  <li><a href="kdeextras.html">General information</a></li>
-				  <li><a href="http://qa.debian.org/developer.php?login=pkg-kde-extras@lists.alioth.debian.org">Package list</a></li>
-				</ul>
+			  <li><b>Qt/KDE Maintainers</b></li>
+			  <li>
+			    <ul>
+			      <li><a href="qtkde.html">General information</a></li>
+			      <li><a href="http://qa.debian.org/developer.php?login=debian-qt-kde@lists.debian.org">Package list</a></li>
+			    </ul>
+			  </li>
+			  <li><b>KDE Extras Team</b></li>
+			  <li>
+			    <ul>
+			      <li><a href="kdeextras.html">General information</a></li>
+			      <li><a href="http://qa.debian.org/developer.php?login=pkg-kde-extras@lists.alioth.debian.org">Package list</a></li>
+			    </ul>
+			  </li>
 			</ul>
 
 			<h2><img src="../images/worknotes_48.png" style="float:right; margin:-8px 0 0 0;" alt="Working notes" />Working notes</h2>
 			<ul>
-				<li><b>Packaging</b></li>
-				<ul>
-				  <!--<li><a href="#">How to package kde applications</a></li>-->
-				  <li><a href="build-deps.html">Build dependencies graph</a></li>
-				  <li><a href="descriptions.html">Descriptions policy draft</a></li>
-				  <li><a href="pkgkdegit.html">git quick guide</a></li>
-				  <li><a href="gitguidelines.html">git guidelines</a></li>
-				  <li><a href="pkgkdesvn.html">svn quick guide</a></li>
-				  <li><a href="experimental_linking.html">Fixing link errors</a></li>
-				  <li><a href="symbolfiles.html">Working with symbol files</a></li>
-				</ul></li>
-				<li><b>Bugs</b></li>
-				<ul>
-				  <li><a href="bugs.html">Handle and search bugs</a>
-				  <li><a href="usertags.html">Use of usertags</a></li>
-				  <li><a href="kdebuggraph.html">graphs</a></li>
-				  <li><a href="btslink.html">bts-link</a></li>
-				  <li><a href="kde-bugzilla-survival-guide.html">KDE bugzilla survival guide</a></li>
-				</ul></li>
-			        <li><a href="web-maintenance.html">Web maintenance</a></li>
-				<li><a href="todo.html">ToDo-List</a></li>
+			  <li><b>Packaging</b></li>
+			  <li>
+			    <ul>
+			      <!--<li><a href="#">How to package kde applications</a></li>-->
+			      <li><a href="build-deps.html">Build dependencies graph</a></li>
+			      <li><a href="descriptions.html">Descriptions policy draft</a></li>
+			      <li><a href="pkgkdegit.html">git quick guide</a></li>
+			      <li><a href="gitguidelines.html">git guidelines</a></li>
+			      <li><a href="pkgkdesvn.html">svn quick guide</a></li>
+			      <li><a href="experimental_linking.html">Fixing link errors</a></li>
+			      <li><a href="symbolfiles.html">Working with symbol files</a></li>
+			    </ul>
+			  </li>
+			  <li><b>Bugs</b></li>
+			  <li>
+			    <ul>
+			      <li><a href="bugs.html">Handle and search bugs</a>
+			      <li><a href="usertags.html">Use of usertags</a></li>
+			      <li><a href="kdebuggraph.html">graphs</a></li>
+			      <li><a href="btslink.html">bts-link</a></li>
+			      <li><a href="kde-bugzilla-survival-guide.html">KDE bugzilla survival guide</a></li>
+			    </ul>
+			  </li>
+			  <li><a href="web-maintenance.html">Web maintenance</a></li>
+			  <li><a href="todo.html">ToDo-List</a></li>
 			</ul>
 
-	<h2><img src="../images/help_48.png" style="float:right; margin:-8px 0 0 0;" alt="Question mark"/>Get help</h2>
-        <ul>
-	  <li><b>IRC:</b> #debian-kde at oftc.net</li>
-	  <li><b>Mailing list:</b>
-	  <a style="font-size:0.9em;" href="http://lists.debian.org/debian-kde">debian-kde@lists.debian.org</a>
-	</ul>
-
-         <h2><img src="../images/info_48.png" style="float:right; margin:-8px 0 0 0;" alt="Explaination mark"/>Misc</h2>
-         <ul>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="join.html">Get involved!</a></li>
+			<h2><img src="../images/help_48.png" style="float:right; margin:-8px 0 0 0;" alt="Question mark"/>Get help</h2>
+			<ul>
+			  <li><b>IRC:</b> #debian-kde at oftc.net</li>
+			  <li><b>Mailing list:</b>
+			    <a style="font-size:0.9em;" href="http://lists.debian.org/debian-kde">debian-kde@lists.debian.org</a>
 			</ul>
 
+			<h2><img src="../images/info_48.png" style="float:right; margin:-8px 0 0 0;" alt="Explaination mark"/>Misc</h2>
+			<ul>
+			  <li><a href="faq.html">FAQ</a></li>
+			  <li><a href="join.html">Get involved!</a></li>
+			</ul>
 		</div>
 
 		<div id="footer">
-			<p><a href="mailto:debian-kde@lists.debian.org">Contact us</a> | <a href="#header">Back to top</a><br />Based on <a href="http://andreasviklund.com/">Andreas Viklund</a>'s Design
-			</p>
+		  <p><a href="mailto:debian-kde@lists.debian.org">Contact us</a> | <a href="#header">Back to top</a><br />Based on <a href="http://andreasviklund.com/">Andreas Viklund</a>'s Design
+		  </p>
 		</div>
-
 	</div>
 </body>
 </html>
