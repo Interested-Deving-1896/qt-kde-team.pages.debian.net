@@ -62,7 +62,7 @@
 			  <li><b>Bugs</b></li>
 			  <li>
 			    <ul>
-			      <li><a href="bugs.html">Handle and search bugs</a>
+			      <li><a href="bugs.html">Handle and search bugs</a></li>
 			      <li><a href="usertags.html">Use of usertags</a></li>
 			      <li><a href="kdebuggraph.html">graphs</a></li>
 			      <li><a href="btslink.html">bts-link</a></li>
@@ -76,8 +76,10 @@
 			<h2><img src="../images/help_48.png" style="float:right; margin:-8px 0 0 0;" alt="Question mark"/>Get help</h2>
 			<ul>
 			  <li><b>IRC:</b> #debian-kde at oftc.net</li>
-			  <li><b>Mailing list:</b>
+			  <li>
+			    <b>Mailing list:</b>
 			    <a style="font-size:0.9em;" href="http://lists.debian.org/debian-kde">debian-kde@lists.debian.org</a>
+			  </li>
 			</ul>
 
 			<h2><img src="../images/info_48.png" style="float:right; margin:-8px 0 0 0;" alt="Explaination mark"/>Misc</h2>
