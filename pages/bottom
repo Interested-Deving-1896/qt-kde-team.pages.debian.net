@@ -6,16 +6,16 @@
 
 			<h2><img src="../images/download_48.png" style="float:right; margin:-8px 0 0 0;" alt="Download icon" />Install instructions</h2>
 			<ul>
-			  <li><b>qt-kde/qt-kde2</b></li>
+<!--			  <li><b>qt-kde/qt-kde2</b></li>
 			  <li>
 			    <ul>
 			      <li><a href="http://lists.debian.org/12049316.zkkVjlsQi6@xoi">KDE SC 4.8.3</a></li>
 			    </ul>
-			  </li>
+			  </li> -->
 			  <li><b>unstable / testing</b></li>
 			  <li>
 			    <ul>
-			      <li><a href="kde47.html">KDE SC 4.7</a></li>
+			      <li><a href="kde47.html">KDE SC 4.8/4.7</a></li>
 			    </ul>
 			  </li>
 			  <li><b>squeeze (stable)</b></li>
