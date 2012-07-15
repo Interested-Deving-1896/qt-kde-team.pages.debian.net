@@ -65,7 +65,7 @@
 
 			<h4 id="q4">4. When I remove one application, my whole KDE is deleted!</h4>
 
-			<p>Please refer to the <a href="kde47.html">KDE 4 page</a> for the available testing/unstable
+			<p>Please refer to the <a href="kde48.html">KDE 4 page</a> for the available testing/unstable
 			metapackages.</p>
 
 			<p>If you installed all KDE, for example, running <kbd>apt-get install kde</kbd>,
