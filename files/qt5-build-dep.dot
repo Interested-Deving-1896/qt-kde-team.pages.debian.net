@@ -1,0 +1,53 @@
+digraph qt5 {
+  graph [
+    rankdir = "BT"
+  ]
+
+  qtbase
+  qtdeclarative
+  qtdoc [ color = red ]
+  qtgraphicaleffects
+  qtimageformats [ color = yellow ]
+  qtjsbackend
+  qtmultimedia
+  qtquick1 [ color = red ]
+  qtscript [ color = yellow ]
+  qtsvg
+//   qtsystems [ color = red ]
+  qttools
+  qttranslations [ color = yellow ]
+  qtwebkit [ color = red ]
+  qtxmlpatterns
+
+  qtdeclarative -> qtbase
+  qtdeclarative -> qtjsbackend
+  qtdeclarative -> qtxmlpatterns
+  qtgraphicaleffects -> qtbase
+  qtgraphicaleffects -> qtdeclarative
+  qtimageformats -> qtbase [ color = yellow ]
+  qtjsbackend -> qtbase
+  qtmultimedia -> qtbase
+  qtmultimedia -> qtdeclarative
+  qtscript -> qtbase [ color = yellow ]
+  qtsvg -> qtbase
+  qttools -> qtbase
+  qtxmlpatterns -> qtbase
+  qttranslations -> qtbase [ color = yellow ]
+  qttranslations -> qttools [ color = yellow ]
+
+  // unsure/not-uploaded
+  qtdoc -> qtbase [ color = red ]
+  qtdoc -> qttools [ color = red ]
+  qtquick1 -> qtbase [ color = red ]
+  qtquick1 -> qtdeclarative [ color = red ]
+  qtquick1 -> qtjsbackend [ color = red ]
+  qtquick1 -> qtscript [ color = red ]
+  qtquick1 -> qtwebkit [ color = red ]
+//   qtsystems -> qtbase [ color = red ]
+//   qtsystems -> qtdeclarative [ color = red ]
+  qtwebkit -> qtbase [ color = red ]
+  qtwebkit -> qtdeclarative [ color = red ]
+  qtwebkit -> qtjsbackend [ color = red ]
+  qtwebkit -> qtscript [ color = red ]
+  qtwebkit -> qtxmlpatterns [ color = red ]
+}
