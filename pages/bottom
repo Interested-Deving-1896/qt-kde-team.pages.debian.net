@@ -6,22 +6,28 @@
 
 			<h2><img src="../images/download_48.png" style="float:right; margin:-8px 0 0 0;" alt="Download icon" />Install instructions</h2>
 			<ul>
-			  <li><b>qt-kde.debian.net <br /> or qt-kde2.debian.net</b></li>
+			  <!--<li><b>qt-kde.debian.net <br /> or qt-kde2.debian.net</b></li>
 			  <li>
 			    <ul>
 			      <li><a href="http://lists.debian.org/debian-kde/2013/01/msg00060.html">KDE SC 4.9.5</a></li>
 			    </ul>
-			  </li> 
-			  <li><b>unstable / testing</b></li>
+			  </li> --> 
+			  <li><b>unstable</b></li>
+			  <li>
+			    <ul>
+			      <li><a href="kde48.html">KDE SC 4.10</a></li>
+			    </ul>
+			  </li>
+			  <li><b>testing</b></li>
 			  <li>
 			    <ul>
 			      <li><a href="kde48.html">KDE SC 4.8</a></li>
 			    </ul>
 			  </li>
-			  <li><b>squeeze (stable)</b></li>
+			  <li><b>wheezy (stable)</b></li>
 			  <li>
 			    <ul>
-			      <li><a href="kde44.html">KDE SC 4.4</a></li>
+			      <li><a href="kde48.html">KDE SC 4.8</a></li>
 			    </ul>
 			  </li>
 			</ul>
