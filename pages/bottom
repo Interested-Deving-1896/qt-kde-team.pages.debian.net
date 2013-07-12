@@ -32,12 +32,6 @@
 			  </li>
 			</ul>
 
-			<h2>Migrating KDE 3 to KDE 4</h2>
-			<ul>
-			  <li><a href="kaboom.html" title="Kaboom, the Debian KDE settings migration wizard">Kaboom, the settings migration wizard</a></li>
-			  <li><a href="faq4.html">FAQ about the migration to KDE 4</a></li>
-			</ul>
-
 			<h2><img src="../images/people_48.png" style="float:right; margin:-8px 0 0 0;" alt="Team icon" />Developer Teams</h2>
 			<ul>
 			  <li><b>Qt/KDE Maintainers</b></li>
