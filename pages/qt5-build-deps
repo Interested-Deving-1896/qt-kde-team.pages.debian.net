@@ -4,6 +4,7 @@
 		Click on the image to see it in it's original size.
 	</div>
 	<br>
-	The dot file for generating this graph can be found <a href="../files/qt5-build-deps.dot">here</a>.
+	The lines in blue are dependencies needed for buildin the arch independent packages (mostly docs).<br>
+        The dot file for generating this graph can be found <a href="../files/qt5-build-deps.dot">here</a>.
 	<br>
 
