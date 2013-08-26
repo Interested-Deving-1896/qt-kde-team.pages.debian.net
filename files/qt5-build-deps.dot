@@ -17,7 +17,12 @@ digraph qt5 {
   qttools
   qttranslations [ color = yellow ]
   qtwebkit [ color = red ]
+  qtwebkit_examples [ color = red ]
   qtxmlpatterns
+  qtquick1
+  qtquickcontrols
+  qtx11extras
+  qtserialport
 
   qtdeclarative -> qtbase
   qtdeclarative -> qtjsbackend
@@ -50,4 +55,14 @@ digraph qt5 {
   qtwebkit -> qtjsbackend [ color = red ]
   qtwebkit -> qtscript [ color = red ]
   qtwebkit -> qtxmlpatterns [ color = red ]
+  qtwebkit_examples -> qtbase
+  qtwebkit_examples -> qttools
+  qtwebkit_examples -> qtwebkit
+  qtquickcontrols -> qtbase
+  qtquickcontrols -> qtdeclarative
+  qtquickcontrols -> qtjsbackend
+  qtx11extras -> qtbase
+  qtx11extras -> qttools
+  qtserialport -> qtbase
+  qtserialport -> qttools
 }
