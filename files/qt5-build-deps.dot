@@ -27,16 +27,23 @@ digraph qt5 {
   qtdeclarative -> qtbase
   qtdeclarative -> qtjsbackend
   qtdeclarative -> qtxmlpatterns
+  qtdeclarative -> qttools [ color = blue ]
   qtgraphicaleffects -> qtbase
   qtgraphicaleffects -> qtdeclarative
+  qtgraphicaleffects -> qttools [ color = blue ]
   qtimageformats -> qtbase [ color = yellow ]
   qtjsbackend -> qtbase
   qtmultimedia -> qtbase
   qtmultimedia -> qtdeclarative
+  qtmultimedia -> qttools [ color = blue ]
   qtscript -> qtbase [ color = yellow ]
+  qtscript -> qttools [ color = blue ]
   qtsvg -> qtbase
+  qtsvg -> qttools [ color = blue ]
   qttools -> qtbase
+  qttools -> qttools [ color = blue ]
   qtxmlpatterns -> qtbase
+  qtxmlpatterns -> qttools [ color = blue ]
   qttranslations -> qtbase [ color = yellow ]
   qttranslations -> qttools [ color = yellow ]
 
@@ -55,14 +62,15 @@ digraph qt5 {
   qtwebkit -> qtjsbackend [ color = red ]
   qtwebkit -> qtscript [ color = red ]
   qtwebkit -> qtxmlpatterns [ color = red ]
+  qtwebkit -> qttools [ color = blue ]
   qtwebkit_examples -> qtbase
-  qtwebkit_examples -> qttools
+  qtwebkit_examples -> qttools [ color = blue ]
   qtwebkit_examples -> qtwebkit
   qtquickcontrols -> qtbase
   qtquickcontrols -> qtdeclarative
   qtquickcontrols -> qtjsbackend
   qtx11extras -> qtbase
-  qtx11extras -> qttools
+  qtx11extras -> qttools [ color = blue ]
   qtserialport -> qtbase
-  qtserialport -> qttools
+  qtserialport -> qttools [ color = blue ]
 }
