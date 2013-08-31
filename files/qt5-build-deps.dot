@@ -44,6 +44,7 @@ digraph qt5 {
   qtquickcontrols -> qtbase [ color = yellow ]
   qtquickcontrols -> qtdeclarative [ color = yellow ]
   qtquickcontrols -> qtjsbackend [ color = yellow ]
+  qtserialport -> qtbase [ color = yellow ]
   qtscript -> qtbase
   qtsvg -> qtbase
   qttools -> qtbase
@@ -64,7 +65,6 @@ digraph qt5 {
   qtfeedback -> qtmultimedia [ color = red ]
   qtsensors -> qtbase [ color = red ]
   qtsensors -> qtdeclarative [ color = red ]
-  qtserialport -> qtbase [ color = yellow ]
   qtsystems -> qtbase [ color = red ]
   qtsystems -> qtdeclarative [ color = red ]
 }
