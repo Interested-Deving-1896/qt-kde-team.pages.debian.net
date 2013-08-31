@@ -22,7 +22,7 @@ digraph qt5 {
   qttools
   qttranslations
   qtwebkit
-  qtwebkit-examples [ color = yellow ]
+  qtwebkit_examples [ color = yellow ]
   qtx11extras
   qtxmlpatterns
 
@@ -53,7 +53,7 @@ digraph qt5 {
   qtwebkit -> qtdeclarative
   qtwebkit -> qtscript
   qtwebkit -> qtxmlpatterns
-  qtwebkit-examples -> qtwebkit [ color = yellow ]
+  qtwebkit_examples -> qtwebkit [ color = yellow ]
   qtx11extras -> qtbase
   qtxmlpatterns -> qtbase
 
