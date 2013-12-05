@@ -12,8 +12,6 @@
 
                <li>Commit the modifications you did inside 'pages/'.</li>
 
-	       <li>After every commit to git.debian.org the website is updated
-	           automatically by running a cronjob on wagner. This pulls the changes and invokes 
-		   the git post-merge hook (located in .git/hooks/) to run genweb.sh and copy 
-		   content from output to ../htdocs/</li>
+	       <li>For publishing the changes, move over to wagner, pull in the changes and run
+		   genweb.sh (located in .git/hooks/) and copy the content from output to ../htdocs/</li>
             </ol>
