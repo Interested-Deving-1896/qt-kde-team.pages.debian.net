@@ -19,7 +19,7 @@
 
 			<h4 id="q2">2. I can't install KDE because of package dependency problems.</h4>
 			<p>
-			Typically Debian doesn't have package dependency problems until something messes it up. Dependency problems and broken packages are extremely rare when using a Stable debian release, such as Sarge. Testing and Unstable releases are slightly more prone to these problems, as they have not been through the rigourous level of testing and there may be packaging problems in the repository, meaning that (especially with Unstable/Sid), KDE may not always be in an installable state. A workaround is to install the kde-core meta package and pick the rest of the needed applications manually.
+			Typically Debian doesn't have package dependency problems until something messes it up. Dependency problems and broken packages are extremely rare when using a Stable debian release, such as Sarge. Testing and Unstable releases are slightly more prone to these problems, as they have not been through the rigorous level of testing and there may be packaging problems in the repository, meaning that (especially with Unstable/Sid), KDE may not always be in an installable state. A workaround is to install the kde-core meta package and pick the rest of the needed applications manually.
 			</p>
 			<p>
 			If you have installed backports of some package onto Debian Stable, and your backport package overwrote a stable package which the KDE stable packages depend on, then you may not be able to install KDE on your system, until you remove the backported package. <strong>This is also highly unsupported</strong>
@@ -59,7 +59,7 @@
 			set the environment variable QTDIR, pointing to /usr/share/qt3 (in bash:
 			export QTDIR=/usr/share/qt3).</p>
 
-            <p>If you wist to compile Qt4 applications, please install the
+            <p>If you wish to compile Qt4 applications, please install the
             <strong>libqt4-dev</strong> and <strong>qt4-dev-tools</strong>
             packages.</p>
 
