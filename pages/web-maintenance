@@ -1,5 +1,9 @@
             <h2>Debian KDE Team Web Maintenance<img alt="webmaint_icon" src="../images/webmaint_64.png" style="float:right; margin:-8px 0 0 0;" /></h2>
 
+            The webpage code is kept in <a href="http://anonscm.debian.org/gitweb/?p=pkg-kde/www.git;a=summary">this GIT repo</a>.<br/>
+            Steps to modify it:<br/>
+            <br/>
+
             <ol>
                <li>Edit/create pages (without .html suffix) in folder './pages/'.<br />
                    These pages must only include its very own content.<br />
