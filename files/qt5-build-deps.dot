@@ -44,9 +44,13 @@ digraph qt5 {
   qtquickcontrols -> qtbase
   qtquickcontrols -> qtdeclarative
   qtquickcontrols -> qtjsbackend
+  qtsensors -> qtbase
+  qtsensors -> qtdeclarative
   qtserialport -> qtbase
   qtscript -> qtbase
+  qtscript -> qttools
   qtsvg -> qtbase
+  qtsvg -> qttools
   qttools -> qtbase
   qttranslations -> qttools
   qtwebkit -> qtbase
@@ -56,6 +60,7 @@ digraph qt5 {
   qtwebkit_examples -> qtwebkit
   qtx11extras -> qtbase
   qtxmlpatterns -> qtbase
+  qtxmlpatterns -> qttools
 
   // unsure/not-uploaded
   qt3d -> qtbase [ color = red ]
@@ -63,8 +68,6 @@ digraph qt5 {
   qtfeedback -> qtbase [ color = red ]
   qtfeedback -> qtdeclarative [ color = red ]
   qtfeedback -> qtmultimedia [ color = red ]
-  qtsensors -> qtbase [ color = red ]
-  qtsensors -> qtdeclarative [ color = red ]
   qtsystems -> qtbase [ color = red ]
   qtsystems -> qtdeclarative [ color = red ]
 }
