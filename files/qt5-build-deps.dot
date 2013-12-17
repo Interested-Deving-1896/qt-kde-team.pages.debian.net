@@ -26,7 +26,6 @@ digraph qt5 {
   qtxmlpatterns
 
   qtdeclarative -> qtbase
-  qtdeclarative -> qtdeclarative
   qtdeclarative -> qtxmlpatterns
   qtdoc -> qtbase
   qtdoc -> qttools
