@@ -30,22 +30,21 @@ digraph qt5 {
   qtconnectivity -> qtdeclarative [ color = yellow ]
   qtdeclarative -> qtxmlpatterns
   qtdoc -> qttools
-  qtgraphicaleffects -> qtdeclarative
+  qtgraphicaleffects -> qttools
   qtimageformats -> qtbase
-  qtmultimedia -> qtdeclarative
+  qtmultimedia -> qttools
   qtquick1 -> qtwebkit
   qtquickcontrols -> qtdeclarative
   qtsensors -> qtdeclarative
   qtserialport -> qtbase
   qtscript -> qttools
   qtsvg -> qttools
-  qttools -> qtbase
+  qttools -> qtdeclarative
   qttranslations -> qttools
-  qtwebkit -> qtdeclarative
   qtwebkit -> qtscript
   qtwebkit_examples -> qtwebkit
   qtx11extras -> qtbase
-  qtxmlpatterns -> qttools
+  qtxmlpatterns -> qtbase
 
   // unsure/not-uploaded
   qt3d -> qtdeclarative [ color = red ]
