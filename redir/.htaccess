@@ -1,3 +1,5 @@
+# This file is now also part of the www repo.
+
 RewriteEngine On
 RewriteRule ^transition-buildd-exp$ transition-buildd-experimental [N]
 RewriteRule ^transition-buildd-(experimental|sid)$ https://buildd.debian.org/status/package.php?p=akonadi,libktorrent,polkit-kde-1,polkit-qt-1,meta-kde,kde4libs,kdeaccessibility,kdeadmin,kdeartwork,kdebase,kdebase-runtime,kdebase-workspace,kdeedu,kdegames,kdegraphics,kdemultimedia,kdenetwork,kdepimlibs,kdepim,kdepim-runtime,kdeplasma-addons,kdesdk,kdetoys,kdeutils,kdewebdev&suite=$1 [R=302,B,QSA]
