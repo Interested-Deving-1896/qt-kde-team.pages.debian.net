@@ -1,0 +1,3 @@
+<h2>QML modules packaging guidelines</h2>
+
+This guidelines are meant to provide consistent naming for QML modules. The reasoning behind this scheme can be found <a href="http://lists.alioth.debian.org/pipermail/pkg-kde-talk/2014-March/001889.html" alt="Mail to pkg-kde-talk">here</a>.
