@@ -37,9 +37,9 @@ digraph qt5 {
   qtquickcontrols -> qtdeclarative
   qtsensors -> qtdeclarative
   qtserialport -> qttools
-  qtscript -> qttools
+  qtscript -> qtbase
   qtsvg -> qttools
-  qttools -> qtdeclarative
+  qttools -> qtwebkit
   qttranslations -> qttools
   qtwebkit -> qtscript
   qtwebkit_examples -> qtwebkit
