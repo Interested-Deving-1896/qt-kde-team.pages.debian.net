@@ -42,6 +42,7 @@ digraph qt5 {
   qttools -> qtwebkit
   qttranslations -> qttools
   qtwebkit -> qtscript
+  qtwebkit -> qtdeclarative
   qtwebkit_examples -> qtwebkit
   qtx11extras -> qtbase
   qtxmlpatterns -> qtbase
