@@ -9,6 +9,7 @@ digraph qt5 {
   qtcreator
   qtdeclarative
   qtdoc
+  qtenginio [ color = red ]
   qtfeedback [ color = red ]
   qtgraphicaleffects
   qtimageformats
@@ -25,6 +26,7 @@ digraph qt5 {
   qttranslations
   qtwebkit
   qtwebkit_examples
+  qtwebsockets [ color = red ]
   qtx11extras
   qtxmlpatterns
 
