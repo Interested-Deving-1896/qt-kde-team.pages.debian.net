@@ -42,6 +42,7 @@ digraph qt5 {
   qtdoc -> qtserialport
   qtdoc -> qtsvg
   qtdoc -> qtx11extras
+  qtenginio -> qttools
   qtgraphicaleffects -> qttools
   qtimageformats -> qtbase
   qtmultimedia -> qttools
