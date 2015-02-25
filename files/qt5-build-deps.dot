@@ -69,7 +69,6 @@ digraph qt5 {
   // unsure/not-uploaded
   qt3d -> qtdeclarative [ color = red ]
   qtfeedback -> qtmultimedia [ color = red ]
-  qtlocation -> qt3d [ color = red style = dashed ]
   qtsystems -> qtdeclarative [ color = red ]
   qtwayland -> qtdeclarative [ color = red style = dashed ]
 }
