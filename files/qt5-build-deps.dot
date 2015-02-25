@@ -20,10 +20,12 @@ digraph qt5 {
   qtscript
   qtsensors
   qtserialport
+  qtstyleplugins [ color = yellow ]
   qtsvg
   qtsystems [ color = red ]
   qttools
   qttranslations
+  qtwayland [ color = yellow ]
   qtwebkit
   qtwebkit_examples
   qtwebsockets
@@ -51,9 +53,11 @@ digraph qt5 {
   qtsensors -> qttools
   qtserialport -> qttools
   qtscript -> qtbase
+  qtstyleplugins -> qtbase
   qtsvg -> qttools
   qttools -> qtwebkit
   qttranslations -> qttools
+  qtwayland -> qtbase
   qtwebkit -> qtscript
   qtwebkit -> qtdeclarative
   qtwebkit_examples -> qtwebkit
@@ -65,6 +69,7 @@ digraph qt5 {
   // unsure/not-uploaded
   qt3d -> qtdeclarative [ color = red ]
   qtfeedback -> qtmultimedia [ color = red ]
-  qtlocation -> qt3d [color = red style = dashed]
+  qtlocation -> qt3d [ color = red style = dashed ]
   qtsystems -> qtdeclarative [ color = red ]
+  qtwayland -> qtdeclarative [ color = red style = dashed ]
 }
