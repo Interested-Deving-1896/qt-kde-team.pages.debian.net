@@ -15,6 +15,12 @@ The most important steps were 1) remember to tag <kbd>+moreinfo
 unreproducible</kbd> when asking for moreinfo and 2) remember to mark the bug
 as forwarded.
 </p>
+<h3>Finding open bugs</h3>
+<p>The QA package overview page provides an easy way of reviewing open bugs</p>
+<ul>
+<li><a href="https://qa.debian.org/developer.php?login=debian-qt-kde@lists.debian.org">debian-qt-kde (main KDE packages)</a></li>
+<li><a href="https://qa.debian.org/developer.php?login=pkg-kde-extras@lists.alioth.debian.org">pkg-kde-extras (extra KDE packages)</a></li>
+</ul>
 <h3>Bug tagging and forwarding</h3>
 <p>
 Bug tagging is done by mails to control. When a comment is needed, it can be in the same mail, just remember to email the right people. The following is a example of a mail describing who to mail (the 3 To: lines) and the content of the mail (The rest of the mail starting from tag)
