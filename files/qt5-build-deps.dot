@@ -32,7 +32,7 @@ digraph qt5 {
   qtx11extras
   qtxmlpatterns
 
-  qtconnectivity -> qtdeclarative
+  qtconnectivity -> qttools
   qtcreator -> qtx11extras
   qtcreator -> qtquick1
   qtdeclarative -> qtxmlpatterns
