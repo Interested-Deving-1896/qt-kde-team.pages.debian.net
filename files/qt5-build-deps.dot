@@ -9,7 +9,6 @@ digraph qt5 {
   qtcreator
   qtdeclarative
   qtdoc
-  qtenginio
   qtfeedback [ color = red ]
   qtgraphicaleffects
   qtimageformats
@@ -49,8 +48,6 @@ digraph qt5 {
   qtdoc -> qtwebkit_examples
   qtdoc -> qtwebsockets
   qtdoc -> qtconnectivity
-  qtdoc -> qtenginio
-  qtenginio -> qttools
   qtgraphicaleffects -> qttools
   qtimageformats -> qtbase
   qtmultimedia -> qttools
