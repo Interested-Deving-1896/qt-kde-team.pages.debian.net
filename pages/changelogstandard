@@ -81,6 +81,9 @@ The final result should then be:<br/>
 <pre>
 package (4:4.3.4-2) unstable; urgency=low
 
+  * New upstream release.
+  * Team upload.
+
   [ 1st committer ]
   * First change.
   * Second change.
