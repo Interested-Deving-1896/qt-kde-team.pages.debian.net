@@ -4,7 +4,7 @@ digraph qt5 {
   ]
 
   qt3d
-  qtbase
+  "qtbase 5.6"
   qtconnectivity
   qtcreator
   qtdeclarative
@@ -48,24 +48,24 @@ digraph qt5 {
   qtdoc -> qtwebsockets
   qtdoc -> qtconnectivity
   qtgraphicaleffects -> qttools
-  qtimageformats -> qtbase
+  qtimageformats -> "qtbase 5.6"
   qtmultimedia -> qttools
   qtquick1 -> qtwebkit
   qtquickcontrols -> qttools
   qtsensors -> qttools
   qtserialport -> qttools
-  qtscript -> qtbase
-  qtstyleplugins -> qtbase
+  qtscript -> "qtbase 5.6"
+  qtstyleplugins -> "qtbase 5.6"
   qtsvg -> qttools
   qttools -> qtwebkit
   qttranslations -> qttools
-  qtwayland -> qtbase
+  qtwayland -> "qtbase 5.6"
   qtwebkit -> qtscript
   qtwebkit -> qtdeclarative
   qtwebkit_examples -> qttools
   qtwebsockets -> qttools
   qtx11extras -> qttools
-  qtxmlpatterns -> qtbase
+  qtxmlpatterns -> "qtbase 5.6"
   qtlocation -> qttools
 
   // unsure/not-uploaded
