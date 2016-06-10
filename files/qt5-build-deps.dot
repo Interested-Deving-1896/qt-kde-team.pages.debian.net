@@ -14,7 +14,6 @@ digraph qt5 {
   qtimageformats
   qtlocation
   qtmultimedia
-  qtquick1
   qtquickcontrols
   qtscript
   qtsensors
@@ -50,7 +49,6 @@ digraph qt5 {
   qtgraphicaleffects -> qttools
   qtimageformats -> "qtbase 5.6"
   qtmultimedia -> qttools
-  qtquick1 -> qtwebkit
   qtquickcontrols -> qttools
   qtsensors -> qttools
   qtserialport -> qttools
