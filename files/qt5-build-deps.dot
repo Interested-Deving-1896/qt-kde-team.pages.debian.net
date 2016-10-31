@@ -29,6 +29,8 @@ digraph qt5 {
   qtwebsockets
   qtx11extras
   qtxmlpatterns
+  qtwebchannel
+  qtwebengine [ color = red ]
 
   qtconnectivity -> qttools
   qtcreator -> qtx11extras
@@ -63,9 +65,12 @@ digraph qt5 {
   qtx11extras -> qttools
   qtxmlpatterns -> "qtbase 5.6"
   qtlocation -> qttools
+  qtwebchannel -> qttools
 
   // unsure/not-uploaded
   qt3d -> qttools [ color = red ]
   qtfeedback -> qtmultimedia [ color = red ]
   qtsystems -> qtdeclarative [ color = red ]
+  qtwebengine -> qtwebchannel [ color = red ]
+  qtwebengine -> qtlocation [color = red]
 }
