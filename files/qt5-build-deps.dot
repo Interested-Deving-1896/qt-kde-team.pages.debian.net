@@ -3,7 +3,7 @@ digraph qt5 {
     rankdir = "BT"
   ]
 
-  qt3d [ color = red ]
+  qt3d
   "qtbase 5.6"
   qtconnectivity
   qtcreator
@@ -32,6 +32,7 @@ digraph qt5 {
   qtwebchannel
   qtwebengine [ color = red ]
 
+  qt3d -> qttools
   qtconnectivity -> qttools
   qtcreator -> qtx11extras
   qtdeclarative -> qtxmlpatterns
@@ -67,7 +68,6 @@ digraph qt5 {
   qtwebchannel -> qttools
 
   // unsure/not-uploaded
-  qt3d -> qttools [ color = red ]
   qtfeedback -> qtmultimedia [ color = red ]
   qtsystems -> qtdeclarative [ color = red ]
   qtwebengine -> qtwebchannel [ color = red ]
