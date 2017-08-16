@@ -50,16 +50,16 @@ digraph qt5 {
   qtdoc -> qtwebsockets
   qtdoc -> qtx11extras
   qtgraphicaleffects -> qttools
-  qtimageformats -> "qtbase 5.7"
+  qtimageformats -> "qtbase 5.9"
   qtlocation -> qttools
   qtmultimedia -> qttools
   qtquickcontrols -> qtgraphicaleffects
   qtquickcontrols2 -> qttools
-  qtscript -> "qtbase 5.7"
+  qtscript -> "qtbase 5.9"
   qtsensors -> qttools
   qtserialport -> qttools
   qtspeech -> qttools
-  qtstyleplugins -> "qtbase 5.7"
+  qtstyleplugins -> "qtbase 5.9"
   qtsvg -> qttools
   qttools -> qtwebkit
   qttranslations -> qttools
@@ -73,5 +73,5 @@ digraph qt5 {
   qtwebkit_examples -> qttools
   qtwebsockets -> qttools
   qtx11extras -> qttools
-  qtxmlpatterns -> "qtbase 5.7"
+  qtxmlpatterns -> "qtbase 5.9"
 }
