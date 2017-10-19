@@ -18,4 +18,6 @@
 
 	       <li>For publishing the changes, run genweb.sh from the git repository root and copy
 		   the content from output to moszumanska:/home/groups/pkg-kde/htdocs/.</li>
+	
+	      <li>For example use rsync for it: <pre>rsync -av output/ moszumanska.debian.org:/home/groups/pkg-kde/htdocs/</pre></li>
             </ol>
