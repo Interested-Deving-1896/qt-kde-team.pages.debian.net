@@ -8,6 +8,15 @@
 <h2><a href="rss.xml"><img alt="RSS Icon" src="../images/rssicon.png" style="float:right"/></a>Latest news:</h2>
 <!--RSS_START-->
 
+<p><strong>Status update - Oct 19, 2017</strong><br />
+  <ul>
+    <li>KDE Applications 17.08 in experimental. Waiting for the last bits in the <a href="https://ftp-master.debian.org/new.html">NEW queue</a> to push it to unstable.</li>
+    <li>KDE Frameworks 5.37 in unstable.</li>
+    <li>Plasma 5.10.5 in unstable.</li>
+    <li>Preparing Qt 5.9.2 in experimental.</li>
+  </ul>
+</p>
+
 <p><strong>Nov 19, 2016</strong><br />
   Uploading of KDE Frameworks 5.28 has started.
 </p>
