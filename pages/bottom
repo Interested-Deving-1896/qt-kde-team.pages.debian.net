@@ -18,12 +18,13 @@
 			      <li>KDE Applications 16.04 and parts of 16.08</li>
 			    </ul>
 			  </li>
-			  <li><b>testing</b></li>
+			  <li><b>stretch (stable)</b></li>
 			  <li>
 			    <ul>
 			      <li>KDE Applications 16.04 and part of 16.08</li>
 			    </ul>
-			  <li><b>jessie (stable)</b></li>
+			  </li>
+			  <li><b>jessie (oldstable)</b></li>
 			  <li>
 			    <ul>
 			      <li>KDE SC 4.14</li>
