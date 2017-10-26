@@ -8,6 +8,10 @@
 <h2><a href="rss.xml"><img alt="RSS Icon" src="../images/rssicon.png" style="float:right"/></a>Latest news:</h2>
 <!--RSS_START-->
 
+<p><strong>Qt 5.9.2 entering unstable - Oct 26, 2017</strong><br />
+  <a href="https://release.debian.org/transitions/html/qtbase-abi-5-9-2.html">Transition to Qt 5.9.2</a> has started.
+</p>
+
 <p><strong>Status update - Oct 19, 2017</strong><br />
   <ul>
     <li>KDE Applications 17.08 in experimental. Waiting for the last bits in the <a href="https://ftp-master.debian.org/new.html">NEW queue</a> to push it to unstable.</li>
