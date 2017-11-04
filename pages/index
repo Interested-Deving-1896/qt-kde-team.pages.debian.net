@@ -8,6 +8,10 @@
 <h2><a href="rss.xml"><img alt="RSS Icon" src="../images/rssicon.png" style="float:right"/></a>Latest news:</h2>
 <!--RSS_START-->
 
+<p><strong>Puri.sm is running Plasma mobile using Wayland on imx6 (ARM SoC) using Debian Testing:</strong><br/>
+<a href="https://puri.sm/posts/running-plasma-mobile-on-an-imx6-test-board/">https://puri.sm/posts/running-plasma-mobile-on-an-imx6-test-board/</a>
+</p>
+
 <p><strong>Qt 5.9.2 entering unstable - Oct 26, 2017</strong><br />
   <a href="https://release.debian.org/transitions/html/qtbase-abi-5-9-2.html">Transition to Qt 5.9.2</a> has started.
 </p>
