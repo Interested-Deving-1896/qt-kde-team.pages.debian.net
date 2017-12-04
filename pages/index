@@ -1,5 +1,5 @@
 <h2>Welcome</h2>
-	<p>This is the home page of two closely related teams: 
+	<p>This is the home page of two closely related teams:
 		<a href="qtkde.html">Debian Qt/KDE Maintainers</a> and
 		<a href="kdeextras.html">Debian KDE Extras Team</a>.<br />
 	   We are a group of people with a common goal in mind: bringing the best KDE possible to Debian.
@@ -7,6 +7,10 @@
 
 <h2><a href="rss.xml"><img alt="RSS Icon" src="../images/rssicon.png" style="float:right"/></a>Latest news:</h2>
 <!--RSS_START-->
+
+<p><strong>November 18, 2017</strong><br>
+Today the upload of KDE Applications 17.08.3 to unstable has started.
+</p>
 
 <p><strong>Puri.sm is running Plasma mobile using Wayland on imx6 (ARM SoC) using Debian Testing:</strong><br/>
 <a href="https://puri.sm/posts/running-plasma-mobile-on-an-imx6-test-board/">https://puri.sm/posts/running-plasma-mobile-on-an-imx6-test-board/</a>
@@ -76,7 +80,7 @@
 
 <p><strong>March 8, 2012</strong><br />
   KDE SC 4.7.4 has successfully been uploaded to unstable.<br />
-  Delete <tt>/etc/apt/preferences.d/kde-experimental</tt>, if you have used that to install 4.7.4 from experimental. 
+  Delete <tt>/etc/apt/preferences.d/kde-experimental</tt>, if you have used that to install 4.7.4 from experimental.
 </p>
 
 <p><strong>December 18, 2011</strong><br />
@@ -84,7 +88,7 @@
 </p>
 
 <p><strong>December 07, 2011</strong><br />
-  KDE SC 4.7.2 has been uploaded to 
+  KDE SC 4.7.2 has been uploaded to
   <a href="http://qt-kde.debian.net">qt-kde.debian.net</a> and experimental.
 </p>
 
