@@ -50,7 +50,7 @@ def main():
        #    print("Package will not processed", pkg['Package'])
 
 
-    graph = {}
+    graph = {}    # full graph
 
     for pkg in deb822.Sources.iter_paragraphs(open('Sources')):
         name = pkg['package']
@@ -64,7 +64,7 @@ def main():
 
         graph[name] = sDeps
 
-    sgraph = {}
+    sgraph = {}     # minimized graph
     for pkg in graph:
         deps = copy.copy(graph[pkg])
         for dep in graph[pkg]:
@@ -73,9 +73,9 @@ def main():
 
 
     print("digraph pim {")
-    for pkg in graph:
+    for pkg in sgraph:
         name = pkg
-        sDeps = graph[pkg]
+        sDeps = sgraph[pkg]
         if sDeps == set():
             emit_nodecolor(name, 'darkgreen')
         else:
@@ -87,9 +87,9 @@ def main():
             else:
                 emit_nodecolor(name, 'lightblue')
 
-    for pkg in graph:
+    for pkg in sgraph:
         name = pkg
-        sDeps = graph[pkg]
+        sDeps = sgraph[pkg]
         for dep in sDeps:
             emit_arc(dep, name)
     print("}")
