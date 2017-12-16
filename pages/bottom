@@ -15,7 +15,9 @@
 			  <li><b>unstable</b></li>
 			  <li>
 			    <ul>
-			      <li>KDE Applications 16.04 and parts of 16.08</li>
+			      <li>KDE Applications 17.08</li>
+			      <li>KDE Frameworks 5.37</li>
+			      <li>Qt 5.9.2</li>
 			    </ul>
 			  </li>
 			  <li><b>stretch (stable)</b></li>
