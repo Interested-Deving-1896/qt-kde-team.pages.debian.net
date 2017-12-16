@@ -2,19 +2,29 @@
 
 # depgraph
 # Copyright (C) 2008 Stefano Zacchiroli <zack@debian.org>
+# Copyright (C) 2017 Sandro Knauß <hefee@debian.org>
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
 
-"""Graph the dependencies of all packages contained in a given Packages
+"""Graph the dependencies of all packages contained in a given Sources
 file.
 
-Only consider Depends fields. Versioned dependencies are considered as they
-were not versioned. The graph is retourned in output as a (non normalized)
-graphviz graph suitable to be processed by dot (for an unstable/main Packages
-file, generating the final graph will take a while ...)."""
+The dependencies are minimized, so that only direct dependencies are shown.
+The green dots are packages without depdencies inside the set.
+The lightblue dots are one end of the build chain.
+
+If you have something like this:
+
+    a -> b -> c
+    a -> c
+the second depdency is not shown.
+
+You can enable the full dependency if you replace sgraph -> graph in the last for loop.
+
+This file is optimized for the kde-pim build depenency."""
 
 from __future__ import print_function
 
