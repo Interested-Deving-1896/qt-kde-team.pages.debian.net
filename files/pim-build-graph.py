@@ -75,15 +75,31 @@ def main():
         graph[name] = sDeps
 
     sgraph = {}     # minimized graph
-    for pkg in graph:
+    ograph = graph
+    fgraph = {}     # full dependency graph
+
+    for i in range(10):
+        changed = False
+        for pkg in ograph:
+            deps = copy.copy(ograph[pkg])
+            for dep in ograph[pkg]:
+                deps |= ograph[dep]
+            if deps != ograph[pkg]:
+                changed = True
+            fgraph[pkg] = deps
+
+        if not changed:
+            break
+        ograph = fgraph
+
+    for pkg in fgraph:
         deps = copy.copy(graph[pkg])
         for dep in graph[pkg]:
-            deps -= graph[dep]
+            deps -= fgraph[dep]
         sgraph[pkg] = deps
 
-
     print("digraph pim {")
-    for pkg in sgraph:
+    for pkg in graph:
         name = pkg
         sDeps = sgraph[pkg]
         if sDeps == set():
@@ -97,7 +113,7 @@ def main():
             else:
                 emit_nodecolor(name, 'lightblue')
 
-    for pkg in sgraph:
+    for pkg in graph:
         name = pkg
         sDeps = sgraph[pkg]
         for dep in sDeps:
