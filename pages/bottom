@@ -36,12 +36,8 @@
 			  <li>
 			    <ul>
 			      <li><a href="kde411.html">KDE SC 4.11</a></li>
-			    </ul>
-			    <ul>
 			      <li><a href="kde410.html">KDE SC 4.10</a></li>
-			    </ul>
-			    <ul>
-			      <li><a href="kde48.html">KDE SC 4.8</a></li>
+			      <li><a href="kde48.html">KDE SC 4.8</a> <a href="kde48-build-deps.html">(build dependencies)</a></li>
 			    </ul>
 			  </li>
 			</ul>
@@ -72,9 +68,9 @@
 			      <!--<li><a href="#">How to package kde applications</a></li>-->
 			      <li><a href="changelogstandard.html">Standard style for changelog entries</a></li>
 			      <li><a href="qt5-build-deps.html">Qt5 build dependencies graph</a></li>
+			      <li><a href="applications-17.08-build-deps.html">KDE Applications 17.08 build dependencies graph</a></li>
 			      <li><a href="qmlmodulesnaming.html">QML modules naming guidelines</a></li>
 			      <li><a href="packagingqtbasedstuff.html">Packaging Qt-based stuff</a></li>
-			      <li><a href="kde-build-deps.html">KDE build dependencies graph</a></li>
 			      <li><a href="descriptions.html">Descriptions policy draft</a></li>
 			      <li><a href="pkgkdegit.html">git quick guide</a></li>
 			      <li><a href="gitguidelines.html">git guidelines</a></li>
