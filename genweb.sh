@@ -25,7 +25,7 @@ bash genrss.sh > $OUTPUT/rss.xml
 dot -T png -o $OUTPUT/images/qt5_build_deps.png files/qt5-build-deps.dot
 
 # Generate Pim5 build dependencies graph. Needs dot.
-for i in files/pim-build-deps*dot
+for i in files/pim-build-*dot
 do
 	dot -T png -o $OUTPUT/images/`basename $i .dot`.png $i
 done
