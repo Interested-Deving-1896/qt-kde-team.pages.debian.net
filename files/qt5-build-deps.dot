@@ -10,6 +10,7 @@ digraph qt5 {
   qtcreator
   qtdeclarative
   qtdoc
+  qtgamepad
   qtgraphicaleffects
   qtimageformats
   qtlocation
