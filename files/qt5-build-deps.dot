@@ -41,7 +41,6 @@ digraph qt5 {
   qtcreator -> qtx11extras
   qtdeclarative -> qtxmlpatterns
   qtdoc -> qtconnectivity
-  qtdoc -> qtlocation
   qtdoc -> qtmultimedia
   qtdoc -> qtquickcontrols
   qtdoc -> qtsensors
@@ -53,7 +52,7 @@ digraph qt5 {
   qtgamepad -> "qtbase 5.10"
   qtgraphicaleffects -> qttools
   qtimageformats -> "qtbase 5.10"
-  qtlocation -> qttools
+  qtlocation -> qtdeclarative
   qtmultimedia -> qttools
   qtquickcontrols -> qtgraphicaleffects
   qtquickcontrols2 -> qttools
@@ -68,10 +67,8 @@ digraph qt5 {
   qtvirtualkeyboard -> qtsvg
   qtwayland -> qttools
   qtwebchannel -> qttools
-  qtwebengine -> qtlocation
   qtwebengine -> qtwebchannel
   qtwebview -> qtwebengine
-  qtwebkit -> qtdeclarative
   qtwebkit -> qtscript
   qtwebkit -> qtlocation
   qtwebkit_examples -> qttools
