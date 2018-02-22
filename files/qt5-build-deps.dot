@@ -73,6 +73,7 @@ digraph qt5 {
   qtwebview -> qtwebengine
   qtwebkit -> qtdeclarative
   qtwebkit -> qtscript
+  qtwebkit -> qtlocation
   qtwebkit_examples -> qttools
   qtwebsockets -> qttools
   qtx11extras -> qttools
