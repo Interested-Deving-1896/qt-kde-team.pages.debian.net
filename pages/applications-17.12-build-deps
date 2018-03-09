@@ -1,0 +1,32 @@
+<h2>Build dependency graph for KDE Applications 17.12</h2>
+	<p>We have only a graph of KDE Pim, because it is a complex part inside KDE Applications. I added two packages from outside of the KDE Pim umbrella:  libkgapi and libkolab, both depend on KDE Pim stuff and KDE Pim stuff depends on them.</p>
+	<div align="center">
+		<a href="images/pim-build-deps-17.12.png"> <img alt="Build Dependency of source packages" src="images/pim-build-deps-17.12.png" width=700 /> </a></br>
+		Click on the image to see it in it's original size.
+	</div>
+	<div align="center">
+                <h4>Tier view for KDE Pim</h4>
+		<p>The simple dependency graph is not very usefull, if you want to feed a builder. Here the tiers are more usefull. One tier is defined, that it only depends on things of lower tiers. That means you can build one tier in parallel. After building on tier you need to make sure, that the next tier will use the new built packages.
+		<a href="images/pim-build-tier-17.12.png"> <img alt="Build Dependency of source packages" src="images/pim-build-tier-17.12.png" width=700 /> </a></br>
+		Click on the image to see it in it's original size.
+	</div>
+	<br>
+	<ul>
+		<li>Packages with green background are inital packages, they have not dependencies inside KDE Pim.</li>
+		<li>Packages with lightblue/diamonds background are end of chain. Nothing depends on them.</li>
+	</ul>
+	<p>
+		The dot file for generating this graph can be downloaded: <a href="files/pim-build-tier-17.12.dot">pim-build-tier-17.12.dot</a>, <a href="files/pim-build-tier-17.12.dot">pim-build-tier-17.12.dot</a>.<br />
+		The code for creating the dot file can be dewnloaded: <a href="files/pim-build-graph.py">pim-build-graph.py</a>, <a href="files/pim-build-tier.py">pim-build-tier.py</a>.
+	</p>
+	<p>
+		Link to <a href="https://buildd.debian.org/status/package.php?p=akonadi%2Ckpimtextedit%2Clibkf5grantleetheme%2Csyndication%2Ckcalcore%2Ckdav%2Ckldap%2Ckcontacts%2Ckontactinterface%2Ckholidays%2Ckmime%2Clibkf5libkleo%2Clibkgapi%2Ckblog%2Cakonadi-notes%2Ckmbox%2Ckimap%2Cakonadi-mime%2Ckidentitymanagement%2Cakonadi-search%2Ckcalutils%2Cakonadi-contacts%2Ckalarmcal%2Ckleopatra%2Ckmailtransport%2Cakonadi-calendar%2Clibkf5libkdepim%2Cktnef%2Ckgpg%2Clibkolab%2Clibkf5mailimporter%2Clibkf5pimcommon%2Ckdepim-runtime%2Clibkf5ksieve%2Cknotes%2Ckmail-account-wizard%2Ckf5-kdepim-apps-libs%2Clibkf5gravatar%2Ckontact%2Clibkf5calendarsupport%2Cpim-sieve-editor%2Ckf5-messagelib%2Ckaddressbook%2Clibkf5mailcommon%2Cblogilo%2Cakonadi-calendar-tools%2Cgrantlee-editor%2Cakregator%2Clibkf5eventviews%2Cakonadiconsole%2Cakonadi-import-wizard%2Ckmail%2Ckalarm%2Cmbox-importer%2Cpim-data-exporter%2Clibkf5incidenceeditor%2Ckdepim-addons%2Ckorganizer&suite=experimental">buildd build status</a>
+	</p>
+
+<h3>Upstream announcements<h3>
+<ul>
+	<li><a href="https://www.kde.org/announcements/announce-applications-17.12.0.php">KDE Applications 17.12.0</a></li>
+	<li><a href="https://www.kde.org/announcements/announce-applications-17.12.1.php">KDE Applications 17.12.1</a></li>
+	<li><a href="https://www.kde.org/announcements/announce-applications-17.12.2.php">KDE Applications 17.12.2</a></li>
+	<li><a href="https://www.kde.org/announcements/announce-applications-17.12.3.php">KDE Applications 17.12.3</a></li>
+</ul>
