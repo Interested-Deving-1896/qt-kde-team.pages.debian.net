@@ -1,0 +1,8 @@
+pages:
+  script:
+  - ./genweb.sh
+  artifacts:
+    paths:
+    - output
+  only:
+  - master
