@@ -2,7 +2,7 @@ pages:
   script:
   - export DEBIAN_FRONTEND=noninteractive
   - apt-get update
-  - apt-get install -yy graphviz
+  - apt-get install -yy --no-install-recommends graphviz
   - ./genweb.sh
   - mkdir public
   - cp -a output/* public/
