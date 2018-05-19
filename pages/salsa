@@ -1,0 +1,18 @@
+<h2>Some agreements with respect to salsa.debian.org</h2>
+
+<h3>User's roles</h3>
+
+<ul>
+  <li>All people asking for access will be granted the Developer role.</li>
+  <li>DD's are Master by default.</li>
+  <li>DM's can become Master only after they worked on Qt/KDE packages for several months.</li>
+</ul>
+
+<h3>Repository layouts</h3>
+<ul>
+  <li><strong>qt/</strong>: everything from qt.io.</li>
+  <li><strong>kde/</strong>: frameworks/plasma/apps.</li>
+  <li><strong>3rdparty/</strong>: non-Qt stuff that needs to be packaged
+  because it is used by something packaged (and not already in Debian).</li>
+  <li><strong>extras</strong>: everything else.</li>
+</ul>
