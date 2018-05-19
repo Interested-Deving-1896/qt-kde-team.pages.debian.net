@@ -1,8 +1,13 @@
 pages:
   script:
+  - export DEBIAN_FRONTEND=noninteractive
+  - apt-get update
+  - apt-get install -yy graphviz
   - ./genweb.sh
+  - mkdir public
+  - cp -a output/* public/
   artifacts:
     paths:
-    - output
+    - public
   only:
   - master
