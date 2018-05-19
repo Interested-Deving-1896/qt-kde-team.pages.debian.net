@@ -1,6 +1,6 @@
 	<h2>Build dependency graph for 4.8</h2>
 	<div align="center">
-	     <img alt="Build Dependency of source packages" src="../images/build_deps_48.png"/>
+	     <img alt="Build Dependency of source packages" src="images/build_deps_48.png"/>
 	</div>
 	<br>
 	<p>Some source packages have been split into multiple source packages. <br \>

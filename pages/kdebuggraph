@@ -1,5 +1,5 @@
 
-			<h2>Bug graph<img alt="bug_icon" src="../images/graph_64.png" style="float:right; margin:-8px 0 0 0;" /></h2>
+			<h2>Bug graph<img alt="bug_icon" src="images/graph_64.png" style="float:right; margin:-8px 0 0 0;" /></h2>
 			<img src="http://alioth.debian.org/~pusling-guest/pkg-kde-buggraphs/_ALL__month.png" alt="bug graph last month" width="45%" height="45%" />
 			<img src="http://alioth.debian.org/~pusling-guest/pkg-kde-buggraphs/_ALL__year.png" alt="bug graph last year" width="45%" height="45%" />
 			<p>
