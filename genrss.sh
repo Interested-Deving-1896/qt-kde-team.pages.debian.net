@@ -16,18 +16,18 @@ cat <<__EOHEAD__
 <channel>
 <title>Debian KDE maintainers</title>
 <description>Debian KDE news feed</description>
-<link>http://pkg-kde.alioth.debian.org/</link>
+<link>http://qt-kde-team.pages.debian.net/www/</link>
 <lastBuildDate>`date -R`</lastBuildDate>
 <generator>bash hacking</generator>
 <image>
-  <url>http://pkg-kde.alioth.debian.org/images/kdedebianlogo2_64.png</url>
+  <url>http://qt-kde-team.pages.debian.net/www/images/kdedebianlogo2_64.png</url>
   <title>Debian KDE maintainers</title>
-  <link>http://pkg-kde.alioth.debian.org/</link>
+  <link>http://qt-kde-team.pages.debian.net/www/</link>
   <description>Debian KDE news feed</description>
 </image>
 __EOHEAD__
 
-tail -n +${NEWS_START} ${FILE} | head -n +${NEWS_END} | sed -r 's,<p>,<item>,g;s,</p>,]]></description></item>,g;s,<strong>,<title>,g;s,</strong>,</title>,g;s,(</title>\s*)<br />,\1<link>http://pkg-kde.alioth.debian.org/</link><description><![CDATA[,g'
+tail -n +${NEWS_START} ${FILE} | head -n +${NEWS_END} | sed -r 's,<p>,<item>,g;s,</p>,]]></description></item>,g;s,<strong>,<title>,g;s,</strong>,</title>,g;s,(</title>\s*)<br />,\1<link>http://qt-kde-team.pages.debian.net/www/</link><description><![CDATA[,g'
 
 cat << __EOFOOT__
         </channel>
