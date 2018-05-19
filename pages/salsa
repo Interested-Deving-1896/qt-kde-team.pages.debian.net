@@ -16,3 +16,18 @@
   because it is used by something packaged (and not already in Debian).</li>
   <li><strong>extras/</strong> everything else.</li>
 </ul>
+
+<h3>Hooks</h3>
+
+<ul>
+  <li><strong>Irker:</strong> we enable them if someone asks for it, but on a separate channel. Example: #debian-qt-notifications for stuff under qt/</li>
+  <li><strong>tagpending:</strong> we do enable the tagpending hook.</li>
+</ul>
+
+<h3>Issues</h3>
+
+We do not enable issues, we use Debian's bug tracker system for that.
+
+<h3>Merge requests</h3>
+
+Should be enabled and configyured as "Fast-forward merge".
