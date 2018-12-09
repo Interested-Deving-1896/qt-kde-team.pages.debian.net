@@ -30,7 +30,6 @@ digraph qt5 {
   qtwebchannel
   qtwebengine
   qtwebkit
-  qtwebkit_examples
   qtwebsockets
   qtx11extras
   qtxmlpatterns
@@ -45,7 +44,6 @@ digraph qt5 {
   qtdoc -> qtquickcontrols
   qtdoc -> qtserialport
   qtdoc -> qtsvg
-  qtdoc -> qtwebkit_examples
   qtdoc -> qtwebsockets
   qtdoc -> qtx11extras
   qtgamepad -> "qtbase 5.11"
@@ -73,7 +71,6 @@ digraph qt5 {
   qtwebkit -> qtscript
   qtwebkit -> qtsensors
   qtwebkit -> qtwebchannel
-  qtwebkit_examples -> qttools
   qtwebsockets -> qtdeclarative
   qtx11extras -> qttools
   qtxmlpatterns -> "qtbase 5.11"
