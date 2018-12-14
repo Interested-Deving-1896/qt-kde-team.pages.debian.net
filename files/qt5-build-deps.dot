@@ -19,6 +19,7 @@ digraph qt5 {
   qtquickcontrols2
   qtscript
   qtsensors
+  qtserialbus
   qtserialport
   qtspeech
   qtstyleplugins
@@ -42,7 +43,7 @@ digraph qt5 {
   qtdoc -> qtconnectivity
   qtdoc -> qtmultimedia
   qtdoc -> qtquickcontrols
-  qtdoc -> qtserialport
+  qtdoc -> qtserialbus
   qtdoc -> qtsvg
   qtdoc -> qtwebsockets
   qtdoc -> qtx11extras
@@ -55,6 +56,7 @@ digraph qt5 {
   qtquickcontrols2 -> qttools
   qtscript -> "qtbase 5.11"
   qtsensors ->qtdeclarative
+  qtserialbus -> qtserialport
   qtserialport -> qttools
   qtspeech -> qttools
   qtstyleplugins -> "qtbase 5.11"
