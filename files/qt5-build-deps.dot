@@ -46,7 +46,6 @@ digraph qt5 {
   qtdoc -> qtquickcontrols
   qtdoc -> qtserialbus
   qtdoc -> qtsvg
-  qtdoc -> qtwebsockets
   qtdoc -> qtx11extras
   qtgamepad -> "qtbase 5.11"
   qtgraphicaleffects -> qttools
