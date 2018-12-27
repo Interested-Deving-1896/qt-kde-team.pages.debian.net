@@ -8,6 +8,7 @@ digraph qt5 {
   qtcharts
   qtconnectivity
   qtcreator
+  qtdatavis3d
   qtdeclarative
   qtdoc
   qtgamepad
@@ -40,6 +41,7 @@ digraph qt5 {
   qtcharts -> qttools
   qtconnectivity -> qttools
   qtcreator -> qtx11extras
+  qtdatavis3d -> qttools
   qtdeclarative -> qtxmlpatterns
   qtdoc -> qtconnectivity
   qtdoc -> qtmultimedia
