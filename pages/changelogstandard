@@ -2,7 +2,7 @@
 
 Adopting a common standard for changelog entires not only helps improve their readability but also helps in reducing manual editing as much as possible, thus avoiding wasting development time in simple formatting issues.<br/>
 <br/>
-The contents of this standard and a rationale for them have been proposed by Modestas Vainius <a href="http://lists.alioth.debian.org/pipermail/pkg-kde-talk/2009-December/001431.html" alt="Original proposal">on our maintainer discussion mailing list</a>. The following notes are a summary of that proposal plus some little modifications done in order to update the workflow to make them respect Debian's policy.<br/>
+The contents of this standard and a rationale for them have been proposed by Modestas Vainius <a href="https://lists.alioth.debian.org/pipermail/pkg-kde-talk/2009-December/001431.html" alt="Original proposal">on our maintainer discussion mailing list</a>. The following notes are a summary of that proposal plus some little modifications done in order to update the workflow to make them respect Debian's policy.<br/>
 <br/>
 
 <h3>The standard</h3>

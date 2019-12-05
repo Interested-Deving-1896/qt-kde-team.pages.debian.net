@@ -1,9 +1,9 @@
 
 			<h2>bts-link</h2>
 			<p>bts-link was code by Pierre Habouzit. This tool helps to track better the changes made in remotes bug tracking system, where had been forwarded bugs from the Debian BTS.</p>
-			<p>You can read <a href="http://lists.debian.org/debian-devel-announce/2006/05/msg00001.html">the announcement</a> of this new tool in d-d-announce.</p>
+			<p>You can read <a href="https://lists.debian.org/debian-devel-announce/2006/05/msg00001.html">the announcement</a> of this new tool in d-d-announce.</p>
 
 			<h3>Using bts-link with the KDE bugzilla</h3>
 			<p>To forward bugs from the Debian BTS, you only need to forward the bug to the KDE bugzilla:</p>
-				<pre>forwarded XXXXXX http://bugs.kde.org/show_bug.cgi?id=YYYYYYY</pre>
+				<pre>forwarded XXXXXX https://bugs.kde.org/show_bug.cgi?id=YYYYYYY</pre>
 			<p>Where XXXXXX is the Debian bug number and YYYYY the kde bug number.</p>

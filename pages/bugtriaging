@@ -6,7 +6,7 @@
 <pre>
 XXXXXX = the bug number
 Y.Y-Y  = version where it is fixed
-https://bugs.kde.org/show_bug.cgi?id=nnnnnn = bug url in the KDE bugzilla, nnnnnn is the bug number
+https://bugs.kde.org/show_bug.cgi?id=nnnnnn = bug url in the KDE Bugzilla, nnnnnn is the bug number
 </pre>
 </p>
 
@@ -15,7 +15,7 @@ https://bugs.kde.org/show_bug.cgi?id=nnnnnn = bug url in the KDE bugzilla, nnnnn
 <ul>
 <li>Look at bugs of apps you know and you regularly use.</li>
 <li>When you have a doubt, ask in IRC.</li>
-<li>Submitters are not subscribed to the bug report by default, when asking something to the bug submitter make sure to CC: XXXXXXsubmitter@bugs.debian.org</li>
+<li>Submitters are not subscribed to the bug report by default. When asking something to the bug submitter make sure to CC: XXXXXX-submitter@bugs.debian.org</li>
 </ul>
 </p>
 
@@ -28,10 +28,10 @@ https://bugs.kde.org/show_bug.cgi?id=nnnnnn = bug url in the KDE bugzilla, nnnnn
 <h3>Useful links</h3>
 <p>
 <ul>
-<li><a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?maint=debian-qt-kde%40lists.debian.org">All the bugs</a></li>
-<li><a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?maint=debian-qt-kde%40lists.debian.org;severity=serious;severity=grave;severity=critical">Release Critical bugs</a></li> 
-<li>Bugs only affecting a module, for example: <a href="http://bugs.debian.org/src:kdegames">kdegames</a>. For other modules replace kdegames for the name of the module.</li>
-<li>Bugs only affecting an app, for example: <a href="http://bugs.debian.org/kopete">kopete</a>. For other modules replace kopete for the name of the app.</li>
+<li><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?maint=debian-qt-kde%40lists.debian.org">All the bugs</a></li>
+<li><a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?maint=debian-qt-kde%40lists.debian.org;severity=serious;severity=grave;severity=critical">Release Critical bugs</a></li> 
+<li>Bugs only affecting a module, for example: <a href="https://bugs.debian.org/src:kdegames">kdegames</a>. For other modules replace kdegames for the name of the module.</li>
+<li>Bugs only affecting an app, for example: <a href="https://bugs.debian.org/kopete">kopete</a>. For other modules replace kopete for the name of the app.</li>
 </ul>
 </p>
 <h3>Possible cases</h3>
@@ -53,7 +53,7 @@ Cheers.
 </p>
 
 
-<h4> Bug forwarded in the KDE bugzilla</h4>
+<h4> Bug forwarded in the KDE Bugzilla</h4>
 You send a control email to mark the bug as forwarded so bts-link learns about it.
 
 <p>
@@ -70,7 +70,7 @@ thanks
 <h4> Bug forwarded thas has been *fixed* in the KDE bugzilla</h4>
 
 <p>
-Check if it is really fixed for you, and if it is. Then you are in the case "Close the bug using version".
+Check if it is really fixed for you, and if it is, then you are in the case "Close the bug using version".
 </p>
 
 

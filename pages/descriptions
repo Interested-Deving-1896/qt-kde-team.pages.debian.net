@@ -2,12 +2,12 @@
 
 			<p>This is a proposal for the descriptions of the KDE packages in Debian. I
 			tried to <a
-			href="http://lists.kde.org/?t=110426692200003&amp;r=1&amp;w=2">contact upstream
+			href="https://lists.kde.org/?t=110426692200003&amp;r=1&amp;w=2">contact upstream
 			in kde-devel</a> for a bit of help in this issue, but (maybe because of the
 			holidays) I didn't received many feedback. My suggestion is to agree on some
 			common brief guidelines, and make a list of packages that lack a description,
 			as <a
-			href="http://lists.kde.org/?l=kde-devel&amp;m=110429476924080&amp;w=2">Jess
+			href="https://lists.kde.org/?l=kde-devel&amp;m=110429476924080&amp;w=2">Jess
 			Roncero suggested</a>. We can post the list in the KDE or Debian Wiki, and then
 			ask in kde-quality or debian-kde, so users can help with them.</p>
 			

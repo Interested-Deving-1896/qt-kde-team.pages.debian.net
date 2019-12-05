@@ -1,4 +1,4 @@
-<h2>GIT guidelines</h2>
+<h2>Git guidelines</h2>
 
 <h3>Patches to the original source code</h3>
 
@@ -28,7 +28,7 @@ section above.
   <li> Other members of packaging group should request permission of the current
   co-maintainers (via IRC or mailing list) before adding yourself to the list of
   Uploaders or pushing any other kind of changes.</li>
-  <li> Occasional contributors may create merge request in
+  <li> Occasional contributors may create merge requests at
   <a href="https://salsa.debian.org/qt-kde-team" alt="Qt-KDE's salsa project">salsa</a>
   (preferred) or optionally send patches. This last option should preferably be
   formatted with `git format-patch` in order to retain commit authorship
