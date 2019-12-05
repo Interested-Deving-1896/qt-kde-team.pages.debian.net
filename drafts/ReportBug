@@ -35,5 +35,5 @@ KCrash is a application that shows backtraces that can help debugging. For diffe
    from /usr/lib/libqt-mt.so.3
 </pre>
 <p>
-The debugging symbols needs to be installed. The debugging symbols are found in packages with a name like SOURCEPACKAGE-dbg, for example to debug crashes in konqueror, kdebase-dbg (and kdelibs-dbg) is needed.
+The debugging symbols needs to be installed. The debugging symbols are found in packages with a name like PACKAGE-dbgsym. For example, to debug crashes in Konqueror, konqueror-dbgsym is needed.
 </p>
