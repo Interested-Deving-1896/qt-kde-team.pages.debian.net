@@ -1,23 +1,23 @@
 <h2>Build dependency graph for KDE Applications 17.12</h2>
-	<p>We have only a graph of KDE Pim, because it is a complex part inside KDE Applications. I added two packages from outside of the KDE Pim umbrella:  libkgapi and libkolab, both depend on KDE Pim stuff and KDE Pim stuff depends on them.</p>
+	<p>We have only a graph of KDE PIM because it is a complex part inside KDE Applications. I added two packages from outside of the KDE PIM umbrella: libkgapi and libkolab. Both depend on KDE PIM stuff and KDE PIM stuff depends on them.</p>
 	<div align="center">
 		<a href="images/pim-build-deps-17.12.png"> <img alt="Build Dependency of source packages" src="images/pim-build-deps-17.12.png" width=700 /> </a></br>
-		Click on the image to see it in it's original size.
+		Click on the image to see it in its original size.
 	</div>
 	<div align="center">
-                <h4>Tier view for KDE Pim</h4>
-		<p>The simple dependency graph is not very usefull, if you want to feed a builder. Here the tiers are more usefull. One tier is defined, that it only depends on things of lower tiers. That means you can build one tier in parallel. After building on tier you need to make sure, that the next tier will use the new built packages.
+                <h4>Tier view for KDE PIM</h4>
+		<p>The simple dependency graph is not very useful if you want to feed a builder. Here the tiers are more useful. One tier is defined such that it only depends on things of lower tiers. That means you can build one tier in parallel. After building one tier you need to make sure that the next tier will use the newly-built packages.
 		<a href="images/pim-build-tier-17.12.png"> <img alt="Build Dependency of source packages" src="images/pim-build-tier-17.12.png" width=700 /> </a></br>
-		Click on the image to see it in it's original size.
+		Click on the image to see it in its original size.
 	</div>
 	<br>
 	<ul>
-		<li>Packages with green background are inital packages, they have not dependencies inside KDE Pim.</li>
+		<li>Packages with green background are inital packages; they have no dependencies inside KDE PIM.</li>
 		<li>Packages with lightblue/diamonds background are end of chain. Nothing depends on them.</li>
 	</ul>
 	<p>
 		The dot file for generating this graph can be downloaded: <a href="files/pim-build-tier-17.12.dot">pim-build-tier-17.12.dot</a>, <a href="files/pim-build-tier-17.12.dot">pim-build-tier-17.12.dot</a>.<br />
-		The code for creating the dot file can be dewnloaded: <a href="files/pim-build-graph.py">pim-build-graph.py</a>, <a href="files/pim-build-tier.py">pim-build-tier.py</a>.
+		The code for creating the dot file can be downloaded: <a href="files/pim-build-graph.py">pim-build-graph.py</a>, <a href="files/pim-build-tier.py">pim-build-tier.py</a>.
 	</p>
 	<p>
 		Link to <a href="https://buildd.debian.org/status/package.php?p=kcalcore%2Ckontactinterface%2Ckldap%2Csyndication%2Clibkf5grantleetheme%2Ckmime%2Ckpimtextedit%2Cakonadi%2Ckcontacts%2Ckdav%2Clibkgapi%2Clibkf5libkleo%2Cakonadi-mime%2Cakonadi-notes%2Ckidentitymanagement%2Ckblog%2Ckimap%2Cksmtp%2Ckmbox%2Ckcalutils%2Ckmailtransport%2Cakonadi-contacts%2Cakonadi-search%2Ckleopatra%2Ckalarmcal%2Cktnef%2Clibkf5libkdepim%2Cakonadi-calendar%2Ckgpg%2Clibkf5mailimporter%2Clibkf5pimcommon%2Clibkf5ksieve%2Cknotes%2Clibkf5gravatar%2Ckdepim-runtime%2Ckf5-kdepim-apps-libs%2Ckmail-account-wizard%2Clibkf5calendarsupport%2Ckaddressbook%2Cpim-sieve-editor%2Ckf5-messagelib%2Ckontact%2Cakonadiconsole%2Cakregator%2Clibkf5mailcommon%2Cgrantlee-editor%2Cakonadi-calendar-tools%2Clibkf5eventviews%2Cmbox-importer%2Cpim-data-exporter%2Ckalarm%2Cakonadi-import-wizard%2Ckmail%2Clibkf5incidenceeditor%2Ckdepim-addons%2Ckorganizer&suite=sid">buildd build status</a>
