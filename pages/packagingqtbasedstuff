@@ -95,3 +95,12 @@
     QT_SELECT to qt5 and then call the binary.
   </li>
 </ul>
+
+<h3>A note on using Qt 5</h3>
+
+<p>
+  While not strictly necessary it is highly recommended to explicitely build
+  depend upon qtbase5-dev. All other Qt 5 development packages should get this
+  package as a dependency, but adding it to any package's Build-Depends ensures
+ symbols files do the right when creating shared libraries dependencies.
+</p>
