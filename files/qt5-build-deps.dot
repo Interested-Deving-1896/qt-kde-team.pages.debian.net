@@ -42,7 +42,7 @@ digraph qt5 {
   qtconnectivity -> qttools
   qtcreator -> qtx11extras
   qtdatavis3d -> qttools
-  qtdeclarative -> qtxmlpatterns
+  qtdeclarative -> "qtbase 5.11"
   qtdoc -> qtconnectivity
   qtdoc -> qtmultimedia
   qtdoc -> qtquickcontrols
@@ -78,5 +78,5 @@ digraph qt5 {
   qtwebsockets -> qtdeclarative
   qtwebview -> qtwebengine
   qtx11extras -> qttools
-  qtxmlpatterns -> "qtbase 5.11"
+  qtxmlpatterns -> qtdeclarative
 }
