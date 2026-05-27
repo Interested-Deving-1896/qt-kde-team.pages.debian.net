@@ -33,7 +33,11 @@ cd qt-kde-team.pages.debian.net
 ## CI
 
 <!-- AI:start:ci -->
-_CI documentation pending._
+- **build-and-deploy.yml**: Builds the website and deploys it to GitHub Pages. Triggered on `push` to the `main` branch. Requires the `ACTIONS_DEPLOY_KEY` secret for authentication.
+
+- **link-check.yml**: Runs a link checker to validate external links in the website. Triggered on `push` and `schedule` events. No secrets required.
+
+- **test-scripts.yml**: Executes tests for `genrss.sh` and `genweb.sh` scripts to ensure functionality. Triggered on `push` and pull requests. No secrets required.
 <!-- AI:end:ci -->
 
 ## Mirror chain
@@ -53,7 +57,26 @@ Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-
 ## Contributors
 
 <!-- AI:start:contributors -->
-_Contributors pending._
+[@perezmeyer](https://github.com/perezmeyer) - 201 commits  
+[@ana](https://github.com/ana) - 117 commits  
+[@svuorela](https://github.com/svuorela) - 41 commits  
+[@hefee](https://github.com/hefee) - 38 commits  
+[@modax](https://github.com/modax) - 30 commits  
+[@maxyz](https://github.com/maxyz) - 10 commits  
+[@quique](https://github.com/quique) - 9 commits  
+[@jmsantamaria](https://github.com/jmsantamaria) - 9 commits  
+[@xvello](https://github.com/xvello) - 9 commits  
+[@mitya57](https://github.com/mitya57) - 7 commits  
+[@jscott0](https://github.com/jscott0) - 5 commits  
+[@Interested-Deving-1896](https://github.com/Interested-Deving-1896) - 3 commits  
+[@tsimonq2](https://github.com/tsimonq2) - 2 commits  
+[@detrout](https://github.com/detrout) - 1 commit  
+[@openthink-laurent](https://github.com/openthink-laurent) - 1 commit  
+[@tosky](https://github.com/tosky) - 1 commit  
+[@tuxmea](https://github.com/tuxmea) - 1 commit  
+[@RalfJung](https://github.com/RalfJung) - 1 commit  
+
+This repository may be a mirror. Please refer to the upstream source for additional contributions and updates.
 <!-- AI:end:contributors -->
 
 ## Origins
