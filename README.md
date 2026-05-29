@@ -4,13 +4,29 @@
 [![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/qt-kde-team.pages.debian.net)
 
 <!-- AI:start:what-it-does -->
-_Description pending._
+This project generates and maintains a website for the Qt/KDE packaging team within the Debian ecosystem. It automates the creation of web pages, RSS feeds, and redirects to provide up-to-date information about packaging efforts, primarily for developers and contributors involved in the Debian and KDE communities.
 <!-- AI:end:what-it-does -->
 
 ## Architecture
 
 <!-- AI:start:architecture -->
-_Architecture documentation pending._
+The project generates and manages web pages for the Debian Qt/KDE Team. It uses shell scripts (`genrss.sh`, `genweb.sh`) to automate RSS feed creation and website generation. The `pages` directory contains the main content files, while `drafts` holds unpublished or in-progress content. The `images` directory stores media assets, and `redir` handles URL redirections. The `kde.dot` file defines a graph structure, likely for visualization purposes. The `.gitlab-ci.yml` file configures CI/CD pipelines. Below is the directory structure:
+
+```plaintext
+.
+├── .gitignore
+├── .gitlab-ci.yml
+├── 1024px.zip
+├── README.md
+├── drafts/
+├── files/
+├── genrss.sh
+├── genweb.sh
+├── images/
+├── kde.dot
+├── pages/
+├── redir/
+```
 <!-- AI:end:architecture -->
 
 ## Install
@@ -33,11 +49,7 @@ cd qt-kde-team.pages.debian.net
 ## CI
 
 <!-- AI:start:ci -->
-- **build-and-deploy.yml**: Builds the website and deploys it to GitHub Pages. Triggered on `push` to the `main` branch. Requires the `ACTIONS_DEPLOY_KEY` secret for authentication.
-
-- **link-check.yml**: Runs a link checker to validate external links in the website. Triggered on `push` and `schedule` events. No secrets required.
-
-- **test-scripts.yml**: Executes tests for `genrss.sh` and `genweb.sh` scripts to ensure functionality. Triggered on `push` and pull requests. No secrets required.
+This repository does not include GitHub Actions workflows. CI is configured using a `.gitlab-ci.yml` file, which is intended for GitLab CI/CD pipelines. Refer to the `.gitlab-ci.yml` file for pipeline definitions and configuration. No GitHub Actions-specific secrets are required.
 <!-- AI:end:ci -->
 
 ## Mirror chain
