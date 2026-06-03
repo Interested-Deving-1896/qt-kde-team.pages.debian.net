@@ -69,26 +69,26 @@ Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-
 ## Contributors
 
 <!-- AI:start:contributors -->
-[@perezmeyer](https://github.com/perezmeyer) - 201 commits  
-[@ana](https://github.com/ana) - 117 commits  
-[@svuorela](https://github.com/svuorela) - 41 commits  
-[@hefee](https://github.com/hefee) - 38 commits  
-[@modax](https://github.com/modax) - 30 commits  
-[@maxyz](https://github.com/maxyz) - 10 commits  
-[@quique](https://github.com/quique) - 9 commits  
-[@jmsantamaria](https://github.com/jmsantamaria) - 9 commits  
-[@xvello](https://github.com/xvello) - 9 commits  
-[@mitya57](https://github.com/mitya57) - 7 commits  
-[@jscott0](https://github.com/jscott0) - 5 commits  
-[@Interested-Deving-1896](https://github.com/Interested-Deving-1896) - 3 commits  
-[@tsimonq2](https://github.com/tsimonq2) - 2 commits  
-[@detrout](https://github.com/detrout) - 1 commit  
-[@openthink-laurent](https://github.com/openthink-laurent) - 1 commit  
-[@tosky](https://github.com/tosky) - 1 commit  
-[@tuxmea](https://github.com/tuxmea) - 1 commit  
-[@RalfJung](https://github.com/RalfJung) - 1 commit  
+[@perezmeyer](https://github.com/perezmeyer) (201 commits)  
+[@ana](https://github.com/ana) (117 commits)  
+[@svuorela](https://github.com/svuorela) (41 commits)  
+[@hefee](https://github.com/hefee) (38 commits)  
+[@modax](https://github.com/modax) (30 commits)  
+[@maxyz](https://github.com/maxyz) (10 commits)  
+[@quique](https://github.com/quique) (9 commits)  
+[@jmsantamaria](https://github.com/jmsantamaria) (9 commits)  
+[@xvello](https://github.com/xvello) (9 commits)  
+[@mitya57](https://github.com/mitya57) (7 commits)  
+[@Interested-Deving-1896](https://github.com/Interested-Deving-1896) (6 commits)  
+[@jscott0](https://github.com/jscott0) (5 commits)  
+[@tsimonq2](https://github.com/tsimonq2) (2 commits)  
+[@detrout](https://github.com/detrout) (1 commit)  
+[@openthink-laurent](https://github.com/openthink-laurent) (1 commit)  
+[@tosky](https://github.com/tosky) (1 commit)  
+[@tuxmea](https://github.com/tuxmea) (1 commit)  
+[@RalfJung](https://github.com/RalfJung) (1 commit)  
 
-This repository may be a mirror. Please refer to the upstream source for additional contributions and updates.
+This repository may be a mirror. Please refer to the upstream source for additional contributions and context.
 <!-- AI:end:contributors -->
 
 ## Origins
