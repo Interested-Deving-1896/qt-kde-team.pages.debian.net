@@ -10,9 +10,9 @@ This project generates and maintains a website for the Qt/KDE packaging team wit
 ## Architecture
 
 <!-- AI:start:architecture -->
-The project generates and manages web pages for the Debian Qt/KDE Team. It uses shell scripts (`genrss.sh`, `genweb.sh`) to automate RSS feed creation and website generation. The `pages` directory contains the main content files, while `drafts` holds unpublished or in-progress content. The `images` directory stores media assets, and `redir` handles URL redirections. The `kde.dot` file defines a graph structure, likely for visualization purposes. The `.gitlab-ci.yml` file configures CI/CD pipelines. Below is the directory structure:
+The project consists of scripts and resources for generating and maintaining a static website. Key components include `genrss.sh` and `genweb.sh`, which handle RSS feed generation and website building, respectively. The `drafts`, `files`, `images`, and `pages` directories store content and assets for the site. The `kde.dot` file defines a graph structure, while `redir` manages URL redirections. The `.gitlab-ci.yml` file configures CI/CD pipelines. Components interact through shell scripts that process content and assets to produce the final static site.
 
-```plaintext
+```
 .
 ├── .gitignore
 ├── .gitlab-ci.yml
@@ -49,7 +49,7 @@ cd qt-kde-team.pages.debian.net
 ## CI
 
 <!-- AI:start:ci -->
-This repository does not include GitHub Actions workflows. CI is configured using a `.gitlab-ci.yml` file, which is intended for GitLab CI/CD pipelines. Refer to the `.gitlab-ci.yml` file for pipeline definitions and configuration. No GitHub Actions-specific secrets are required.
+This repository does not include GitHub Actions workflows. CI is configured using a `.gitlab-ci.yml` file, which defines the pipeline for GitLab CI/CD. Refer to the `.gitlab-ci.yml` file for details on the stages, jobs, and dependencies. No GitHub Actions-specific secrets are required.
 <!-- AI:end:ci -->
 
 ## Mirror chain
