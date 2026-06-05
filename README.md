@@ -10,9 +10,9 @@ This project generates and maintains a website for the Qt/KDE packaging team wit
 ## Architecture
 
 <!-- AI:start:architecture -->
-The project consists of scripts and resources for generating and maintaining a static website. Key components include `genrss.sh` and `genweb.sh`, which handle RSS feed generation and website building, respectively. The `drafts`, `files`, `images`, and `pages` directories store content and assets for the site. The `kde.dot` file defines a graph structure, while `redir` manages URL redirections. The `.gitlab-ci.yml` file configures CI/CD pipelines. Components interact through shell scripts that process content and assets to produce the final static site.
+The project consists of scripts and resources for generating and maintaining a static website. Key components include `genrss.sh` and `genweb.sh`, which handle RSS feed generation and website building, respectively. The `drafts`, `files`, `images`, and `pages` directories store content and assets used during generation. The `kde.dot` file defines a graph structure, likely for visualization purposes. The `.gitlab-ci.yml` file configures CI/CD pipelines, and `redir` contains redirection rules. The interaction between components involves running the scripts to process content and assets into a deployable static site.
 
-```
+```plaintext
 .
 ├── .gitignore
 ├── .gitlab-ci.yml
