@@ -4,7 +4,7 @@
 [![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/qt-kde-team.pages.debian.net)
 
 <!-- AI:start:what-it-does -->
-This project generates and maintains a website for the Qt/KDE packaging team in Debian. It automates the creation of web pages, RSS feeds, and redirects to provide up-to-date information about packaging efforts. It is used by developers and contributors involved in maintaining Qt and KDE software within the Debian ecosystem.
+This project generates and maintains a website for the Qt/KDE packaging team within the Debian ecosystem. It automates the creation of web pages, RSS feeds, and redirects to provide up-to-date information about packaging efforts, primarily for developers and contributors involved in the Debian and KDE communities.
 <!-- AI:end:what-it-does -->
 
 ## Architecture
