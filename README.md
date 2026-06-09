@@ -10,9 +10,21 @@ This project generates and maintains a website for the Qt/KDE packaging team wit
 ## Architecture
 
 <!-- AI:start:architecture -->
-The project generates and manages a static website for the Qt/KDE team on Debian, using shell scripts and static assets. The key components include `genrss.sh` and `genweb.sh` for generating RSS feeds and HTML pages, respectively. The `drafts/` and `pages/` directories store content drafts and final web pages. The `images/` directory contains static assets like images, while `files/` holds additional downloadable resources. The `kde.dot` file appears to define a graph structure, likely for visualization purposes. The `.gitlab-ci.yml` file configures CI/CD pipelines. Interaction between components involves running the scripts to process content and assets into the final website structure.
+The project generates and manages web pages for the Debian Qt/KDE Team. It consists of scripts and resources to automate content generation and deployment. The key components include:
 
-```
+- `genweb.sh`: Main script for generating the website content.
+- `genrss.sh`: Script for generating RSS feeds.
+- `drafts/`: Directory for draft content.
+- `files/`: Static files used in the website.
+- `images/`: Image assets for the website.
+- `pages/`: Directory containing the main HTML content.
+- `redir/`: Configuration for URL redirections.
+- `kde.dot`: Graph definition file for KDE-related visualizations.
+
+Scripts interact with the content in `drafts`, `files`, and `pages` to produce the final website structure. The `.gitlab-ci.yml` file defines CI/CD pipelines for deployment.
+
+Directory structure:
+```plaintext
 .
 ├── .gitignore
 ├── .gitlab-ci.yml
@@ -25,7 +37,7 @@ The project generates and manages a static website for the Qt/KDE team on Debian
 ├── images/
 ├── kde.dot
 ├── pages/
-├── redir/
+└── redir/
 ```
 <!-- AI:end:architecture -->
 
@@ -49,7 +61,7 @@ cd qt-kde-team.pages.debian.net
 ## CI
 
 <!-- AI:start:ci -->
-This repository does not include GitHub Actions workflows. CI is configured using a `.gitlab-ci.yml` file, suggesting the project uses GitLab CI/CD. Refer to the `.gitlab-ci.yml` file for pipeline definitions and job details. No GitHub Actions-specific secrets are required.
+The repository does not include GitHub Actions workflows. CI is configured via `.gitlab-ci.yml`, which suggests the project uses GitLab CI/CD. To migrate to GitHub Actions, workflows need to be created in `.github/workflows/`. Define jobs, steps, and secrets as required for the project's build, test, or deployment processes.
 <!-- AI:end:ci -->
 
 ## Mirror chain
@@ -69,24 +81,24 @@ Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-
 ## Contributors
 
 <!-- AI:start:contributors -->
-[@perezmeyer](https://github.com/perezmeyer): 201 commits  
-[@ana](https://github.com/ana): 117 commits  
-[@svuorela](https://github.com/svuorela): 41 commits  
-[@hefee](https://github.com/hefee): 38 commits  
-[@modax](https://github.com/modax): 30 commits  
-[@Interested-Deving-1896](https://github.com/Interested-Deving-1896): 26 commits  
-[@maxyz](https://github.com/maxyz): 10 commits  
-[@quique](https://github.com/quique): 9 commits  
-[@jmsantamaria](https://github.com/jmsantamaria): 9 commits  
-[@xvello](https://github.com/xvello): 9 commits  
-[@mitya57](https://github.com/mitya57): 7 commits  
-[@jscott0](https://github.com/jscott0): 5 commits  
-[@tsimonq2](https://github.com/tsimonq2): 2 commits  
-[@detrout](https://github.com/detrout): 1 commit  
-[@openthink-laurent](https://github.com/openthink-laurent): 1 commit  
-[@tosky](https://github.com/tosky): 1 commit  
-[@tuxmea](https://github.com/tuxmea): 1 commit  
-[@RalfJung](https://github.com/RalfJung): 1 commit  
+[@perezmeyer](https://github.com/perezmeyer) - 201 commits  
+[@ana](https://github.com/ana) - 117 commits  
+[@svuorela](https://github.com/svuorela) - 41 commits  
+[@hefee](https://github.com/hefee) - 38 commits  
+[@Interested-Deving-1896](https://github.com/Interested-Deving-1896) - 30 commits  
+[@modax](https://github.com/modax) - 30 commits  
+[@maxyz](https://github.com/maxyz) - 10 commits  
+[@quique](https://github.com/quique) - 9 commits  
+[@jmsantamaria](https://github.com/jmsantamaria) - 9 commits  
+[@xvello](https://github.com/xvello) - 9 commits  
+[@mitya57](https://github.com/mitya57) - 7 commits  
+[@jscott0](https://github.com/jscott0) - 5 commits  
+[@tsimonq2](https://github.com/tsimonq2) - 2 commits  
+[@detrout](https://github.com/detrout) - 1 commit  
+[@openthink-laurent](https://github.com/openthink-laurent) - 1 commit  
+[@tosky](https://github.com/tosky) - 1 commit  
+[@tuxmea](https://github.com/tuxmea) - 1 commit  
+[@RalfJung](https://github.com/RalfJung) - 1 commit  
 
 This repository is a mirror. The upstream source can be found at [qt-kde-team.pages.debian.net](https://qt-kde-team.pages.debian.net).
 <!-- AI:end:contributors -->
