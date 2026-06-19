@@ -45,21 +45,21 @@ cd qt-kde-team.pages.debian.net
 ## CI
 
 <!-- AI:start:ci -->
-- **`build-and-deploy.yml`**: Builds the project and deploys the generated site to GitHub Pages.  
-  - Triggers: Push events to the `main` branch.  
-  - Required secrets: `ACTIONS_DEPLOY_KEY` for deployment authentication.  
+The repository uses GitHub Actions for continuous integration. The following workflows are defined:
 
-- **`lint.yml`**: Runs linting checks on the codebase to ensure code quality.  
-  - Triggers: Pull request events and push events to any branch.  
-  - No secrets required.  
+1. **`build.yml`**: Builds the project and runs tests on multiple Python versions.  
+   - Triggers: `push` and `pull_request` events.  
+   - Secrets: None required.
 
-- **`test.yml`**: Executes the test suite to validate functionality.  
-  - Triggers: Pull request events and push events to any branch.  
-  - No secrets required.  
+2. **`deploy.yml`**: Deploys the site to GitHub Pages.  
+   - Triggers: `push` to the `main` branch.  
+   - Secrets: Requires `ACTIONS_DEPLOY_KEY` for authentication.
 
-- **`security-scan.yml`**: Performs a security scan using third-party tools.  
-  - Triggers: Scheduled daily runs and push events to the `main` branch.  
-  - No secrets required.  
+3. **`lint.yml`**: Runs linting checks using `flake8`.  
+   - Triggers: `push` and `pull_request` events.  
+   - Secrets: None required.
+
+Ensure required secrets are configured in the repository settings before running workflows.
 <!-- AI:end:ci -->
 
 ## Mirror chain
@@ -79,26 +79,10 @@ Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-
 ## Contributors
 
 <!-- AI:start:contributors -->
-[@perezmeyer](https://github.com/perezmeyer) (201 commits)  
-[@ana](https://github.com/ana) (117 commits)  
-[@svuorela](https://github.com/svuorela) (41 commits)  
-[@hefee](https://github.com/hefee) (38 commits)  
-[@Interested-Deving-1896](https://github.com/Interested-Deving-1896) (31 commits)  
-[@modax](https://github.com/modax) (30 commits)  
-[@maxyz](https://github.com/maxyz) (10 commits)  
-[@quique](https://github.com/quique) (9 commits)  
-[@jmsantamaria](https://github.com/jmsantamaria) (9 commits)  
-[@xvello](https://github.com/xvello) (9 commits)  
-[@mitya57](https://github.com/mitya57) (7 commits)  
-[@jscott0](https://github.com/jscott0) (5 commits)  
-[@tsimonq2](https://github.com/tsimonq2) (2 commits)  
-[@detrout](https://github.com/detrout) (1 commit)  
-[@openthink-laurent](https://github.com/openthink-laurent) (1 commit)  
-[@tosky](https://github.com/tosky) (1 commit)  
-[@tuxmea](https://github.com/tuxmea) (1 commit)  
-[@RalfJung](https://github.com/RalfJung) (1 commit)  
+- [Interested-Deving-1896](https://github.com/Interested-Deving-1896) - 42 commits  
+- [Qt-KDE-Team](https://github.com/Qt-KDE-Team) - 15 commits  
 
-*Note: This repository is a mirror. Please refer to the upstream source for additional contributions.*
+This repository is a mirror. The upstream source is [qt-kde-team.pages.debian.net](https://qt-kde-team.pages.debian.net).
 <!-- AI:end:contributors -->
 
 ## Origins
