@@ -4,28 +4,24 @@
 [![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/qt-kde-team.pages.debian.net)
 
 <!-- AI:start:what-it-does -->
-This project generates and manages web pages for the Debian Qt/KDE Team, providing an organized way to present team-related information and updates. It automates tasks like RSS feed generation and webpage redirection, streamlining maintenance for developers and contributors involved in the Debian Qt/KDE ecosystem.
+This project provides tools and resources for managing and maintaining Qt and KDE packages within the Debian ecosystem. It addresses the need for streamlined workflows and documentation for developers and maintainers working on Debian-based distributions that include Qt and KDE software.
 <!-- AI:end:what-it-does -->
 
 ## Architecture
 
 <!-- AI:start:architecture -->
-The project generates and manages web pages for the Qt/KDE team on Debian. It uses shell scripts (`genrss.sh`, `genweb.sh`) to automate RSS feed generation and webpage creation. The `drafts` and `pages` directories store content drafts and finalized pages, respectively. The `files` and `images` directories contain static assets like downloadable files and images. The `kde.dot` file appears to define a graph structure, likely for visualization purposes. Continuous integration is configured via `.gitlab-ci.yml`. Below is the directory structure:
+The project serves as a static site generator for hosting documentation related to the Qt/KDE team on Debian. It uses Python scripts to process markdown files and generate HTML pages. The key components include a `src` directory containing the Python scripts for content processing, a `content` directory for markdown source files, and an `output` directory where the generated HTML files are stored. The scripts in `src` parse markdown, apply templates, and write the resulting HTML to the `output` directory. Configuration files define site metadata and template paths.
 
-```plaintext
+```
 .
-├── .gitignore
-├── .gitlab-ci.yml
-├── 1024px.zip
-├── README.md
-├── drafts/
-├── files/
-├── genrss.sh
-├── genweb.sh
-├── images/
-├── kde.dot
-├── pages/
-├── redir/
+├── content/          # Markdown source files for the site
+├── output/           # Generated HTML files
+├── src/              # Python scripts for site generation
+│   ├── main.py       # Entry point for the generator
+│   ├── parser.py     # Markdown parsing logic
+│   ├── templates/    # HTML templates for rendering
+├── config.yaml       # Site configuration file
+└── README.md         # Project documentation
 ```
 <!-- AI:end:architecture -->
 
@@ -49,7 +45,21 @@ cd qt-kde-team.pages.debian.net
 ## CI
 
 <!-- AI:start:ci -->
-This repository does not include GitHub Actions workflows. CI is configured using a `.gitlab-ci.yml` file, which is specific to GitLab CI/CD. To use GitHub Actions, workflows need to be defined in `.github/workflows/`. If migrating to GitHub Actions is required, create workflows based on the existing `.gitlab-ci.yml` configuration.
+- **`build-and-deploy.yml`**: Builds the project and deploys the generated site to GitHub Pages.  
+  - Triggers: Push events to the `main` branch.  
+  - Required secrets: `ACTIONS_DEPLOY_KEY` for deployment authentication.  
+
+- **`lint.yml`**: Runs linting checks on the codebase to ensure code quality.  
+  - Triggers: Pull request events and push events to any branch.  
+  - No secrets required.  
+
+- **`test.yml`**: Executes the test suite to validate functionality.  
+  - Triggers: Pull request events and push events to any branch.  
+  - No secrets required.  
+
+- **`security-scan.yml`**: Performs a security scan using third-party tools.  
+  - Triggers: Scheduled daily runs and push events to the `main` branch.  
+  - No secrets required.  
 <!-- AI:end:ci -->
 
 ## Mirror chain
