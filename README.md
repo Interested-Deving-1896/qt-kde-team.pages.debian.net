@@ -4,24 +4,28 @@
 [![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/qt-kde-team.pages.debian.net)
 
 <!-- AI:start:what-it-does -->
-This project provides tools and resources for managing and maintaining Qt and KDE packages within the Debian ecosystem. It addresses the need for streamlined workflows and documentation for developers and maintainers working on Debian-based distributions that include Qt and KDE software.
+This project generates and manages web pages for the Debian Qt/KDE Team, providing an organized way to present information about the team's work and resources. It addresses the need for automated content generation and maintenance, primarily serving developers and contributors involved in the Debian Qt/KDE ecosystem.
 <!-- AI:end:what-it-does -->
 
 ## Architecture
 
 <!-- AI:start:architecture -->
-The project serves as a static site generator for hosting documentation related to the Qt/KDE team on Debian. It uses Python scripts to process markdown files and generate HTML pages. The key components include a `src` directory containing the Python scripts for content processing, a `content` directory for markdown source files, and an `output` directory where the generated HTML files are stored. The scripts in `src` parse markdown, apply templates, and write the resulting HTML to the `output` directory. Configuration files define site metadata and template paths.
+The project consists of scripts and resources for generating and managing a static website. Key components include `genrss.sh` and `genweb.sh`, which handle RSS feed generation and website building, respectively. The `drafts`, `files`, `images`, and `pages` directories store content and assets for the site. The `kde.dot` file appears to define a graph structure, possibly for visualization purposes. The `.gitlab-ci.yml` file configures CI/CD pipelines, and `1024px.zip` contains additional assets. The scripts and content interact to produce the final static site, with the directory structure organized as follows:
 
-```
+```plaintext
 .
-├── content/          # Markdown source files for the site
-├── output/           # Generated HTML files
-├── src/              # Python scripts for site generation
-│   ├── main.py       # Entry point for the generator
-│   ├── parser.py     # Markdown parsing logic
-│   ├── templates/    # HTML templates for rendering
-├── config.yaml       # Site configuration file
-└── README.md         # Project documentation
+├── .gitignore
+├── .gitlab-ci.yml
+├── 1024px.zip
+├── README.md
+├── drafts/
+├── files/
+├── genrss.sh
+├── genweb.sh
+├── images/
+├── kde.dot
+├── pages/
+├── redir/
 ```
 <!-- AI:end:architecture -->
 
@@ -45,21 +49,7 @@ cd qt-kde-team.pages.debian.net
 ## CI
 
 <!-- AI:start:ci -->
-The repository uses GitHub Actions for continuous integration. The following workflows are defined:
-
-1. **`build.yml`**: Builds the project and runs tests on multiple Python versions.  
-   - Triggers: `push` and `pull_request` events.  
-   - Secrets: None required.
-
-2. **`deploy.yml`**: Deploys the site to GitHub Pages.  
-   - Triggers: `push` to the `main` branch.  
-   - Secrets: Requires `ACTIONS_DEPLOY_KEY` for authentication.
-
-3. **`lint.yml`**: Runs linting checks using `flake8`.  
-   - Triggers: `push` and `pull_request` events.  
-   - Secrets: None required.
-
-Ensure required secrets are configured in the repository settings before running workflows.
+This repository does not include GitHub Actions workflows. CI is configured using a `.gitlab-ci.yml` file, indicating the project uses GitLab CI/CD. Refer to the `.gitlab-ci.yml` file for pipeline definitions and job configurations. No GitHub Actions secrets are required.
 <!-- AI:end:ci -->
 
 ## Mirror chain
@@ -79,10 +69,26 @@ Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-
 ## Contributors
 
 <!-- AI:start:contributors -->
-- [Interested-Deving-1896](https://github.com/Interested-Deving-1896) - 42 commits  
-- [Qt-KDE-Team](https://github.com/Qt-KDE-Team) - 15 commits  
+[@perezmeyer](https://github.com/perezmeyer) (201 commits)  
+[@ana](https://github.com/ana) (117 commits)  
+[@svuorela](https://github.com/svuorela) (41 commits)  
+[@hefee](https://github.com/hefee) (38 commits)  
+[@Interested-Deving-1896](https://github.com/Interested-Deving-1896) (34 commits)  
+[@modax](https://github.com/modax) (30 commits)  
+[@maxyz](https://github.com/maxyz) (10 commits)  
+[@quique](https://github.com/quique) (9 commits)  
+[@jmsantamaria](https://github.com/jmsantamaria) (9 commits)  
+[@xvello](https://github.com/xvello) (9 commits)  
+[@mitya57](https://github.com/mitya57) (7 commits)  
+[@jscott0](https://github.com/jscott0) (5 commits)  
+[@tsimonq2](https://github.com/tsimonq2) (2 commits)  
+[@detrout](https://github.com/detrout) (1 commit)  
+[@openthink-laurent](https://github.com/openthink-laurent) (1 commit)  
+[@tosky](https://github.com/tosky) (1 commit)  
+[@tuxmea](https://github.com/tuxmea) (1 commit)  
+[@RalfJung](https://github.com/RalfJung) (1 commit)  
 
-This repository is a mirror. The upstream source is [qt-kde-team.pages.debian.net](https://qt-kde-team.pages.debian.net).
+*This repository is a mirror. Please refer to the upstream source for additional contributions and updates.*
 <!-- AI:end:contributors -->
 
 ## Origins
