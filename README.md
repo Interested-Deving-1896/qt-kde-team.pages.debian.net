@@ -4,13 +4,24 @@
 [![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/qt-kde-team.pages.debian.net)
 
 <!-- AI:start:what-it-does -->
-This project generates and manages web pages for the Debian Qt/KDE Team, providing an organized way to display information about their work and updates. It automates tasks like RSS feed generation and content redirection, streamlining website maintenance for contributors and users interested in the team's activities.
+This project generates and maintains a website for the Debian Qt/KDE Team, providing resources, updates, and documentation related to Qt and KDE packaging on Debian. It automates the creation of web pages and RSS feeds, streamlining information distribution for developers and contributors involved in the Debian Qt/KDE ecosystem.
 <!-- AI:end:what-it-does -->
 
 ## Architecture
 
 <!-- AI:start:architecture -->
-The project generates and manages a static website for the Qt/KDE team on Debian. It uses shell scripts (`genrss.sh`, `genweb.sh`) to automate RSS feed generation and website updates. Content is organized under `drafts`, `files`, `images`, and `pages` directories. The `kde.dot` file defines a graph structure, potentially for visualizations. The `.gitlab-ci.yml` file configures CI/CD pipelines. The repository's structure is as follows:
+The project consists of scripts and resources for generating and managing a static website for the Qt/KDE team on Debian. The key components include:
+
+- `genweb.sh`: Main script for generating the website content.
+- `genrss.sh`: Script for generating RSS feeds.
+- `drafts/`: Directory for draft content.
+- `files/`: Static files used in the website.
+- `images/`: Image assets for the website.
+- `pages/`: Markdown or HTML files representing the website's pages.
+- `redir/`: Configuration for URL redirections.
+- `kde.dot`: Graph definition file for visualizing KDE-related relationships.
+
+The scripts use the content from `pages/`, `drafts/`, and other directories to generate the final website structure. The `.gitlab-ci.yml` file defines CI/CD pipelines for automated deployment. The directory structure is as follows:
 
 ```plaintext
 .
@@ -18,17 +29,15 @@ The project generates and manages a static website for the Qt/KDE team on Debian
 ├── .gitlab-ci.yml
 ├── 1024px.zip
 ├── README.md
-├── drafts/         # Draft content for the website
-├── files/          # Static files for the website
-├── genrss.sh       # Script to generate RSS feeds
-├── genweb.sh       # Script to generate the website
-├── images/         # Image assets for the website
-├── kde.dot         # Graph definition file
-├── pages/          # Final website content
-├── redir/          # Redirect configuration
-``` 
-
-Scripts and content directories interact to produce the final static site under `pages`.
+├── drafts/
+├── files/
+├── genrss.sh
+├── genweb.sh
+├── images/
+├── kde.dot
+├── pages/
+└── redir/
+```
 <!-- AI:end:architecture -->
 
 ## Install
@@ -51,7 +60,7 @@ cd qt-kde-team.pages.debian.net
 ## CI
 
 <!-- AI:start:ci -->
-This repository does not include GitHub Actions workflows. CI is configured using a `.gitlab-ci.yml` file, suggesting the project uses GitLab CI. Refer to the `.gitlab-ci.yml` file for pipeline definitions and configuration details.
+This repository does not include GitHub Actions workflows. CI is configured using a `.gitlab-ci.yml` file, which defines the pipeline for GitLab CI/CD. Refer to the `.gitlab-ci.yml` file for details on the stages, jobs, and any required environment variables or secrets.
 <!-- AI:end:ci -->
 
 ## Mirror chain
@@ -74,8 +83,8 @@ Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-
 [@perezmeyer](https://github.com/perezmeyer) (201 commits)  
 [@ana](https://github.com/ana) (117 commits)  
 [@svuorela](https://github.com/svuorela) (41 commits)  
+[@Interested-Deving-1896](https://github.com/Interested-Deving-1896) (38 commits)  
 [@hefee](https://github.com/hefee) (38 commits)  
-[@Interested-Deving-1896](https://github.com/Interested-Deving-1896) (37 commits)  
 [@modax](https://github.com/modax) (30 commits)  
 [@maxyz](https://github.com/maxyz) (10 commits)  
 [@quique](https://github.com/quique) (9 commits)  
@@ -90,7 +99,7 @@ Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-
 [@tuxmea](https://github.com/tuxmea) (1 commit)  
 [@RalfJung](https://github.com/RalfJung) (1 commit)  
 
-*Note: This repository is a mirror. Please refer to the upstream source for additional details.*
+*Note: This repository is a mirror. Please refer to the upstream source for additional contributions and context.*
 <!-- AI:end:contributors -->
 
 ## Origins
