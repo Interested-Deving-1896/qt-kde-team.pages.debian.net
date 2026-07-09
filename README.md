@@ -4,13 +4,13 @@
 [![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/qt-kde-team.pages.debian.net)
 
 <!-- AI:start:what-it-does -->
-This project generates and maintains web pages for the Debian Qt/KDE Team, providing an organized platform to share updates, resources, and documentation related to Qt and KDE packaging in Debian. It is used by developers and contributors to streamline communication and access relevant information for their workflows.
+This project generates and manages web pages for the Debian Qt/KDE Team, providing an organized way to display information about their work and updates. It automates tasks like RSS feed generation and content redirection, streamlining website maintenance for contributors and users interested in the team's activities.
 <!-- AI:end:what-it-does -->
 
 ## Architecture
 
 <!-- AI:start:architecture -->
-The project generates and manages web pages for the Debian KDE team's site. It uses shell scripts (`genrss.sh`, `genweb.sh`) to automate RSS feed generation and HTML page creation. Content is organized under `drafts`, `files`, `images`, and `pages` directories. The `kde.dot` file defines a graph structure, and `redir` handles URL redirections. CI/CD is configured via `.gitlab-ci.yml`. The repository structure is as follows:
+The project generates and manages a static website for the Qt/KDE team on Debian. It uses shell scripts (`genrss.sh`, `genweb.sh`) to automate RSS feed generation and website updates. Content is organized under `drafts`, `files`, `images`, and `pages` directories. The `kde.dot` file defines a graph structure, potentially for visualizations. The `.gitlab-ci.yml` file configures CI/CD pipelines. The repository's structure is as follows:
 
 ```plaintext
 .
@@ -19,16 +19,16 @@ The project generates and manages web pages for the Debian KDE team's site. It u
 ├── 1024px.zip
 ├── README.md
 ├── drafts/         # Draft content for the website
-├── files/          # Static files for the site
-├── genrss.sh       # Script for generating RSS feeds
-├── genweb.sh       # Script for generating web pages
-├── images/         # Image assets for the site
+├── files/          # Static files for the website
+├── genrss.sh       # Script to generate RSS feeds
+├── genweb.sh       # Script to generate the website
+├── images/         # Image assets for the website
 ├── kde.dot         # Graph definition file
-├── pages/          # Final HTML pages
-├── redir/          # URL redirection rules
+├── pages/          # Final website content
+├── redir/          # Redirect configuration
 ``` 
 
-Scripts and content directories interact to produce the final website structure, which is deployed via CI/CD pipelines.
+Scripts and content directories interact to produce the final static site under `pages`.
 <!-- AI:end:architecture -->
 
 ## Install
@@ -51,7 +51,7 @@ cd qt-kde-team.pages.debian.net
 ## CI
 
 <!-- AI:start:ci -->
-The repository does not include GitHub Actions workflows. CI is configured using a `.gitlab-ci.yml` file, indicating the project uses GitLab CI/CD for continuous integration. Refer to the `.gitlab-ci.yml` file for pipeline definitions and job configurations. No GitHub Actions-specific secrets are required.
+This repository does not include GitHub Actions workflows. CI is configured using a `.gitlab-ci.yml` file, suggesting the project uses GitLab CI. Refer to the `.gitlab-ci.yml` file for pipeline definitions and configuration details.
 <!-- AI:end:ci -->
 
 ## Mirror chain
