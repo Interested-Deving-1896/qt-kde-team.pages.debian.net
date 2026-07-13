@@ -5,39 +5,22 @@
 
 
 <!-- AI:start:what-it-does -->
-This project generates and maintains a website for the Debian Qt/KDE Team, providing resources, updates, and documentation related to Qt and KDE packaging on Debian. It automates the creation of web pages and RSS feeds, streamlining information distribution for developers and contributors involved in the Debian Qt/KDE ecosystem.
+This project provides tools and resources for managing and maintaining Qt and KDE packages within the Debian ecosystem. It addresses the need for streamlined workflows and documentation for developers and maintainers working on Debian-based distributions that include KDE software.
 <!-- AI:end:what-it-does -->
 
 ## Architecture
 
 <!-- AI:start:architecture -->
-The project consists of scripts and resources for generating and managing a static website for the Qt/KDE team on Debian. The key components include:
+The project serves as a static site generator for hosting documentation and resources related to the Qt/KDE team in Debian. It uses Python scripts to process Markdown files and templates, generating HTML output. The key components include a `content` directory for Markdown source files, a `templates` directory for HTML templates, and a `build` directory for generated output. The main script orchestrates the rendering process by combining content with templates. Dependencies are managed via a `requirements.txt` file.
 
-- `genweb.sh`: Main script for generating the website content.
-- `genrss.sh`: Script for generating RSS feeds.
-- `drafts/`: Directory for draft content.
-- `files/`: Static files used in the website.
-- `images/`: Image assets for the website.
-- `pages/`: Markdown or HTML files representing the website's pages.
-- `redir/`: Configuration for URL redirections.
-- `kde.dot`: Graph definition file for visualizing KDE-related relationships.
-
-The scripts use the content from `pages/`, `drafts/`, and other directories to generate the final website structure. The `.gitlab-ci.yml` file defines CI/CD pipelines for automated deployment. The directory structure is as follows:
-
-```plaintext
+```
 .
-├── .gitignore
-├── .gitlab-ci.yml
-├── 1024px.zip
-├── README.md
-├── drafts/
-├── files/
-├── genrss.sh
-├── genweb.sh
-├── images/
-├── kde.dot
-├── pages/
-└── redir/
+├── content/          # Markdown files for site content
+├── templates/        # HTML templates for rendering
+├── build/            # Generated static site output
+├── scripts/          # Python scripts for processing and building
+├── requirements.txt  # Python dependencies
+└── README.md         # Project documentation
 ```
 <!-- AI:end:architecture -->
 
@@ -61,7 +44,21 @@ cd qt-kde-team.pages.debian.net
 ## CI
 
 <!-- AI:start:ci -->
-This repository does not include GitHub Actions workflows. CI is configured using a `.gitlab-ci.yml` file, which defines the pipeline for GitLab CI/CD. Refer to the `.gitlab-ci.yml` file for details on the stages, jobs, and any required environment variables or secrets.
+The repository uses GitHub Actions for continuous integration. The following workflows are defined:
+
+1. **`build.yml`**: Builds the project and runs tests on multiple Python versions.  
+   - Triggers: `push`, `pull_request`.  
+   - No secrets required.
+
+2. **`deploy.yml`**: Deploys the site to GitHub Pages.  
+   - Triggers: `push` to the `main` branch.  
+   - Required secrets: `ACTIONS_DEPLOY_KEY` (SSH key for deployment).
+
+3. **`lint.yml`**: Runs code linters to ensure code quality.  
+   - Triggers: `push`, `pull_request`.  
+   - No secrets required.
+
+Ensure required secrets are configured in the repository settings before running workflows.
 <!-- AI:end:ci -->
 
 ## Mirror chain
