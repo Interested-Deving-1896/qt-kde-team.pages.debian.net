@@ -46,16 +46,16 @@ cd qt-kde-team.pages.debian.net
 <!-- AI:start:ci -->
 The repository uses GitHub Actions for continuous integration. The following workflows are defined:
 
-1. **`build.yml`**: Builds the project and runs tests on multiple Python versions.  
-   - Triggers: `push`, `pull_request`.  
+1. **`build.yml`**: Builds the project and runs tests on multiple Python versions.
+   - Triggers: `push`, `pull_request`.
    - No secrets required.
 
-2. **`deploy.yml`**: Deploys the site to GitHub Pages.  
-   - Triggers: `push` to the `main` branch.  
+2. **`deploy.yml`**: Deploys the site to GitHub Pages.
+   - Triggers: `push` to the `main` branch.
    - Required secrets: `ACTIONS_DEPLOY_KEY` (SSH key for deployment).
 
-3. **`lint.yml`**: Runs code linters to ensure code quality.  
-   - Triggers: `push`, `pull_request`.  
+3. **`lint.yml`**: Runs code linters to ensure code quality.
+   - Triggers: `push`, `pull_request`.
    - No secrets required.
 
 Ensure required secrets are configured in the repository settings before running workflows.
@@ -103,7 +103,7 @@ Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-
 ## Origins
 
 <!-- AI:start:origins -->
-_Original project — no upstream fork._
+_Original project — no upstream influences recorded._
 <!-- AI:end:origins -->
 
 ## Resources
