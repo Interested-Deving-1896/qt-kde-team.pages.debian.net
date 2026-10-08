@@ -83,7 +83,7 @@ Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-
 |---|---|
 | [@perezmeyer](https://github.com/perezmeyer) | 201 |
 | [@ana](https://github.com/ana) | 117 |
-| [@Interested-Deving-1896](https://github.com/Interested-Deving-1896) | 48 |
+| [@Interested-Deving-1896](https://github.com/Interested-Deving-1896) | 66 |
 | [@svuorela](https://github.com/svuorela) | 41 |
 | [@hefee](https://github.com/hefee) | 38 |
 | [@modax](https://github.com/modax) | 30 |
@@ -133,5 +133,5 @@ for the underlying accessibility reference.
 ## License
 
 <!-- AI:start:license -->
-<!-- License not detected — add a LICENSE file to this repo. -->
+[GPL-3.0](https://github.com/Interested-Deving-1896/qt-kde-team.pages.debian.net/blob/master/LICENSE) © 2026 [Interested-Deving-1896](https://github.com/Interested-Deving-1896)
 <!-- AI:end:license -->
