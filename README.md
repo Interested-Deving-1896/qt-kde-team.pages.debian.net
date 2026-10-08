@@ -79,26 +79,26 @@ Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-
 ## Contributors
 
 <!-- AI:start:contributors -->
-[@perezmeyer](https://github.com/perezmeyer) (201 commits)
-[@ana](https://github.com/ana) (117 commits)
-[@svuorela](https://github.com/svuorela) (41 commits)
-[@Interested-Deving-1896](https://github.com/Interested-Deving-1896) (38 commits)
-[@hefee](https://github.com/hefee) (38 commits)
-[@modax](https://github.com/modax) (30 commits)
-[@maxyz](https://github.com/maxyz) (10 commits)
-[@quique](https://github.com/quique) (9 commits)
-[@jmsantamaria](https://github.com/jmsantamaria) (9 commits)
-[@xvello](https://github.com/xvello) (9 commits)
-[@mitya57](https://github.com/mitya57) (7 commits)
-[@jscott0](https://github.com/jscott0) (5 commits)
-[@tsimonq2](https://github.com/tsimonq2) (2 commits)
-[@detrout](https://github.com/detrout) (1 commit)
-[@openthink-laurent](https://github.com/openthink-laurent) (1 commit)
-[@tosky](https://github.com/tosky) (1 commit)
-[@tuxmea](https://github.com/tuxmea) (1 commit)
-[@RalfJung](https://github.com/RalfJung) (1 commit)
-
-*Note: This repository is a mirror. Please refer to the upstream source for additional contributions and context.*
+| Contributor | Commits |
+|---|---|
+| [@perezmeyer](https://github.com/perezmeyer) | 201 |
+| [@ana](https://github.com/ana) | 117 |
+| [@Interested-Deving-1896](https://github.com/Interested-Deving-1896) | 48 |
+| [@svuorela](https://github.com/svuorela) | 41 |
+| [@hefee](https://github.com/hefee) | 38 |
+| [@modax](https://github.com/modax) | 30 |
+| [@maxyz](https://github.com/maxyz) | 10 |
+| [@quique](https://github.com/quique) | 9 |
+| [@jmsantamaria](https://github.com/jmsantamaria) | 9 |
+| [@xvello](https://github.com/xvello) | 9 |
+| [@mitya57](https://github.com/mitya57) | 7 |
+| [@jscott0](https://github.com/jscott0) | 5 |
+| [@tsimonq2](https://github.com/tsimonq2) | 2 |
+| [@detrout](https://github.com/detrout) | 1 |
+| [@openthink-laurent](https://github.com/openthink-laurent) | 1 |
+| [@tosky](https://github.com/tosky) | 1 |
+| [@tuxmea](https://github.com/tuxmea) | 1 |
+| [@RalfJung](https://github.com/RalfJung) | 1 |
 <!-- AI:end:contributors -->
 
 ## Origins
