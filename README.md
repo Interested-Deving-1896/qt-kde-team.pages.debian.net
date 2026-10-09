@@ -83,7 +83,7 @@ Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-
 |---|---|
 | [@perezmeyer](https://github.com/perezmeyer) | 201 |
 | [@ana](https://github.com/ana) | 117 |
-| [@Interested-Deving-1896](https://github.com/Interested-Deving-1896) | 71 |
+| [@Interested-Deving-1896](https://github.com/Interested-Deving-1896) | 72 |
 | [@svuorela](https://github.com/svuorela) | 41 |
 | [@hefee](https://github.com/hefee) | 38 |
 | [@modax](https://github.com/modax) | 30 |
